@@ -1,0 +1,184 @@
+import { Map, Settings, Swords, Target, Shield, Sparkles, Monitor, Gamepad2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Melhores Configurações de Super Battle Golf: Guia de Ajuste Ideal e Controles",
+  description: "Domine as melhores configurações de Super Battle Golf para desempenho e precisão. Otimize controles, gráficos e regras de lobby para dominar os 63 buracos caóticos em 2026.",
+  keywords: "Super Battle Golf, melhores configurações, guia de controle, otimização de desempenho, configurações de sensibilidade",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f97316/fff?text=Best+Settings+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Super Battle Golf"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As melhores configurações de Super Battle Golf** priorizam altas taxas de quadros e baixa latência de entrada para garantir precisão durante partidas caóticas de 8 jogadores.
+- **Controle vs. Teclado**: Enquanto os controles oferecem movimentos mais suaves, o teclado e o mouse proporcionam velocidade de mira superior para itens como a Railgun.
+- **Otimização de Gráficos**: Desative o desfoque de movimento (motion blur) e defina as sombras como médias para manter a visibilidade durante efeitos intensos de itens como Tempestades e Bombas de Fumaça.
+- **Configuração do Lobby**: Para jogo competitivo, use lobbies privados com "Pontuação Solo" para focar na eficiência do golfe em vez de confrontos caóticos generalizados.
+- **Níveis de Sensibilidade**: Sensibilidade mais alta é recomendada para uma percepção rápida de 360 graus, enquanto sensibilidade mais baixa ajuda no ajuste fino das tacadas finais.
+</Callout>
+
+<Section icon={Monitor} title="Desempenho e Gráficos: Melhores Configurações de Super Battle Golf">
+
+Para vencer em um jogo onde oito jogadores disparam lasers orbitais e railguns simultaneamente, seu hardware deve acompanhar o ritmo. As **melhores configurações de Super Battle Golf** para gráficos focam em maximizar a visibilidade e garantir 60+ FPS estáveis. Altas taxas de quadros são críticas porque o tempo da força da tacada está ligado ao seu feedback visual; qualquer travamento pode levar a ultrapassar o buraco ou perder um checkpoint crucial.
+
+| Categoria de Configuração | Valor Recomendado | Impacto no Desempenho |
+| :--- | :--- | :--- |
+| **Modo de Exibição** | Tela Cheia | Baixo (Reduz o Atraso de Entrada) |
+| **Resolução** | Nativa (ex: 1920x1080) | Alto |
+| **Limite de FPS** | Igualar à Atualização do Monitor | Médio |
+| **Qualidade das Sombras** | Média | Alto |
+| **Anti-Aliasing** | FXAA ou SMAA | Médio |
+| **Desfoque de Movimento** | Desativado | Baixo (Melhora a Clareza) |
+| **V-Sync** | Desligado | Baixo (Reduz a Latência) |
+
+Ajustar seu Campo de Visão (FOV) também é uma escolha estratégica. Um FOV mais amplo permite que você veja ataques vindos das laterais, como um rival balançando o taco ou um projétil se aproximando da sua posição. No entanto, um FOV muito amplo pode fazer o buraco parecer menor e mais difícil de mirar durante tacadas de longa distância.
+
+<Callout type="warning" title="Aviso de Hardware">
+Se você tiver quedas de quadros nos mapas da atualização "Attack on City", diminua a **Qualidade dos Efeitos**. A alta densidade de veículos e perigos móveis no bioma da Cidade pode sobrecarregar GPUs mais antigas durante trocas de itens entre vários jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Esquemas de Controle: Teclado vs. Configuração de Controle">
+
+Escolher o método de entrada correto é o primeiro passo para otimizar suas **melhores configurações de Super Battle Golf**. O jogo suporta ambos nativamente, e cada um tem vantagens distintas dependendo do seu estilo de jogo.
+
+<CardGrid cols={2}>
+  <Card title="Teclado e Mouse">
+    - **Mira de Precisão**: Melhor para tiros de Railgun de longo alcance e posicionamento de Laser Orbital.
+    - **Controle de Câmera**: Giros de 180 graus mais rápidos para verificar oponentes atrás de você.
+    - **Atalhos**: Acesso mais fácil aos slots de inventário 1-5 para uso rápido de itens.
+  </Card>
+  <Card title="Controle (PS5/Xbox)">
+    - **Movimento Analógico**: Direção mais suave para os Carrinhos de Golfe e movimentos sutis do personagem.
+    - **Sensibilidade do Gatilho**: Melhor sensação tátil para controlar incrementos de força da tacada.
+    - **Ergonomia**: Ideal para sessões longas nos 63 buracos disponíveis.
+  </Card>
+</CardGrid>
+
+Para quem usa teclado, remapear as teclas de "Mergulhar" (Dive) e "Usar Item" é altamente recomendado. Por padrão, elas podem conflitar com seus dedos de movimento. Mover "Usar Item" para um botão lateral do mouse pode melhorar significativamente seu tempo de reação quando você precisar lançar uma Bomba de Fumaça para esconder sua abordagem final.
+
+| Ação | Teclado Padrão | Mapeamento Recomendado | Controle (Padrão) |
+| :--- | :--- | :--- | :--- |
+| **Tacada/Tiro** | Clique Esquerdo | Clique Esquerdo | Gatilho Direito |
+| **Pular** | Espaço | Espaço | A / Cross |
+| **Mergulhar** | Shift | Mouse 4 ou Q | B / Circle |
+| **Usar Item** | E | Mouse 5 ou F | Botão Superior Direito (R1/RB) |
+| **Largar Item** | G | X | Direcional para Baixo |
+| **Entrar no Carrinho** | F | E | X / Square |
+
+<Callout type="tip" title="Dica Pro de Controle">
+Ative "Alternar Corrida" (Toggle Sprint) no menu de configurações. Isso libera seu dedo mindinho de segurar o Shift, permitindo que você se concentre inteiramente no combo de movimento pular-mergulhar necessário para atravessar fendas nos biomas de Costa e Neve.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configurações de Jogabilidade e Sensibilidade da Tacada">
+
+O núcleo do jogo é a mecânica da tacada. Encontrar as **melhores configurações de Super Battle Golf** para sensibilidade pode ser a diferença entre um Hole-in-One e cair de um penhasco. A sensibilidade afeta a velocidade com que sua retícula de mira se move e a rapidez com que você pode ajustar sua câmera durante a fase de movimento caótico entre as tacadas.
+
+<Steps>
+  <Step num="1" title="Calibrar Sensibilidade de Mira">
+    Comece com uma sensibilidade média. Se você sentir que está corrigindo demais durante os putts, diminua a sensibilidade horizontal. Você precisa de velocidade suficiente para rastrear um jogador em movimento, mas precisão suficiente para acertar um green estreito.
+  </Step>
+  <Step num="2" title="Ajustar Velocidade de Seguimento da Câmera">
+    Nas configurações, procure por "Seguimento de Câmera". Definir isso como alto garante que, após você atingir a bola, a câmera se ajuste rapidamente ao seu personagem, permitindo que você comece a correr em direção ao próximo checkpoint imediatamente.
+  </Step>
+  <Step num="3" title="Ajustar HUD de Força da Tacada">
+    Certifique-se de que o medidor de força esteja definido para o modo de "Alta Visibilidade". Em mapas como o Fairway Congelado, a neve brilhante às vezes pode ofuscar as cores padrão da interface.
+  </Step>
+</Steps>
+
+| Nível de Sensibilidade | Valor (0-100) | Ideal Para |
+| :--- | :--- | :--- |
+| **Baixa** | 15-30 | Putts de precisão e disparos de longa distância. |
+| **Equilibrada** | 45-60 | Jogo geral, recomendado para iniciantes. |
+| **Alta** | 75-90 | Combate agressivo e navegação rápida. |
+
+<Callout type="success" title="Aumento de Precisão">
+Reduzir especificamente sua "Sensibilidade Vertical" pode ajudar a manter sua mira nivelada com o horizonte, facilitando o alinhamento de tacadas retas em fairways planos sem mirar acidentalmente no chão ou no céu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configurações de Lobby e Partida para Jogo Competitivo">
+
+Ao hospedar uma partida para amigos ou um torneio privado, as **melhores configurações de Super Battle Golf** para o lobby determinam o "tom" do jogo. Você pode transformar a experiência de uma partida de golfe padrão em uma arena de combate de alta octanagem alternando regras específicas.
+
+<Checklist
+  id="lobby-setup"
+  title="Configurações Ideais de Lobby Competitivo:"
+  items={[
+    "Defina o Máximo de Jogadores para 8 para o máximo caos e densidade de itens.",
+    "Ative 'Pontuação Solo' para recompensar os melhores golfistas em vez dos melhores lutadores.",
+    "Defina a Taxa de Surgimento de Itens para 'Alta' se estiver jogando em mapas grandes de Cidade ou Deserto.",
+    "Desative a 'Colisão' se quiser evitar que os jogadores bloqueiem fisicamente o buraco.",
+    "Use 'Rotação Aleatória de Percurso' para testar a versatilidade em todos os 63 buracos."
+  ]}
+/>
+
+| Configuração do Lobby | Escolha Competitiva | Escolha Casual |
+| :--- | :--- | :--- |
+| **Modo de Jogo** | Modo de Equipe (Vermelho vs Azul) | Todos Contra Todos |
+| **Conjunto de Itens** | Todos os Itens | Sem Explosivos |
+| **Tempo de Tacada** | 30 Segundos | Ilimitado |
+| **Chat de Voz** | Apertar para Falar | Sempre Ativo |
+| **Senha** | Obrigatória | Nenhuma (Público) |
+
+<Callout type="info" title="Dica de Lobby">
+Se estiver jogando com novos jogadores, ative a "Mecânica de Recuperação" (Catch-up Mechanic). Isso aumenta a taxa de surgimento de itens de mobilidade, como o Hambúrguer Gigante ou plataformas de lançamento, para os jogadores que estão nas últimas três posições.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configurações de Combate e Gerenciamento de Itens">
+
+Em Super Battle Golf, os itens são tão importantes quanto o seu taco. Gerenciar seu inventário de forma eficaz requer **melhores configurações de Super Battle Golf** específicas em relação à interface e acesso rápido. A atualização de julho de 2026 introduziu vários itens novos que exigem tempo preciso, como a Câmera de Flash e a Railgun.
+
+**Melhores Estratégias de Uso de Itens:**
+- **Precisão da Railgun**: Use um DPI de mouse mais baixo ou uma configuração de sensibilidade menor para antecipar seus tiros contra alvos em movimento.
+- **Tempo da Bomba de Fumaça**: Use isso quando o aviso de "Laser Orbital" aparecer na sua posição para obscurecer seu caminho de movimento exato.
+- **Posicionamento da Tempestade**: Use a sobreposição do mapa (tecla Tab) para colocar ataques de área em pontes estreitas ou checkpoints onde os jogadores estão aglomerados.
+
+| Nome do Item | Categoria | Melhor Caso de Uso |
+| :--- | :--- | :--- |
+| **Railgun** | Ofensivo | Atirar nos líderes do outro lado do fairway. |
+| **Laser Orbital** | Controle de Área | Bloquear o acesso ao green final. |
+| **Hambúrguer Gigante** | Defensivo | Sobreviver a uma briga de tacos lotada perto do buraco. |
+| **Câmera de Flash** | Interrupção | Cegar oponentes durante sua tacada final. |
+
+<Callout type="tip" title="Gerenciamento de Inventário">
+Ative "Descarte Automático de Itens Fracos" nas configurações de jogabilidade. Isso descartará automaticamente itens de nível inferior se você passar por cima de um item de nível S como a Railgun, economizando os segundos preciosos que levaria para limpar seu inventário manualmente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ de Super Battle Golf">
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores configurações de Super Battle Golf para PCs de baixo custo?",
+    answer: "Reduza a resolução para 720p, desative o Anti-Aliasing e defina a Qualidade das Sombras como 'Desligado'. Além disso, desativar a 'Grama baseada em física' pode aumentar significativamente o FPS em sistemas mais antigos."
+  },
+  {
+    question: "Devo usar um controle ou teclado para Super Battle Golf?",
+    answer: "Depende da sua prioridade. Use um controle para melhor movimento e direção (Carrinhos de Golfe), mas use teclado e mouse se quiser ser altamente preciso com itens ofensivos como a Railgun."
+  },
+  {
+    question: "Como altero as configurações do lobby após o início de uma partida?",
+    answer: "Atualmente, você não pode alterar as configurações principais do lobby no meio da partida. Você deve retornar ao menu do lobby para ajustar regras como taxas de surgimento de itens ou modos de pontuação."
+  },
+  {
+    question: "Existe uma configuração para reduzir o tremor da tela causado por explosões?",
+    answer: "Sim, vá em Configurações > Acessibilidade e ajuste o controle deslizante de 'Tremor de Tela' para 0%. Isso é altamente recomendado para manter o foco durante batalhas caóticas de 8 jogadores."
+  }
+]} />
+
+</Section>

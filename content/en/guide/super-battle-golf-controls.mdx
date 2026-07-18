@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, MousePointer2, Gamepad2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Controls: Pro Tips & Combat Guide",
+  description: "Master super battle golf controls with our guide on movement, combat, and special shots. Learn to dominate the green with advanced techniques in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Super+Battle+Golf+Controls",
+  date: "2026-07-18",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanics**: Master the **super battle golf controls** to blend precision putting with chaotic combat.
+- **Combat Speed**: Hitting opponents with your club provides a temporary **speed boost** to reach the hole faster.
+- **Shot Selection**: Use the "putt over" method for short distances and "chip under" for clearing obstacles.
+- **Homing Shots**: Maximize your energy bar to execute **homing shots** on balls, players, or even mines.
+- **Mine Safety**: Disarm active mines by using the **Alt key** to slow walk before picking them up with **E**.
+</Callout>
+
+<Section icon={MousePointer2} title="Mastering Basic Super Battle Golf Controls">
+
+Understanding the **super battle golf controls** is the first step toward dominating the leaderboard. Unlike traditional golf simulators, this game requires you to manage your character's physical movement alongside the trajectory of the ball. The interface is designed to be intuitive, but the "mayhem" factor means you must be able to switch from a precision putt to a defensive swing in a fraction of a second.
+
+**Video Highlights:**
+- **Energy Management**: How to charge your energy for the devastating homing shot.
+- **Mine Interaction**: The specific button combo needed to disarm explosives safely.
+- **Combat Buffs**: Demonstrating the speed increase gained from successfully hitting other players.
+- **Environmental Play**: Using orbital lasers and golf carts to navigate the map.
+
+<YouTubeEmbed videoId="Zy2gOWpjJgo" title="How to DOMINATE Super Battle Golf: Tips, Tricks & Epic Plays" />
+
+The basic movement follows standard WASD or joystick configurations, but the interaction with the club is where the skill ceiling resides. You are not just a golfer; you are a combatant. 
+
+| Action | Control (PC) | Control (Gamepad) | Description |
+| :--- | :--- | :--- | :--- |
+| **Move Character** | W, A, S, D | Left Stick | Standard movement in the 3D environment |
+| **Swing/Attack** | Left Click | Right Trigger | Primary action for hitting the ball or players |
+| **Slow Walk** | Left Alt | Left Buffer | Essential for precision movement near mines |
+| **Interact/Pick Up** | E | X / Square | Pick up items, mines, or enter vehicles |
+| **Use Item** | Q / 1-4 | Y / Triangle | Activate guns, shields, or orbital lasers |
+| **Camera Control** | Mouse | Right Stick | Adjust your view to aim shots or spot threats |
+
+<Callout type="tip" title="Pro Tip">
+Always maintain a visual on your opponents. Because hitting people makes you run faster, being aware of players behind you is just as important as looking at the hole ahead.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Speed Tactics">
+
+The "Battle" in Super Battle Golf is not just for show. The game rewards aggressive playstyles that disrupt opponents while advancing toward the goal. By mastering the combat-specific **super battle golf controls**, you can effectively remove threats from the map or gain the necessary velocity to secure a first-place finish.
+
+<CardGrid cols={3}>
+  <Card title="The Speed Boost">
+    - **Trigger**: Land a successful club hit on an opponent.
+    - **Effect**: Significant increase in movement speed.
+    - **Strategy**: Use this to catch up if you fall behind early.
+  </Card>
+  <Card title="Knockback Control">
+    - **Quick Hit**: Knocks players over, interrupting their aim.
+    - **Power Hit**: Fully charged swings can send players off the map.
+    - **Focus**: Target players near edges for maximum disruption.
+  </Card>
+  <Card title="Item Combat">
+    - **Guns & Explosives**: Use ranged items to stall leaders.
+    - **Shields**: Activate when approaching a group of aggressive players.
+    - **Mines**: Deploy behind you to stop pursuers.
+  </Card>
+</CardGrid>
+
+Combat is divided into two main states: harassing and finishing. A simple no-power hit is usually enough to knock someone over, which is perfect for preventing them from making a crucial putt. However, once an opponent is downed, charging a max-power hit is the optimal way to clear the area.
+
+| Combat Move | Input Method | Best Used When... |
+| :--- | :--- | :--- |
+| **Quick Jab** | Rapid Tap Click | An opponent is about to swing at their ball |
+| **Heavy Smash** | Hold & Release | An opponent is already stunned or near a cliff |
+| **Homing Strike** | Max Energy + Click | You need to hit a fast-moving target or specific item |
+| **Defensive Spin** | Area Attack | You are surrounded by multiple hostile players |
+
+<Callout type="warning" title="Warning">
+Don't get too distracted by fighting. You only get points for finishing in the top three. If three people have already entered the hole, stop fighting and focus on collecting items or finishing your own round.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Advanced Shot Types: Putting and Chipping">
+
+Precision is the secondary pillar of **super battle golf controls**. While the chaos of combat happens around you, you still need to get the ball into the hole in as few swings as possible to maximize your score. The game differentiates between "Putting" and "Chipping" through physical positioning and power levels.
+
+<Steps>
+  <Step num="1" title="Select Your Shot Type">
+    Determine if you need a "Putt Over" or a "Chip Under." Putting is for flat surfaces and short distances, while chipping helps you clear small obstacles or rough terrain.
+  </Step>
+  <Step num="2" title="Align the Trajectory">
+    Use your camera to line up the shot. Remember that the ball can bounce off environmental objects and even other players.
+  </Step>
+  <Step num="3" title="Charge Energy">
+    Hold the swing button to build power. If you reach max energy, your reticle will change, indicating that a **Homing Shot** is now available.
+  </Step>
+  <Step num="4" title="Execute and Follow Through">
+    Release the button to swing. If it's a homing shot, the ball will automatically track toward the nearest valid target (the hole or a player, depending on your aim).
+  </Step>
+</Steps>
+
+| Shot Style | Logic | Result |
+| :--- | :--- | :--- |
+| **Putt Over** | High angle/Low power | Ball rolls smoothly with high accuracy on greens |
+| **Chip Under** | Low angle/High power | Ball gains loft to jump over hazards or mines |
+| **Homing Shot** | Energy Dependent | High-speed tracking shot that ignores minor wind |
+| **Mine Putt** | Tactical | Putting a mine into a group of friends for mayhem |
+
+<Callout type="info" title="Expert Strategy">
+You can perform homing shots on items too! If you drop a mine in front of you, you can use a homing shot to launch that mine directly at a leading player. This is one of the most advanced uses of the **super battle golf controls**.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mine Management and Hazard Disarming">
+
+Mines are the most common hazard you will encounter, often deployed by other players or spawned by the map itself. Walking into an armed mine will send you flying, likely costing you the round. Learning the specific **super battle golf controls** for disarming is vital for survival.
+
+**How to Safely Handle Mines:**
+1. **Identify the State**: An armed mine will have a visible glow or timer.
+2. **Approach with Caution**: Do not run toward an armed mine.
+3. **Slow Walk**: Hold the **Alt key** (or designated slow-walk button) to approach without triggering the sensor.
+4. **Disarm**: Press **E** once you are within range to pick the mine up and add it to your inventory.
+
+| Mine Action | Requirement | Outcome |
+| :--- | :--- | :--- |
+| **Throw Mine** | Item Slot + Click | Launches mine forward; starts a short arming timer |
+| **Drop Mine** | Inventory Action | Drops the entire stack at your feet; arms instantly |
+| **Disarm Mine** | Alt + E | Safely removes the hazard and gives you an item |
+| **Homing Mine** | Max Energy Swing | Turns a stationary mine into a seeking projectile |
+
+<Callout type="success" title="Inventory Tip">
+If you finish a round while standing on an item box, your character will continue to pick up items until their inventory is full, even while you can't move. Use this to stock up for the next hole!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Match Goals and Customization">
+
+Winning in Super Battle Golf isn't just about speed; it's about a combination of efficiency and placement. The points system rewards both your golfing skill and your ability to navigate the battlefield.
+
+<Checklist
+  id="match-objectives"
+  title="Victory Checklist:"
+  items={[
+    "Reach the hole within the top 3 finishers",
+    "Minimize total swings to earn 'Low Stroke' bonuses",
+    "Collect at least 2 high-tier items (Orbital Laser/Shield)",
+    "Successfully disarm at least one enemy mine",
+    "Accumulate gold for character customization"
+  ]}
+/>
+
+The gold you earn from matches can be spent in the shop to customize your character. While these changes are mostly cosmetic, they allow you to stand out in the lobby. Speaking of lobbies, if you find the public matches too "toxic," the game allows you to host private lobbies where you can adjust item probabilities—such as making a match where every item is an orbital laser for maximum chaos.
+
+<Callout type="tip" title="Lobby Tip">
+Currently, the game does not support saving multiple custom presets. Make sure to double-check your item settings before starting a match with friends.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I perform a homing shot in Super Battle Golf?",
+    answer: "You must first fill your energy bar by playing or collecting energy orbs. Once full, your next max-power swing will automatically become a homing shot, tracking toward the hole or a targeted player."
+  },
+  {
+    question: "What is the best way to deal with toxic players in lobbies?",
+    answer: "The Super Battle Golf community is generally great, but if you encounter toxicity, it is recommended to host your own lobby. As the host, you have the power to kick disruptive players and maintain good vibes."
+  },
+  {
+    question: "Can I use the super battle golf controls on a gamepad?",
+    answer: "Yes, the game fully supports gamepads. The controls map the swing to the triggers and movement to the sticks, making it very comfortable for players who prefer a console-style experience."
+  },
+  {
+    question: "Why should I hit other players if I'm trying to win a golf match?",
+    answer: "Hitting players with your club grants you a temporary speed boost. In a game where being the first to the hole grants more points, using combat to increase your movement speed is a core strategy for winning."
+  }
+]} />
+
+</Section>

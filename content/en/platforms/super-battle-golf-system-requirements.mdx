@@ -1,0 +1,209 @@
+import { Monitor, Cpu, Layers, Gamepad, Wrench, Globe } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "super battle golf system requirements: PC Specs & Setup Guide",
+  description: "Check the official super battle golf system requirements for PC. Learn about minimum and recommended specs, console release dates, and performance tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Guide",
+  date: "2026-07-18",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: The **super battle golf system requirements** demand a 64-bit Windows environment and at least 8 GB of RAM for stable play.
+- **Storage requirement**: Ensure you have at least **15 GB of available space**, preferably on an SSD to speed up course loading.
+- **Multiplayer focus**: Since the game supports up to **8 players simultaneously**, a stable internet connection is as vital as your hardware specs.
+- **Controller support**: The game features full support for Xbox and PlayStation controllers, which is highly recommended for precision swing power.
+- **Latest update**: The July 2026 "Attack on City" update introduced more complex urban environments that may require slightly more VRAM.
+</Callout>
+
+<Section icon={Monitor} title="Official PC System Requirements and Specifications">
+
+Understanding the **super battle golf system requirements** is the first step toward dominating the 63 chaotic holes available in the game. Because Super Battle Golf relies heavily on real-time physics and simultaneous 8-player interactions, your CPU and RAM play a significant role in maintaining a smooth frame rate during crowded match starts.
+
+The following data outlines the hardware needed to run the game at both baseline and high-performance levels.
+
+| Component | Minimum Requirements (720p/30fps) | Recommended Specifications (1080p/60fps+) |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor (CPU)** | Intel Core i3-6100 / AMD Ryzen 3 1200 | Intel Core i5-8400 / AMD Ryzen 5 3600 |
+| **Memory (RAM)** | 8 GB | 16 GB |
+| **Graphics (GPU)** | NVIDIA GTX 960 / AMD R9 280 (2GB VRAM) | NVIDIA RTX 2060 / AMD RX 5600 XT (6GB VRAM) |
+| **DirectX** | Version 11 | Version 12 |
+| **Network** | Broadband Internet connection | High-speed Broadband / Fiber |
+| **Storage** | 15 GB available space | 15 GB available space (SSD highly recommended) |
+
+<Callout type="success" title="Optimization Success">
+Super Battle Golf is well-optimized for mid-range hardware. If your system meets the recommended specifications, you can expect stable 60 FPS even during heavy combat involving Railguns and Orbital Lasers.
+</Callout>
+
+For players using older laptops, the integrated graphics on modern Intel Iris Xe or AMD Radeon 600M series chips can generally handle the game on "Low" settings, provided you have dual-channel RAM. However, the chaotic nature of 8-player matches means frame drops are possible during large-scale item usage if you are below the minimum GPU threshold.
+
+</Section>
+
+<Section icon={Layers} title="Performance Optimization and Graphics Settings">
+
+Once you have confirmed your PC meets the **super battle golf system requirements**, you can fine-tune the in-game settings to balance visual clarity with performance. This is especially important for competitive play, where seeing a projectile like a Smoke Bomb or a Railgun beam early can save your match.
+
+| Setting | Performance Impact | Recommended for Mid-Range | Recommended for High-End |
+| :--- | :--- | :--- | :--- |
+| **Shadow Quality** | High | Medium | High |
+| **Anti-Aliasing** | Medium | TAA | MSAA 4x |
+| **Texture Quality** | Low | High (if 4GB+ VRAM) | Ultra |
+| **V-Sync** | Low | Off (use G-Sync/FreeSync) | Off |
+| **Ambient Occlusion** | Medium | Low | High |
+| **Physics Detail** | High | Medium | High |
+| **Draw Distance** | High | Medium | High |
+
+<Callout type="tip" title="Pro Performance Tip">
+If you experience stuttering during the "Attack on City" update maps, try lowering the **Physics Detail**. The urban maps feature more destructible objects and moving vehicles which can tax older CPUs during 8-player brawls.
+</Callout>
+
+The "Attack on City" update, released on July 16, 2026, added 18 new maps with higher asset density. Players on the edge of the minimum requirements should prioritize "Draw Distance" and "Texture Quality" to ensure they can still identify shortcuts and item pickups from across the fairway.
+
+</Section>
+
+<Section icon={Globe} title="Network Requirements and Multiplayer Stability">
+
+Since Super Battle Golf is a real-time multiplayer game, your network stability is just as critical as your hardware specifications. The game uses a client-server architecture to synchronize up to eight players, their golf balls, and various combat items like the Thunderstorm or Orbital Laser.
+
+To ensure you don't disconnect during a crucial final putt, follow these network guidelines:
+
+- **Ping**: Aim for a ping under 80ms to the nearest regional server.
+- **Connection Type**: An Ethernet (wired) connection is significantly more stable than 2.4GHz Wi-Fi.
+- **Bandwidth**: While the game doesn't use much data, background downloads (like Steam updates) should be paused.
+- **Firewall**: Ensure the game executable is allowed through your Windows Firewall to prevent lobby joining errors.
+
+<Callout type="info" title="Lobby Connection Info">
+Most "Failed to Join" errors are caused by mismatched game versions. Always ensure your Steam client has downloaded the latest 2026 patches before attempting to join a private friend lobby.
+</Callout>
+
+If you are hosting a private lobby for friends, the host's upload speed becomes more relevant. A minimum upload speed of 5 Mbps is recommended for a smooth 8-player experience if you are the designated host.
+
+</Section>
+
+<Section icon={Steps} title="Step-by-Step Installation and Setup Guide">
+
+Installing the game is straightforward, but following these steps ensures that the **super battle golf system requirements** are correctly detected and applied by the engine.
+
+<Steps>
+  <Step num="1" title="Verify System Compatibility">
+    Compare your current Windows version and hardware against the specifications listed in the first section. Ensure you are running a 64-bit version of Windows 10 or 11.
+  </Step>
+  <Step num="2" title="Clear Storage Space">
+    Ensure at least 15 GB of space is available. If using an SSD, try to keep at least 10% of the drive empty to maintain optimal read/write speeds for asset streaming.
+  </Step>
+  <Step num="3" title="Download via Steam">
+    Navigate to the Super Battle Golf store page and begin the installation. Steam will automatically install necessary redistributables like DirectX and C++ packages.
+  </Step>
+  <Step num="4" title="Configure Initial Settings">
+    Upon first launch, the game will run a benchmark. Accept the suggested settings, then navigate to the "Graphics" menu to toggle V-Sync based on your monitor's capabilities.
+  </Step>
+  <Step num="5" title="Update Drivers">
+    For the best experience with the 2026 updates, ensure your NVIDIA or AMD drivers are updated to the latest version to support the game's DirectX 12 implementation.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Driver Warning">
+Using outdated GPU drivers can cause the "Flash Camera" item effect to render incorrectly, potentially causing a crash or visual artifacts during matches.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad} title="Controller Support and Input Configuration">
+
+While the **super battle golf system requirements** focus on internal hardware, your external peripherals are equally important for the "Battle" aspect of the game. Super Battle Golf supports a wide variety of inputs.
+
+| Input Device | Support Level | Recommended Use |
+| :--- | :--- | :--- |
+| **Keyboard & Mouse** | Full Support | Best for precise Railgun aiming |
+| **Xbox Controller** | Native Support | Best overall comfort and swing control |
+| **PS5 DualSense** | Native Support | Excellent haptic feedback for hits |
+| **Generic Gamepads** | Steam Input Required | Functional for casual play |
+| **Golf Cart Steering** | Analog/Digital | Use sticks for smooth cornering |
+
+<Callout type="tip" title="Input Lag Tip">
+If you use a wireless controller, ensure you are using a 2.4GHz dongle rather than standard Bluetooth to minimize input latency during high-speed "Jump-dive" movement sequences.
+</Callout>
+
+The game allows for full button remapping. Many competitive players prefer remapping the "Item Use" button to a shoulder bumper (L1/R1 or LB/RB) to keep their thumbs on the sticks for movement and aiming simultaneously.
+
+</Section>
+
+<Section icon={Wrench} title="Troubleshooting and Common Launch Issues">
+
+Even if you meet the **super battle golf system requirements**, you might encounter technical hurdles. Most issues reported in 2026 are related to software conflicts or corrupted installation files.
+
+<CardGrid cols={2}>
+  <Card title="Black Screen on Launch">
+    - **Cause**: Outdated DirectX or resolution mismatch.
+    - **Fix**: Verify Steam files or launch in windowed mode using `-windowed` in launch options.
+  </Card>
+  <Card title="Low FPS in City Maps">
+    - **Cause**: High VRAM usage from new urban assets.
+    - **Fix**: Lower Texture Quality and Shadow Resolution to "Medium".
+  </Card>
+  <Card title="Controller Not Detected">
+    - **Cause**: Steam Input conflicts.
+    - **Fix**: Enable "Xbox/PlayStation Configuration Support" in Steam's global controller settings.
+  </Card>
+  <Card title="Multiplayer Disconnects">
+    - **Cause**: Strict NAT type or Firewall blocking.
+    - **Fix**: Enable UPnP on your router or add an exception for the game in Windows Security.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Anti-Virus Conflict">
+Some aggressive anti-virus software may flag the game's "Team Mode" update as suspicious behavior due to how it handles peer-to-peer synchronization. Always whitelist the Steam folder.
+</Callout>
+
+### Console Release and Future Platforms
+
+For players who prefer gaming on consoles, Super Battle Golf has officially announced expansions beyond the PC version. While the PC version is available now, the console editions are slated for a **Summer 2026** window.
+
+<Checklist
+  id="console-status"
+  title="Platform Status Checklist (July 2026):"
+  items={[
+    "Steam PC: Fully Released and Updated",
+    "PlayStation 5: Announced (Summer 2026)",
+    "Xbox Series X|S: Announced (Summer 2026)",
+    "Nintendo Switch 2: Announced (Summer 2026)",
+    "Cross-play: Confirmed for future console launch"
+  ]}
+/>
+
+<Callout type="info" title="Console Specs">
+The PlayStation 5 and Xbox Series X versions are targeted to run at 4K/60fps, while the Nintendo Switch 2 version is expected to target 1080p/60fps in docked mode.
+</Callout>
+
+</Section>
+
+<Section icon={Layers} title="FAQ: Super Battle Golf Technical Questions">
+
+<FAQ items={[
+  {
+    question: "What are the minimum super battle golf system requirements for a laptop?",
+    answer: "You need at least an Intel Core i3-6100 equivalent, 8 GB of RAM, and a dedicated GPU like the GTX 960. Integrated graphics can work on low settings if you have fast dual-channel memory."
+  },
+  {
+    question: "Does Super Battle Golf support ultrawide monitors?",
+    answer: "Yes, the game supports 21:9 and 32:9 aspect ratios. You may need to adjust the FOV (Field of View) settings in the menu to prevent fisheye effects on the wider courses."
+  },
+  {
+    question: "How much storage space do I need for the 2026 updates?",
+    answer: "The base game and all current updates, including the 'Attack on City' expansion, require approximately 15 GB of storage space."
+  },
+  {
+    question: "Can I run the game on Windows 7 or 8?",
+    answer: "No, the game officially requires a 64-bit version of Windows 10 or Windows 11 due to its reliance on modern DirectX features and security protocols."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Super Battle Golf Wiki covers courses, items, achievements, team mode, cosmetics, controls, and updates for chaotic multiplayer golf on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "updates": "Updates",
+    "platforms": "Platforms",
+    "multiplayer": "Multiplayer",
+    "achievements": "Achievements",
+    "cosmetics": "Cosmetics",
+    "maps": "Maps"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1145,14 +1153,14 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Super Battle Golf Guides",
-      "description": "Complete Super Battle Golf guides from beginner basics to advanced swing, item, and shortcut strategies.",
-      "metaTitle": "Super Battle Golf Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Super Battle Golf guides covering beginner tips, swing mechanics, items, multiplayer strategies, and expert tactics for chaotic multiplayer golf.",
+      "description": "Complete Super Battle Golf guides covering swing mechanics, controls, items, and winning tactics for every chaotic hole.",
+      "metaTitle": "Super Battle Golf Guides - Controls, Tips & Strategies",
+      "metaDescription": "Master Super Battle Golf with beginner controls, swing tips, item timing, and advanced strategies to win solo and team matches.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Super Battle Golf match flow, swing mechanics, checkpoint routes, item timing, and multiplayer strategies from first steps to advanced techniques.",
+      "whatIsDescription": "Step-by-step guides covering Super Battle Golf first-time setup, swing power and angles, movement, aiming, item slots, and the core win conditions for solo and team matches.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
@@ -1160,110 +1168,130 @@
         "step2Title": "Finish Holes Faster",
         "step2Description": "Follow proven routes and shortcuts to reach the cup before your rivals",
         "step3Title": "Master Combat Strategy",
-        "step3Description": "Develop tactics for using items, knockouts, and movement against other players"
+        "step3Description": "Time your items, knockouts, and movement to outplay up to seven opponents"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Super Battle Golf Items",
-      "description": "Master Super Battle Golf items with offensive, defensive, mobility, and disruption tools ranked by match impact.",
-      "metaTitle": "Super Battle Golf Items - Weapons, Utility & Tier List",
-      "metaDescription": "Complete Super Battle Golf item database including Railgun, Orbital Laser, Thunderstorm, Smoke Bomb, and more. Learn how to use every weapon and utility item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Detailed guides for Super Battle Golf offensive, defensive, mobility, and disruption items. Learn timing, range, strengths, weaknesses, and the best moments to use each pickup.",
-      "why": "Why study items?",
+    "updates": {
+      "title": "Super Battle Golf Updates",
+      "description": "Latest Super Battle Golf patch notes, new courses, items, and balance changes tracked from every official release.",
+      "metaTitle": "Super Battle Golf Updates - Patch Notes & New Content",
+      "metaDescription": "Track every Super Battle Golf update including new courses, items, team mode patches, and balance changes from official release notes.",
+      "categoryLabel": "PATCH NOTES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Release-by-release coverage of Super Battle Golf version changes, including new environments like City, fresh courses, new items, achievements, and balance tweaks straight from official Steam announcements.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Choose the Right Loadout",
-        "step1Description": "Match items to the next section of the course for maximum value",
-        "step2Title": "Time Your Attacks",
-        "step2Description": "Use weapons at checkpoints, narrow paths, and final approaches",
-        "step3Title": "Counter Opponents",
-        "step3Description": "Understand item weaknesses and how to escape dangerous situations"
+        "step1Title": "Discover New Content",
+        "step1Description": "Find new courses, items, and cosmetics added in each patch",
+        "step2Title": "Adapt to Balance Changes",
+        "step2Description": "Adjust your loadout and strategy when items or rules are tuned",
+        "step3Title": "Never Miss an Event",
+        "step3Description": "Catch limited-time modes, Team Mode updates, and seasonal drops"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Updates"
     },
-    "items": {
-      "title": "Super Battle Golf Courses",
-      "description": "Explore every Super Battle Golf biome, hole, hazard, checkpoint, shortcut, and hole-in-one setup.",
-      "metaTitle": "Super Battle Golf Courses - Maps, Routes & Shortcuts",
-      "metaDescription": "Explore all 63 Super Battle Golf holes across Forest, Desert, Coast, Snow, and City biomes. Find routes, shortcuts, hazards, and safe landing zones.",
-      "categoryLabel": "COURSES & MAPS",
-      "whatIs": "What are Courses?",
-      "whatIsDescription": "Course-by-course guides covering Super Battle Golf biomes, hazards, checkpoints, recommended routes, useful items, risk levels, and hole-in-one opportunities.",
-      "why": "Why study courses?",
+    "platforms": {
+      "title": "Super Battle Golf Platforms",
+      "description": "Where to play Super Battle Golf - Steam availability, console release status, system requirements, and device support.",
+      "metaTitle": "Super Battle Golf Platforms - Steam, Console & System Specs",
+      "metaDescription": "Find where to play Super Battle Golf: Steam release details, PS5, Xbox, and Switch status, system requirements, and device compatibility.",
+      "categoryLabel": "PLATFORMS & SPECS",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "Coverage of every platform Super Battle Golf runs on, including the live Steam release, tracked PlayStation 5, Xbox Series, and Nintendo Switch status, minimum system requirements, and controller support.",
+      "why": "Why check platforms?",
       "whySteps": {
-        "step1Title": "Plan Safe Routes",
-        "step1Description": "Choose landing zones that make the next swing easier",
-        "step2Title": "Avoid Hazards",
-        "step2Description": "Recognize water, cliffs, choke points, and moving obstacles",
-        "step3Title": "Find Shortcuts",
-        "step3Description": "Skip sections safely without losing checkpoint progress"
+        "step1Title": "Pick the Right Platform",
+        "step1Description": "Compare Steam, console, and device options before you buy",
+        "step2Title": "Match Your Hardware",
+        "step2Description": "Confirm your PC meets the minimum specs for smooth play",
+        "step3Title": "Track Console Releases",
+        "step3Description": "Stay updated on official PS5, Xbox, and Switch launch dates"
       },
       "featured": "Featured & Essential",
-      "all": "All Courses"
+      "all": "All Platforms"
     },
-    "biomes": {
+    "multiplayer": {
       "title": "Super Battle Golf Multiplayer",
-      "description": "Set up lobbies, invite friends, choose match formats, and fix connection problems in Super Battle Golf.",
-      "metaTitle": "Super Battle Golf Multiplayer - Lobbies, Friends & Team Mode",
-      "metaDescription": "Master Super Battle Golf multiplayer with guides on public and private lobbies, Steam friend invites, passwords, voice chat, solo, free-for-all, and team mode.",
+      "description": "Super Battle Golf multiplayer modes explained - public and private lobbies, 1-8 player matches, teams, and connection fixes.",
+      "metaTitle": "Super Battle Golf Multiplayer - Teams, Lobbies & Crossplay",
+      "metaDescription": "Master Super Battle Golf multiplayer with team mode rules, private lobbies, 1-8 player matches, voice chat, and connection troubleshooting.",
       "categoryLabel": "MULTIPLAYER",
       "whatIs": "What is Multiplayer?",
-      "whatIsDescription": "Guides to Super Battle Golf online lobbies, including host settings, player slots, course selection, team rules, voice chat, and common connection troubleshooting.",
-      "why": "Why learn multiplayer?",
+      "whatIsDescription": "Everything about Super Battle Golf online play, including 1-8 player matches, public and private servers, red vs blue Team Mode, voice chat, and how to invite friends for chaotic group rounds.",
+      "why": "Why play multiplayer?",
       "whySteps": {
-        "step1Title": "Host Matches",
-        "step1Description": "Create public or private lobbies with the right rules",
-        "step2Title": "Play With Friends",
-        "step2Description": "Invite Steam friends and manage passwords and slots",
-        "step3Title": "Choose a Format",
-        "step3Description": "Pick solo scoring, free-for-all, or team mode for your group"
+        "step1Title": "Run Team Mode",
+        "step1Description": "Learn red and blue team rules, scoring, and teammate protection",
+        "step2Title": "Host Private Lobbies",
+        "step2Description": "Create rooms, invite friends, and configure server settings",
+        "step3Title": "Fix Connection Issues",
+        "step3Description": "Resolve voice chat, matchmaking, and party disconnects fast"
       },
       "featured": "Featured & Essential",
       "all": "All Multiplayer Guides"
     },
-    "building": {
+    "achievements": {
       "title": "Super Battle Golf Achievements",
-      "description": "Track all 50 Super Battle Golf Steam achievements, cosmetic unlocks, and completion strategies.",
-      "metaTitle": "Super Battle Golf Achievements - All 50 Steam Achievements & Cosmetics",
-      "metaDescription": "Complete Super Battle Golf achievement checklist with requirements, difficulty, rarity, recommended strategy, and linked cosmetic rewards for every objective.",
+      "description": "All 50 Super Battle Golf Steam achievements with unlock conditions, difficulty, and the fastest path to 100% completion.",
+      "metaTitle": "Super Battle Golf Achievements - All 50 Steam List",
+      "metaDescription": "Unlock every Super Battle Golf Steam achievement with conditions, hidden achievements, and an efficient route to 100% completion.",
       "categoryLabel": "ACHIEVEMENTS",
       "whatIs": "What are Achievements?",
-      "whatIsDescription": "Full Super Battle Golf achievement tracker covering progression, victories, knockouts, item use, mobility, secret objectives, and the cosmetics tied to each milestone.",
-      "why": "Why track achievements?",
+      "whatIsDescription": "A full database of all 50 Super Battle Golf Steam achievements, covering unlock conditions, hidden achievements like Rocket Driver and Behind You, difficulty ratings, and whether each one needs multiplayer cooperation.",
+      "why": "Why hunt achievements?",
       "whySteps": {
-        "step1Title": "Plan Your Route",
-        "step1Description": "Group objectives by map, item, and player count",
-        "step2Title": "Unlock Cosmetics",
-        "step2Description": "Earn appearance rewards linked to each achievement",
-        "step3Title": "Reach 100%",
-        "step3Description": "Complete demanding multiplayer and secret objectives"
+        "step1Title": "Plan Your Run",
+        "step1Description": "Follow an efficient order to reach 100% completion faster",
+        "step2Title": "Catch Hidden Ones",
+        "step2Description": "Find secret achievements like Frog Legs and Underwater Expedition",
+        "step3Title": "Use the Right Maps",
+        "step3Description": "Pick the best courses and items for tricky achievement conditions"
       },
       "featured": "Featured & Essential",
-      "all": "All Achievement Guides"
+      "all": "All Achievements"
     },
-    "support": {
-      "title": "Super Battle Golf Support",
-      "description": "Release dates, platforms, system requirements, controls, and troubleshooting for Super Battle Golf.",
-      "metaTitle": "Super Battle Golf Support - Platforms, Requirements & Fixes",
-      "metaDescription": "Get Super Battle Golf support including release dates, Steam requirements, console announcements, controls, and fixes for common technical issues.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering Super Battle Golf release dates, platform availability, PC system requirements, controller setup, and fixes for common connection and stability issues.",
-      "why": "Why check support?",
+    "cosmetics": {
+      "title": "Super Battle Golf Cosmetics",
+      "description": "Every Super Battle Golf cosmetic - hats, glasses, outfits, clubs, balls, shoes, and emotes - plus how to unlock each one.",
+      "metaTitle": "Super Battle Golf Cosmetics - Outfits, Hats & Emotes",
+      "metaDescription": "Browse all Super Battle Golf cosmetics including hats, outfits, clubs, balls, shoes, and emotes, with unlock methods for every item.",
+      "categoryLabel": "COSMETICS",
+      "whatIs": "What are Cosmetics?",
+      "whatIsDescription": "A catalog of Super Battle Golf character cosmetics and decorations, including hats, glasses, outfits, clubs, balls, shoes, and scoring effects, plus where each item comes from.",
+      "why": "Why collect cosmetics?",
       "whySteps": {
-        "step1Title": "Confirm Platforms",
-        "step1Description": "Check Steam, PS5, Xbox Series, and Switch 2 availability",
-        "step2Title": "Verify Requirements",
-        "step2Description": "Match your PC specs to the minimum and recommended settings",
-        "step3Title": "Fix Issues",
-        "step3Description": "Resolve connection, controller, and stability problems"
+        "step1Title": "Know Every Source",
+        "step1Description": "Learn shop, default, achievement, event, and collab origins",
+        "step2Title": "Plan Unlocks",
+        "step2Description": "Target the cosmetics tied to achievements and limited events",
+        "step3Title": "Customize Your Look",
+        "step3Description": "Mix hats, outfits, clubs, and emotes to stand out on the course"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Cosmetics"
+    },
+    "maps": {
+      "title": "Super Battle Golf Courses",
+      "description": "All 63 Super Battle Golf holes across Forest, Desert, Coast, Snow, and City environments, with hazards, biomes, and shortcuts.",
+      "metaTitle": "Super Battle Golf Courses - All 63 Holes & Maps",
+      "metaDescription": "Explore every Super Battle Golf course and hole across Forest, Desert, Coast, Snow, and City, with hazards, biomes, shortcuts, and safe landing spots.",
+      "categoryLabel": "COURSES & MAPS",
+      "whatIs": "What are Courses?",
+      "whatIsDescription": "A complete atlas of all 63 Super Battle Golf holes organized by environment - Forest, Desert, Coast, Snow, and City - covering biomes, hazards, vehicle obstacles, shortcuts, and recommended tee-off angles.",
+      "why": "Why study courses?",
+      "whySteps": {
+        "step1Title": "Learn Every Environment",
+        "step1Description": "Master Forest, Desert, Coast, Snow, and City course layouts",
+        "step2Title": "Find Shortcuts",
+        "step2Description": "Spot safe landing zones and angles that skip hazards",
+        "step3Title": "Avoid Hazards",
+        "step3Description": "Dodge water, vehicles, and obstacles that wreck your round"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Courses"
     }
   }
 }

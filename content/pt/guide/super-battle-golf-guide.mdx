@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia Super Battle Golf: Dicas, Truques e Estratégias de Partida",
+  description: "Domine o campo com nosso guia de Super Battle Golf. Aprenda mecânicas de combate, técnicas de tacada, estratégias de itens e dicas de personalização de lobby.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Super+Battle+Golf+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki do Super Battle Golf"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia Super Battle Golf**: Foque em equilibrar a velocidade até o buraco com a minimização do seu total de tacadas.
+- **Mecânicas de Tacada**: Faça o putt acima da distância do alvo, mas faça o chip abaixo para compensar o rolamento e o salto.
+- **Bônus de Velocidade de Combate**: Acerte os oponentes com seu taco para ganhar bônus de velocidade temporários pelo mapa.
+- **Controles de Lobby**: Hospede lobbies personalizados para ajustar as taxas de drop de itens e gerenciar o comportamento dos jogadores.
+</Callout>
+
+<Section icon={Map} title="Guia Super Battle Golf: Regras Principais e Pontuação">
+
+Bem-vindo ao guia definitivo do **super battle golf**, projetado para ajudá-lo a navegar na mistura caótica de golfe tradicional e combate baseado em física. O sucesso neste jogo exige mais do que apenas uma boa tacada; você deve dominar a arte da luta, coleta de recursos e navegação no mapa.
+
+O objetivo principal é simples: ganhar o maior número de pontos até o final de cada rodada. Os pontos são concedidos com base em dois fatores principais: velocidade e eficiência. Quanto mais rápido você chegar ao buraco, mais pontos garante. Simultaneamente, completar o buraco em menos tacadas concede um bônus de pontuação significativo. Equilibrar essas duas mecânicas é a chave para dominar a tabela de classificação.
+
+**Destaques do Vídeo:**
+- Domine o equilíbrio entre corridas de velocidade e contagem baixa de tacadas.
+- Aprenda como abusar das configurações do lobby pré-jogo para partidas caóticas.
+- Descubra como desarmar minas armadas com segurança.
+
+<YouTubeEmbed videoId="Zy2gOWpjJgo" title="Como DOMINAR o Super Battle Golf: Dicas, Truques e Jogadas Épicas" />
+
+A tabela abaixo descreve como os pontos são geralmente distribuídos com base na sua posição de chegada e eficiência de tacadas.
+
+| Posição de Chegada | Pontos Base | Bônus de Tacada | Potencial Total |
+| --- | --- | --- | --- |
+| 1º Lugar | Alto | Máximo | Excelente |
+| 2º Lugar | Médio | Alto | Bom |
+| 3º Lugar | Baixo | Médio | Moderado |
+| 4º+ Lugar | Nenhum | Baixo | Ruim |
+
+<Callout type="success" title="Estratégia de Pontuação">
+Terminar após o terceiro lugar não concede pontos de colocação. Se você perceber que não conseguirá ficar entre os três primeiros, pare de correr para o buraco. Em vez disso, concentre-se em coletar itens e construir seu inventário antes de dar sua tacada final.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Técnicas de Tacada e Tiros Teleguiados">
+
+Ajustar seu estilo de tacada com base no terreno é crucial para manter o controle da bola. O jogo apresenta dois tipos principais de tacada: putts e chips. Os putts mantêm a bola rente ao chão, tornando-os ideais para superfícies planas, enquanto os chips lançam a bola no ar para desviar de obstáculos ou terrenos acidentados.
+
+Ao executar um putt, mire um pouco além da distância do seu alvo. A fricção do green normalmente desacelera a bola mais rápido do que o esperado. Por outro lado, ao fazer um chip, mire um pouco antes do seu alvo. Tacadas de chip carregam um impulso frontal significativo ao aterrissar e rolarão além do destino pretendido se você usar força total.
+
+| Tipo de Tacada | Ajuste de Alvo | Terreno Ideal | Comportamento de Rolamento |
+| --- | --- | --- | --- |
+| Putt | Mirar além do alvo | Greens planos, curta distância | Rolamento baixo, alta fricção |
+| Chip | Mirar antes do alvo | Grama alta, areia, obstáculos | Salto alto, rolamento longo |
+| Teleguiado | Travamento automático | Alvos distantes, perigos | Caminho direto, alta velocidade |
+
+Ao preencher sua barra de energia, você desbloqueia a mecânica de tiro teleguiado (homing shot). Esta habilidade especial permite que sua bola trave nos alvos automaticamente, garantindo um caminho direto para o buraco ou objetos específicos no campo. Você pode até mirar em minas ativas para detoná-las a uma distância segura.
+
+<Callout type="tip" title="Configuração de Tiro Teleguiado">
+Você pode ativar um tiro teleguiado em uma mina soltando-a diretamente na sua frente. No entanto, fazer isso consome todo o seu estoque de itens. Alternativamente, jogue a mina para frente e acerte-a antes que o cronômetro de ativação expire para economizar recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Táticas de Combate e Controle de Mapa">
+
+O combate é um elemento fundamental do ciclo de jogabilidade. Acertar outros jogadores não apenas os atrasa; aumenta ativamente sua própria velocidade de movimento. Engajar em combate é altamente recomendado ao atravessar fairways longos.
+
+Ao confrontar um oponente, use um golpe de taco rápido e não carregado para desequilibrá-lo. Assim que ele cair, carregue uma tacada de força máxima para lançá-lo para fora do mapa ou em perigos aquáticos próximos. Esta tática o remove temporariamente do jogo, dando a você um caminho livre para o green.
+
+<CardGrid cols={3}>
+  <Card title="Estilo de Jogo Veloz">
+    - Foque em putts rápidos.
+    - Evite lutas desnecessárias.
+    - Priorize a conclusão precoce do buraco.
+  </Card>
+  <Card title="Estilo de Jogo de Combate">
+    - Derrube os oponentes.
+    - Use lançamentos de força máxima.
+    - Acumule bônus de velocidade com acertos.
+  </Card>
+  <Card title="Estilo de Jogo de Itens">
+    - Controle as caixas de itens.
+    - Use escudos defensivos.
+    - Alveje jogadores com lasers.
+  </Card>
+</CardGrid>
+
+Gerenciar perigos ambientais como minas ativas é outra habilidade crítica. Se uma mina já estiver armada, andar diretamente sobre ela causará uma explosão. Você pode contornar esse perigo usando o modificador de caminhada lenta e desarmando o dispositivo manualmente.
+
+| Ação | Comando de Entrada | Efeito Resultante | Uso Tático |
+| --- | --- | --- | --- |
+| Golpe Leve | Toque rápido | Derruba o oponente | Interrompe tacadas inimigas |
+| Tacada Carregada | Segurar e soltar | Lança o inimigo longe | Empurra jogadores para perigos |
+| Caminhada Lenta | Segurar Alt | Reduz a velocidade de movimento | Navegação segura perto de minas |
+| Desarmar Mina | Pressionar E ao caminhar lento | Desarma e coleta a mina | Rouba explosivos inimigos |
+
+<Callout type="warning" title="Penalidade por Afogamento">
+Cair em perigos aquáticos redefine a posição do seu personagem e adiciona tacadas de penalidade à sua pontuação. Sempre verifique os arredores antes de carregar uma tacada, pois os oponentes tentarão empurrá-lo para fora da borda.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Otimização de Itens e Passos para a Vitória">
+
+O mapa está repleto de itens interativos, que variam de escudos defensivos a lasers orbitais destrutivos. Entender quando usar esses itens pode mudar o rumo de uma partida. Por exemplo, o carrinho de golfe fornece transporte rápido em mapas grandes, enquanto o escudo bloqueia projéteis e golpes de taco.
+
+Para maximizar sua eficiência durante uma partida, siga estes passos estruturados:
+
+<Steps>
+  <Step num="1" title="Preparação do Lobby">
+    Ajuste as probabilidades de itens no lobby pré-jogo para se adequar ao seu estilo. Foque em armas de alto valor se preferir partidas focadas em combate.
+  </Step>
+  <Step num="2" title="Tacada Inicial">
+    Execute uma tacada de chip limpa para colocar sua bola no fairway. Corra imediatamente em direção à bola, acertando quaisquer oponentes próximos para acumular seu bônus de velocidade.
+  </Step>
+  <Step num="3" title="Coleta de Itens">
+    Identifique caixas de itens próximas. Colete escudos para proteção ou lasers orbitais para alvejar jogadores que assumiram a liderança cedo.
+  </Step>
+  <Step num="4" title="O Putt Final">
+    Aproxime-se do green com cautela. Se houver oponentes por perto, use um golpe de taco rápido para limpar a área antes de tentar seu putt final.
+  </Step>
+</Steps>
+
+| Nome do Item | Função Principal | Estratégia de Contra-ataque | Classificação de Utilidade |
+| --- | --- | --- | --- |
+| Carrinho de Golfe | Travessia rápida do mapa | Coloque minas no caminho | Alta |
+| Escudo | Bloqueia ataques | Espere a duração expirar | Média |
+| Laser Orbital | Dano pesado em área | Saia da zona de alvo | Máxima |
+| Mina Explosiva | Negação de área | Caminhada lenta e desarmamento | Alta |
+
+<Callout type="info" title="Dica de Saque">
+Quando você encesta sua bola para terminar uma rodada, seu personagem fica estacionário. No entanto, se você conseguir terminar a rodada parado diretamente sobre uma caixa de itens, seu personagem continuará coletando itens automaticamente até que seu inventário esteja completamente cheio para a próxima rodada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalização de Lobby e Progressão">
+
+O jogo oferece recursos robustos de hospedagem que permitem personalizar as partidas ao seu gosto. Como anfitrião do lobby, você pode ajustar as taxas de spawn de itens específicos. Se preferir uma partida caótica, pode definir a probabilidade de itens de alto nível, como lasers orbitais, para o máximo.
+
+Atualmente, o jogo não suporta salvar várias predefinições personalizadas, o que significa que você deve ajustar manualmente essas configurações antes de cada partida. Hospedar seu próprio lobby também permite gerenciar o ambiente e expulsar jogadores disruptivos ou tóxicos para manter uma atmosfera positiva na partida.
+
+<Checklist
+  id="progression-goals"
+  title="Objetivos de Desempenho na Partida:"
+  items={[
+    "Terminar nas três primeiras posições",
+    "Desarmar com sucesso três minas inimigas",
+    "Acertar um tiro teleguiado em um alvo em movimento",
+    "Maximizar seu inventário ao final de uma rodada"
+  ]}
+/>
+
+Participar de partidas recompensa você com moeda baseada no seu desempenho. Esse dinheiro pode ser gasto no menu de personalização para comprar atualizações cosméticas, roupas e acessórios exclusivos para seu personagem.
+
+<Callout type="tip" title="Autoridade do Anfitrião">
+Se você encontrar jogadores não cooperativos em partidas públicas, hospedar seu próprio lobby personalizado é a maneira mais eficaz de garantir uma experiência de jogo justa e agradável.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Use esta seção para resolver rapidamente dúvidas comuns sobre estratégias de partida, controles e gerenciamento de lobby.
+
+<FAQ items={[
+  {
+    question: "Como ganho mais pontos em uma rodada?",
+    answer: "Você deve equilibrar velocidade e eficiência de tacadas. Chegar ao buraco primeiro concede pontos de colocação, enquanto usar menos tacadas garante um bônus significativo."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com minas armadas?",
+    answer: "Não corra sobre elas. Segure a tecla Alt para caminhar lentamente em direção à mina e, em seguida, pressione E para desarmá-la com segurança e adicioná-la ao seu inventário."
+  },
+  {
+    question: "Como ativo um tiro teleguiado no Super Battle Golf?",
+    answer: "Encha sua barra de energia ao máximo e, em seguida, trave no seu alvo. Você pode usar isso para mirar no buraco ou detonar minas remotamente."
+  },
+  {
+    question: "Posso salvar minhas predefinições de lobby personalizadas?",
+    answer: "O jogo não suporta o salvamento de várias predefinições personalizadas. Você deve configurar as probabilidades de itens manualmente antes de iniciar um novo lobby."
+  }
+]} />
+
+</Section>

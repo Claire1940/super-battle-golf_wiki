@@ -1,1 +1,674 @@
-{}
+{
+  "en": {
+    "achievements": [
+      {
+        "slug": "super-battle-golf-achievements",
+        "file": "super-battle-golf-achievements"
+      },
+      {
+        "slug": "super-battle-golf-behind-you-achievement",
+        "file": "super-battle-golf-behind-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-frog-legs-achievement",
+        "file": "super-battle-golf-frog-legs-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hidden-achievement",
+        "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-rocket-driver-achievement",
+        "file": "super-battle-golf-rocket-driver-achievement"
+      },
+      {
+        "slug": "super-battle-golf-underwater-expedition-achievement",
+        "file": "super-battle-golf-underwater-expedition-achievement"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "super-battle-golf-cosmetics",
+        "file": "super-battle-golf-cosmetics"
+      },
+      {
+        "slug": "super-battle-golf-emotes",
+        "file": "super-battle-golf-emotes"
+      },
+      {
+        "slug": "super-battle-golf-hats",
+        "file": "super-battle-golf-hats"
+      },
+      {
+        "slug": "super-battle-golf-outfit-unlocks",
+        "file": "super-battle-golf-outfit-unlocks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "super-battle-golf-best-settings",
+        "file": "super-battle-golf-best-settings"
+      },
+      {
+        "slug": "super-battle-golf-controls",
+        "file": "super-battle-golf-controls"
+      },
+      {
+        "slug": "super-battle-golf-disarm-landmine",
+        "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-guide",
+        "file": "super-battle-golf-guide"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one",
+        "file": "super-battle-golf-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-items",
+        "file": "super-battle-golf-items"
+      },
+      {
+        "slug": "super-battle-golf-tips",
+        "file": "super-battle-golf-tips"
+      },
+      {
+        "slug": "super-battle-golf-weapons",
+        "file": "super-battle-golf-weapons"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "super-battle-golf-custom-maps",
+        "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-maps",
+        "file": "super-battle-golf-maps"
+      },
+      {
+        "slug": "super-battle-golf-new-maps",
+        "file": "super-battle-golf-new-maps"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "super-battle-golf-crossplay",
+        "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-local-multiplayer",
+        "file": "super-battle-golf-local-multiplayer"
+      },
+      {
+        "slug": "super-battle-golf-max-players",
+        "file": "super-battle-golf-max-players"
+      },
+      {
+        "slug": "super-battle-golf-solo",
+        "file": "super-battle-golf-solo"
+      },
+      {
+        "slug": "super-battle-golf-teams",
+        "file": "super-battle-golf-teams"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "super-battle-golf-console-release-date",
+        "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-mac",
+        "file": "super-battle-golf-mac"
+      },
+      {
+        "slug": "super-battle-golf-price",
+        "file": "super-battle-golf-price"
+      },
+      {
+        "slug": "super-battle-golf-ps5",
+        "file": "super-battle-golf-ps5"
+      },
+      {
+        "slug": "super-battle-golf-steam",
+        "file": "super-battle-golf-steam"
+      },
+      {
+        "slug": "super-battle-golf-switch",
+        "file": "super-battle-golf-switch"
+      },
+      {
+        "slug": "super-battle-golf-system-requirements",
+        "file": "super-battle-golf-system-requirements"
+      },
+      {
+        "slug": "super-battle-golf-xbox",
+        "file": "super-battle-golf-xbox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "super-battle-golf-attack-on-city-update",
+        "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-next-update",
+        "file": "super-battle-golf-next-update"
+      },
+      {
+        "slug": "super-battle-golf-patch-notes",
+        "file": "super-battle-golf-patch-notes"
+      },
+      {
+        "slug": "super-battle-golf-update",
+        "file": "super-battle-golf-update"
+      }
+    ]
+  },
+  "ja": {
+    "achievements": [
+      {
+        "slug": "super-battle-golf-achievements",
+        "file": "super-battle-golf-achievements"
+      },
+      {
+        "slug": "super-battle-golf-behind-you-achievement",
+        "file": "super-battle-golf-behind-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-frog-legs-achievement",
+        "file": "super-battle-golf-frog-legs-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hidden-achievement",
+        "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-rocket-driver-achievement",
+        "file": "super-battle-golf-rocket-driver-achievement"
+      },
+      {
+        "slug": "super-battle-golf-underwater-expedition-achievement",
+        "file": "super-battle-golf-underwater-expedition-achievement"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "super-battle-golf-cosmetics",
+        "file": "super-battle-golf-cosmetics"
+      },
+      {
+        "slug": "super-battle-golf-emotes",
+        "file": "super-battle-golf-emotes"
+      },
+      {
+        "slug": "super-battle-golf-hats",
+        "file": "super-battle-golf-hats"
+      },
+      {
+        "slug": "super-battle-golf-outfit-unlocks",
+        "file": "super-battle-golf-outfit-unlocks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "super-battle-golf-best-settings",
+        "file": "super-battle-golf-best-settings"
+      },
+      {
+        "slug": "super-battle-golf-controls",
+        "file": "super-battle-golf-controls"
+      },
+      {
+        "slug": "super-battle-golf-disarm-landmine",
+        "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-guide",
+        "file": "super-battle-golf-guide"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one",
+        "file": "super-battle-golf-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-items",
+        "file": "super-battle-golf-items"
+      },
+      {
+        "slug": "super-battle-golf-tips",
+        "file": "super-battle-golf-tips"
+      },
+      {
+        "slug": "super-battle-golf-weapons",
+        "file": "super-battle-golf-weapons"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "super-battle-golf-custom-maps",
+        "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-maps",
+        "file": "super-battle-golf-maps"
+      },
+      {
+        "slug": "super-battle-golf-new-maps",
+        "file": "super-battle-golf-new-maps"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "super-battle-golf-crossplay",
+        "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-local-multiplayer",
+        "file": "super-battle-golf-local-multiplayer"
+      },
+      {
+        "slug": "super-battle-golf-max-players",
+        "file": "super-battle-golf-max-players"
+      },
+      {
+        "slug": "super-battle-golf-solo",
+        "file": "super-battle-golf-solo"
+      },
+      {
+        "slug": "super-battle-golf-teams",
+        "file": "super-battle-golf-teams"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "super-battle-golf-console-release-date",
+        "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-mac",
+        "file": "super-battle-golf-mac"
+      },
+      {
+        "slug": "super-battle-golf-price",
+        "file": "super-battle-golf-price"
+      },
+      {
+        "slug": "super-battle-golf-ps5",
+        "file": "super-battle-golf-ps5"
+      },
+      {
+        "slug": "super-battle-golf-steam",
+        "file": "super-battle-golf-steam"
+      },
+      {
+        "slug": "super-battle-golf-switch",
+        "file": "super-battle-golf-switch"
+      },
+      {
+        "slug": "super-battle-golf-system-requirements",
+        "file": "super-battle-golf-system-requirements"
+      },
+      {
+        "slug": "super-battle-golf-xbox",
+        "file": "super-battle-golf-xbox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "super-battle-golf-attack-on-city-update",
+        "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-next-update",
+        "file": "super-battle-golf-next-update"
+      },
+      {
+        "slug": "super-battle-golf-patch-notes",
+        "file": "super-battle-golf-patch-notes"
+      },
+      {
+        "slug": "super-battle-golf-update",
+        "file": "super-battle-golf-update"
+      }
+    ]
+  },
+  "pt": {
+    "achievements": [
+      {
+        "slug": "super-battle-golf-achievements",
+        "file": "super-battle-golf-achievements"
+      },
+      {
+        "slug": "super-battle-golf-behind-you-achievement",
+        "file": "super-battle-golf-behind-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-frog-legs-achievement",
+        "file": "super-battle-golf-frog-legs-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hidden-achievement",
+        "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-rocket-driver-achievement",
+        "file": "super-battle-golf-rocket-driver-achievement"
+      },
+      {
+        "slug": "super-battle-golf-underwater-expedition-achievement",
+        "file": "super-battle-golf-underwater-expedition-achievement"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "super-battle-golf-cosmetics",
+        "file": "super-battle-golf-cosmetics"
+      },
+      {
+        "slug": "super-battle-golf-emotes",
+        "file": "super-battle-golf-emotes"
+      },
+      {
+        "slug": "super-battle-golf-hats",
+        "file": "super-battle-golf-hats"
+      },
+      {
+        "slug": "super-battle-golf-outfit-unlocks",
+        "file": "super-battle-golf-outfit-unlocks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "super-battle-golf-best-settings",
+        "file": "super-battle-golf-best-settings"
+      },
+      {
+        "slug": "super-battle-golf-controls",
+        "file": "super-battle-golf-controls"
+      },
+      {
+        "slug": "super-battle-golf-disarm-landmine",
+        "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-guide",
+        "file": "super-battle-golf-guide"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one",
+        "file": "super-battle-golf-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-items",
+        "file": "super-battle-golf-items"
+      },
+      {
+        "slug": "super-battle-golf-tips",
+        "file": "super-battle-golf-tips"
+      },
+      {
+        "slug": "super-battle-golf-weapons",
+        "file": "super-battle-golf-weapons"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "super-battle-golf-custom-maps",
+        "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-maps",
+        "file": "super-battle-golf-maps"
+      },
+      {
+        "slug": "super-battle-golf-new-maps",
+        "file": "super-battle-golf-new-maps"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "super-battle-golf-crossplay",
+        "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-local-multiplayer",
+        "file": "super-battle-golf-local-multiplayer"
+      },
+      {
+        "slug": "super-battle-golf-max-players",
+        "file": "super-battle-golf-max-players"
+      },
+      {
+        "slug": "super-battle-golf-solo",
+        "file": "super-battle-golf-solo"
+      },
+      {
+        "slug": "super-battle-golf-teams",
+        "file": "super-battle-golf-teams"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "super-battle-golf-console-release-date",
+        "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-mac",
+        "file": "super-battle-golf-mac"
+      },
+      {
+        "slug": "super-battle-golf-price",
+        "file": "super-battle-golf-price"
+      },
+      {
+        "slug": "super-battle-golf-ps5",
+        "file": "super-battle-golf-ps5"
+      },
+      {
+        "slug": "super-battle-golf-steam",
+        "file": "super-battle-golf-steam"
+      },
+      {
+        "slug": "super-battle-golf-switch",
+        "file": "super-battle-golf-switch"
+      },
+      {
+        "slug": "super-battle-golf-system-requirements",
+        "file": "super-battle-golf-system-requirements"
+      },
+      {
+        "slug": "super-battle-golf-xbox",
+        "file": "super-battle-golf-xbox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "super-battle-golf-attack-on-city-update",
+        "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-next-update",
+        "file": "super-battle-golf-next-update"
+      },
+      {
+        "slug": "super-battle-golf-patch-notes",
+        "file": "super-battle-golf-patch-notes"
+      },
+      {
+        "slug": "super-battle-golf-update",
+        "file": "super-battle-golf-update"
+      }
+    ]
+  },
+  "ru": {
+    "achievements": [
+      {
+        "slug": "super-battle-golf-achievements",
+        "file": "super-battle-golf-achievements"
+      },
+      {
+        "slug": "super-battle-golf-behind-you-achievement",
+        "file": "super-battle-golf-behind-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-frog-legs-achievement",
+        "file": "super-battle-golf-frog-legs-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hidden-achievement",
+        "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-rocket-driver-achievement",
+        "file": "super-battle-golf-rocket-driver-achievement"
+      },
+      {
+        "slug": "super-battle-golf-underwater-expedition-achievement",
+        "file": "super-battle-golf-underwater-expedition-achievement"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "super-battle-golf-cosmetics",
+        "file": "super-battle-golf-cosmetics"
+      },
+      {
+        "slug": "super-battle-golf-emotes",
+        "file": "super-battle-golf-emotes"
+      },
+      {
+        "slug": "super-battle-golf-hats",
+        "file": "super-battle-golf-hats"
+      },
+      {
+        "slug": "super-battle-golf-outfit-unlocks",
+        "file": "super-battle-golf-outfit-unlocks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "super-battle-golf-best-settings",
+        "file": "super-battle-golf-best-settings"
+      },
+      {
+        "slug": "super-battle-golf-controls",
+        "file": "super-battle-golf-controls"
+      },
+      {
+        "slug": "super-battle-golf-disarm-landmine",
+        "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-guide",
+        "file": "super-battle-golf-guide"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one",
+        "file": "super-battle-golf-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-items",
+        "file": "super-battle-golf-items"
+      },
+      {
+        "slug": "super-battle-golf-tips",
+        "file": "super-battle-golf-tips"
+      },
+      {
+        "slug": "super-battle-golf-weapons",
+        "file": "super-battle-golf-weapons"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "super-battle-golf-custom-maps",
+        "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-maps",
+        "file": "super-battle-golf-maps"
+      },
+      {
+        "slug": "super-battle-golf-new-maps",
+        "file": "super-battle-golf-new-maps"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "super-battle-golf-crossplay",
+        "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-local-multiplayer",
+        "file": "super-battle-golf-local-multiplayer"
+      },
+      {
+        "slug": "super-battle-golf-max-players",
+        "file": "super-battle-golf-max-players"
+      },
+      {
+        "slug": "super-battle-golf-solo",
+        "file": "super-battle-golf-solo"
+      },
+      {
+        "slug": "super-battle-golf-teams",
+        "file": "super-battle-golf-teams"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "super-battle-golf-console-release-date",
+        "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-mac",
+        "file": "super-battle-golf-mac"
+      },
+      {
+        "slug": "super-battle-golf-price",
+        "file": "super-battle-golf-price"
+      },
+      {
+        "slug": "super-battle-golf-ps5",
+        "file": "super-battle-golf-ps5"
+      },
+      {
+        "slug": "super-battle-golf-steam",
+        "file": "super-battle-golf-steam"
+      },
+      {
+        "slug": "super-battle-golf-switch",
+        "file": "super-battle-golf-switch"
+      },
+      {
+        "slug": "super-battle-golf-system-requirements",
+        "file": "super-battle-golf-system-requirements"
+      },
+      {
+        "slug": "super-battle-golf-xbox",
+        "file": "super-battle-golf-xbox"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "super-battle-golf-attack-on-city-update",
+        "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-next-update",
+        "file": "super-battle-golf-next-update"
+      },
+      {
+        "slug": "super-battle-golf-patch-notes",
+        "file": "super-battle-golf-patch-notes"
+      },
+      {
+        "slug": "super-battle-golf-update",
+        "file": "super-battle-golf-update"
+      }
+    ]
+  }
+}

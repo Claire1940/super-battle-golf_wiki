@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileCode, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapas Personalizados do Super Battle Golf: Guia de Criação Passo a Passo",
+  description: "Aprenda como criar, exportar e instalar mapas personalizados do Super Battle Golf usando Unity e asset bundles com nosso guia profissional de 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Maps+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki do Super Battle Golf",
+  keywords: "super battle golf, mapas personalizados, unity, tutorial, asset bundles"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Exportação no Unity**: Use o modelo de projeto específico do Unity para criar asset bundles para os **mapas personalizados do Super Battle Golf**.
+- **Nomenclatura de Bundles**: Sempre use o formato `Usuario.NomeDoPacote` para evitar conflitos de arquivos na pasta de mods.
+- **Configuração JSON**: Cada pacote de mapas requer um arquivo JSON correspondente para definir nomes dos buracos, pontuações de par e dificuldade.
+- **Estrutura de Arquivos**: Coloque os bundles exportados no diretório `Weapon X/plugins/Super Battle maps/maps/`.
+- **Multijogador**: Mapas personalizados são totalmente compatíveis com modos multijogador se todos os jogadores tiverem os mesmos arquivos instalados.
+</Callout>
+
+<Section icon={Settings} title="Primeiros Passos com Mapeamento Personalizado">
+
+A criação de **mapas personalizados do Super Battle Golf** permite que os jogadores vão além do conteúdo base do jogo e projetem desafios únicos. O processo envolve o uso da engine Unity para construir níveis e, em seguida, exportá-los como asset bundles que o framework de modding do jogo possa reconhecer. Antes de começar, certifique-se de ter baixado a versão correta do modelo de projeto do Unity, pois ele contém os scripts necessários para o pipeline de build.
+
+| Requisito | Descrição | Recomendação |
+| :--- | :--- | :--- |
+| **Versão do Unity** | Versão específica correspondente à build do jogo | Verifique o Discord oficial para a versão atual |
+| **Modelo de Projeto** | Projeto Unity exportado para o Super Battle Golf | Essencial para o script de build |
+| **Asset Bundles** | Formato usado para empacotar cenas 3D | Deve ser criado através do menu personalizado |
+| **Conhecimento de JSON** | Edição básica de texto para metadados do mapa | Necessário para definições dos buracos |
+
+<Callout type="tip" title="Organização do Projeto">
+Mantenha seu projeto Unity organizado colocando todas as suas cenas personalizadas em uma pasta dedicada em `Assets/Scenes/Holes/CustomHoles/`. Isso facilita significativamente o gerenciamento de vários pacotes de mapas à medida que sua biblioteca cresce.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exportando Seus Mapas do Unity">
+
+O processo de exportação é a parte mais técnica da criação de **mapas personalizados do Super Battle Golf**. Você deve distinguir entre bundles de cena e bundles de assets. Um bundle de cena contém o layout real do nível (o buraco), enquanto um bundle de assets contém modelos 3D ou texturas personalizadas que você importou para o projeto.
+
+**Destaques do Vídeo:**
+- **Nomenclatura de Bundles**: Como usar a convenção de nomenclatura `usuario.nome-do-pacote`.
+- **Console de Build**: Usando o comando `B:` para verificar o conteúdo do bundle.
+- **Pipeline de Exportação**: Navegando no menu de build para gerar os arquivos finais.
+- **Pacotes de Várias Cenas**: Adicionando vários buracos em um único asset bundle.
+
+<YouTubeEmbed videoId="7mkmXowrSlY" title="Super Battle Golf Custom Maps - Exporting Your Maps" />
+
+<Callout type="warning" title="Restrição de Asset Bundle">
+Você não pode misturar cenas e outros recursos (como texturas ou modelos) no mesmo bundle. Se você usar objetos personalizados que não estão no jogo base, deve criar um bundle separado (ex: `usuario.assets`) e referenciá-lo adequadamente.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Limpar Asset Bundles">
+    Antes de compilar, vá ao menu Build no Unity e selecione "Clear All Asset Bundle Names". Isso garante que nenhum dado antigo interfira na sua nova exportação.
+  </Step>
+  <Step num="2" title="Atribuir Nomes aos Bundles">
+    Selecione seu arquivo de cena na janela Project. No Inspector (canto inferior direito), crie um novo nome de Asset Bundle. Use o formato `SeuNome.NomeDoMapa`.
+  </Step>
+  <Step num="3" title="Criar (Build) os Bundles">
+    Navegue até o menu "Build" e selecione "Build Asset Bundles". Este processo pode levar de 1 a 2 minutos por cena, dependendo do seu hardware.
+  </Step>
+  <Step num="4" title="Localizar Arquivos Exportados">
+    Abra a pasta do seu projeto no Windows Explorer e navegue até `Assets/Bundles`. Você só precisa do arquivo sem extensão (ignore os arquivos `.manifest`).
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={FileCode} title="Configuração de Diretório e Gerenciamento de Arquivos">
+
+Depois de exportar seus **mapas personalizados do Super Battle Golf**, você deve colocá-los no diretório correto do jogo. O jogo procura por conteúdo personalizado dentro da estrutura de plugins do Weapon X. O posicionamento incorreto fará com que os mapas não apareçam na aba "Custom Holes" dentro do jogo.
+
+| Nível da Pasta | Componente do Caminho | Finalidade |
+| :--- | :--- | :--- |
+| **Raiz** | `Super Battle Golf/` | Pasta principal de instalação do jogo |
+| **Caminho do Plugin** | `Weapon X/plugins/` | Local para todos os dados relacionados a mods |
+| **Armazenamento de Mapas** | `Super Battle maps/maps/` | O diretório específico para níveis personalizados |
+| **Seu Pacote** | `15_mapas_legais/` (Exemplo) | Uma pasta exclusiva para o seu pacote de mapas específico |
+
+<CardGrid cols={2}>
+  <Card title="Arquivos de Bundle">
+    - O arquivo bruto exportado do Unity.
+    - Contém a geometria 3D e a lógica.
+    - Nenhuma extensão de arquivo é necessária.
+  </Card>
+  <Card title="Arquivos JSON">
+    - O arquivo de metadados para o jogo.
+    - Define par, dificuldade e nome.
+    - Deve ser nomeado corretamente para corresponder ao bundle.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dica de Especialista">
+Se você estiver compartilhando mapas com amigos para o modo multijogador, certifique-se de que todos usem exatamente os mesmos nomes de pasta. O jogo identifica os mapas com base em seus nomes de cena internos e na estrutura de pastas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configurando os Metadados JSON">
+
+O arquivo JSON funciona como o "Cartão de Identidade" para seus **mapas personalizados do Super Battle Golf**. Sem um JSON configurado corretamente, o jogo não saberá como exibir seu mapa no menu ou quais são as regras de pontuação. Você pode copiar o `example.json` fornecido na pasta do mod e editá-lo com qualquer editor de texto como o Notepad++.
+
+| Chave JSON | Tipo de Valor | Descrição |
+| :--- | :--- | :--- |
+| **sceneName** | Texto | Deve corresponder exatamente ao nome da cena no Unity |
+| **holeName** | Texto | O nome exibido para os jogadores no menu |
+| **par** | Inteiro | O número padrão de tacadas para o buraco |
+| **difficulty** | Texto | Easy, Medium, Hard ou Expert |
+| **enabled** | Booleano | Deve ser definido como `true` para aparecer no jogo |
+
+<Callout type="success" title="Suporte a Múltiplos Buracos">
+Para adicionar vários buracos a um único pacote, basta adicionar uma vírgula após o colchete de fechamento da entrada do primeiro buraco e colar um novo conjunto de colchetes com os dados do segundo buraco.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Otimização e Garantia de Qualidade">
+
+Criar um mapa funcional é apenas o primeiro passo; garantir que ele seja bom de jogar é vital para a adoção pela comunidade. Os **mapas personalizados do Super Battle Golf** devem ser testados localmente antes de serem compartilhados. Preste muita atenção às zonas de colisão e gatilhos de fora de campo (out-of-bounds), pois esses são os pontos mais comuns de falha em criações personalizadas.
+
+<Checklist
+  id="map-qa-check"
+  title="Checklist Pré-Lançamento:"
+  items={[
+    "Verificar se o nome da cena no JSON corresponde exatamente ao nome da cena no Unity",
+    "Garantir que 'enabled' esteja definido como true no arquivo de configuração",
+    "Testar a classificação de par para garantir que seja justa, mas desafiadora",
+    "Verificar se há texturas ausentes ou shaders 'rosa' no jogo",
+    "Confirmar se o mapa carrega na aba 'Custom Holes'"
+  ]}
+/>
+
+<Callout type="warning" title="Elementos Quebrados">
+Alguns recursos no framework de modding ainda podem estar em desenvolvimento. Se certos objetos interativos não funcionarem, é provável que seja uma limitação da versão atual do mod, em vez do design do seu mapa.
+</Callout>
+
+| Nível de Dificuldade | Par Sugerido | Foco de Recursos |
+| :--- | :--- | :--- |
+| **Easy** | 3 | Fairways largos, sem perigos de água |
+| **Medium** | 4 | Alguns obstáculos, pequenas mudanças de elevação |
+| **Hard** | 4-5 | Corredores estreitos, plataformas móveis |
+| **Expert** | 5+ | Alta precisão necessária, muitos perigos |
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que meus mapas personalizados do Super Battle Golf não aparecem no menu?",
+    answer: "Geralmente, isso ocorre porque o campo 'enabled' no seu arquivo JSON está definido como 'false'. Além disso, verifique se o arquivo JSON está nomeado corretamente e se o nome da cena corresponde exatamente ao seu projeto Unity."
+  },
+  {
+    question: "Posso usar modelos 3D personalizados nos meus mapas?",
+    answer: "Sim, mas você deve exportá-los como um asset bundle separado. Você não pode misturar cenas e assets individuais no mesmo arquivo de bundle."
+  },
+  {
+    question: "O modo multijogador funciona com mapas personalizados?",
+    answer: "Sim, o multijogador é totalmente funcional. No entanto, todos os jogadores no lobby devem ter exatamente o mesmo pacote de mapas e estrutura de pastas instalados para que o jogo sincronize corretamente."
+  },
+  {
+    question: "Como atualizo um mapa que já exportei?",
+    answer: "Exporte novamente o bundle do Unity com o mesmo nome, substitua o arquivo antigo na sua pasta de mapas e reinicie o jogo. Você não precisa alterar o JSON, a menos que o nome da cena tenha mudado."
+  }
+]} />
+
+</Section>

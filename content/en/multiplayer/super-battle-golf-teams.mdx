@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Teams: Strategy & Multiplayer Guide",
+  description: "Master Super Battle Golf team mode with our guide on coordination, item usage, and winning strategies for competitive 8-player matches.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Battle+Golf+Strategy",
+  date: "2026-07-18",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Super Battle Golf teams** require coordinated movement and smart item management for victory.
+- **Team mode** adds a layer of depth, forcing players to balance individual progress with partner protection.
+- Always prioritize **checkpoint security** before engaging in aggressive combat with opponents.
+- Use **defensive items** like the Smoke Bomb to shield teammates during critical final approaches.
+- Communication and **role division** are the keys to dominating 8-player matches on any course.
+</Callout>
+
+<Section icon={Map} title="Understanding Team Mode Dynamics">
+
+In Super Battle Golf, the introduction of team play shifts the focus from purely individual performance to collective strategy. Whether you are playing in a private lobby or a public match, understanding how to control the green is essential.
+
+**Video Highlights:**
+- Core match flow and objective tracking.
+- How to utilize shortcuts effectively.
+- Combat mechanics for team-based disruption.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Super Battle Golf – Official Release Trailer" />
+
+Team mode relies on effective positioning. Unlike free-for-all, where you only look out for yourself, team play encourages players to cover different angles of the course.
+
+| Strategy Component | Focus Area | Impact Level |
+| :--- | :--- | :--- |
+| **Route Control** | Securing paths, checkpoints | High |
+| **Item Support** | Defensive shielding, area denial | High |
+| **Combat Pressure** | Distracting opponents, knockouts | Medium |
+| **Precision Putting** | Final hole completion | Critical |
+
+<Callout type="tip" title="Pro Tip">
+Always designate one player as the "support" who carries defensive items while others push for the lead. This ensures your team has a safety net when approaching the final cup.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Coordinated Combat and Item Usage">
+
+Items are the backbone of Super Battle Golf. In team scenarios, using them correctly can turn a losing match into a comeback. You should categorize your inventory based on your team's current position on the course.
+
+<Steps>
+  <Step num="1" title="Assessment">
+    Identify if your team is leading or trailing. If leading, prioritize defensive items; if trailing, use mobility or offensive tools.
+  </Step>
+  <Step num="2" title="Distribution">
+    Share item roles. A "Striker" should hold Railguns or Orbital Lasers, while a "Defender" keeps Smoke Bombs and Flash Cameras ready.
+  </Step>
+  <Step num="3" title="Execution">
+    Synchronize your attacks. Using a Thunderstorm to disrupt enemies while a teammate takes a precise shot is a guaranteed way to secure a hole.
+  </Step>
+</Steps>
+
+| Item Class | Best For | Effectiveness |
+| :--- | :--- | :--- |
+| **Offensive** | Railgun, Orbital Laser | Excellent |
+| **Defensive** | Smoke Bomb, Jumbo Burger | Very Good |
+| **Disruption** | Flash Camera, Thunderstorm | Good |
+| **Mobility** | Launch items, Cart usage | Situational |
+
+<Callout type="warning" title="Team Coordination Warning">
+Avoid using area-of-effect items like the Thunderstorm if your teammates are in the blast radius. Communication is vital to prevent friendly fire disruptions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Team Tactics">
+
+Mastering team play requires more than just shooting; it requires field awareness. Use the following table to understand how to handle specific course hazards with your partners.
+
+| Hazard Type | Team Approach | Recommended Item |
+| :--- | :--- | :--- |
+| **Narrow Bridges** | One player guards, one passes | Launch Items |
+| **Moving Obstacles** | Staggered timing, cover fire | Smoke Bomb |
+| **High Platforms** | Use mobility items to boost teammates | Mobility Tools |
+| **Final Green** | Surround the cup, block opponents | Orbital Laser |
+
+<CardGrid cols={3}>
+  <Card title="The Pincer Maneuver">
+    Two players approach the hole from opposite sides, forcing opponents to choose which one to block.
+  </Card>
+  <Card title="Checkpoint Camping">
+    One player stays near the checkpoint to prevent enemy respawns while the other advances.
+  </Card>
+  <Card title="Distraction Play">
+    A player uses a weak item to bait out enemy defenses before the primary scorer takes the shot.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy Success">
+Successful teams often rotate their roles mid-match based on who has the best item loadout. Adaptability is what separates top-tier teams from casual groups.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Achievement Checklist">
+
+To master team play, you need to track your progress and unlock the necessary cosmetics to show your rank. Use this list to stay on track.
+
+<Checklist
+  id="team-progression"
+  title="Team Mode Milestones:"
+  items={[
+    "Win 10 matches in Team Mode",
+    "Successfully use a team-based combo (Stun + Score)",
+    "Complete a course without your team losing a checkpoint",
+    "Unlock the Team Captain cosmetic set"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I play Super Battle Golf teams with random players?",
+    answer: "Yes, you can join public lobbies that support team modes, though playing with friends in a private lobby is recommended for better coordination."
+  },
+  {
+    question: "Do items affect my teammates in team mode?",
+    answer: "Most items have area-of-effect properties that can affect everyone. Be careful with your placement to avoid disrupting your own team."
+  },
+  {
+    question: "Is there a specific class system for teams?",
+    answer: "There are no hard classes, but players often adopt roles like 'Striker' or 'Defender' based on the items they carry and their playstyle."
+  }
+]} />
+
+</Section>

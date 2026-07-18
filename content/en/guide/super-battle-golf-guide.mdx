@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Guide: Tips, Tricks & Match Strategies",
+  description: "Dominate the course with our Super Battle Golf guide. Learn combat mechanics, swinging techniques, item strategies, and lobby customization tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Super+Battle+Golf+Guide",
+  date: "2026-07-18",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Super battle golf guide**: Focus on balancing speed to the hole with minimizing your total swings.
+- **Swing Mechanics**: Putt over the target distance, but chip under to account for roll and bounce.
+- **Combat Speed Boost**: Strike opponents with your club to gain temporary speed boosts across the map.
+- **Lobby Controls**: Host custom lobbies to adjust item drop rates and manage player behavior.
+</Callout>
+
+<Section icon={Map} title="Super Battle Golf Guide: Core Rules and Scoring">
+
+Welcome to the ultimate **super battle golf guide**, designed to help you navigate the chaotic blend of traditional golf and physics-based combat. Success in this game requires more than just a good swing; you must master the art of fighting, resource collection, and map navigation.
+
+The core objective is straightforward: earn the highest number of points by the end of each round. Points are awarded based on two primary factors: speed and efficiency. The faster you reach the cup, the more points you secure. Simultaneously, completing the hole in fewer strokes yields a significant score bonus. Balancing these two mechanics is the key to dominating the leaderboard.
+
+**Video Highlights:**
+- Master the balance between speed runs and low stroke counts.
+- Learn how to abuse pregame lobby settings for chaotic matches.
+- Discover how to disarm armed mines safely.
+
+<YouTubeEmbed videoId="Zy2gOWpjJgo" title="How to DOMINATE Super Battle Golf: Tips, Tricks & Epic Plays" />
+
+The table below outlines how points are generally distributed based on your finishing position and stroke efficiency.
+
+| Finish Position | Base Points | Stroke Bonus | Total Potential |
+| --- | --- | --- | --- |
+| 1st Place | High | Maximum | Excellent |
+| 2nd Place | Medium | High | Good |
+| 3rd Place | Low | Medium | Moderate |
+| 4th+ Place | None | Low | Poor |
+
+<Callout type="success" title="Scoring Strategy">
+Finishing after third place does not award placement points. If you realize you cannot make the top three, stop rushing to the hole. Instead, focus on gathering items and building your inventory before taking your final stroke.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Swing Techniques and Homing Shots">
+
+Adjusting your swing style based on the terrain is crucial for maintaining control of the ball. The game features two primary shot types: putts and chips. Putts keep the ball low to the ground, making them ideal for flat surfaces, while chips loft the ball into the air to bypass obstacles or rough terrain.
+
+When executing a putt, aim slightly beyond your target distance. The friction of the green typically slows the ball down faster than expected. Conversely, when chipping, aim slightly short of your target. Chipped shots carry significant forward momentum upon landing and will roll past your intended destination if you swing with full power.
+
+| Shot Type | Target Adjustment | Ideal Terrain | Roll Behavior |
+| --- | --- | --- | --- |
+| Putt | Aim over target | Flat greens, short distance | Low roll, high friction |
+| Chip | Aim under target | Rough, sand, obstacles | High bounce, long roll |
+| Homing | Automatic lock-on | Distant targets, hazards | Direct path, high velocity |
+
+Maxing out your energy bar unlocks the homing shot mechanic. This special ability allows your ball to lock onto targets automatically, ensuring a direct path to the hole or specific objects on the field. You can even target active mines to detonate them from a safe distance.
+
+<Callout type="tip" title="Homing Shot Setup">
+You can trigger a homing shot on a mine by dropping it directly in front of you. However, doing so consumes your entire item stack. Alternatively, throw the mine forward and hit it before the arming timer expires to save resources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactics and Map Control">
+
+Combat is a fundamental element of the gameplay loop. Striking other players does not just slow them down; it actively increases your own movement speed. Engaging in combat is highly recommended when traversing long fairways.
+
+When confronting an opponent, use a quick, uncharged club strike to knock them off balance. Once they are downed, charge a maximum power swing to launch them off the map or into nearby water hazards. This tactic temporarily removes them from play, giving you a clear path to the green.
+
+<CardGrid cols={3}>
+  <Card title="Speed Playstyle">
+    - Focus on quick putts.
+    - Avoid unnecessary fights.
+    - Prioritize early hole completion.
+  </Card>
+  <Card title="Combat Playstyle">
+    - Knock down opponents.
+    - Use max power launches.
+    - Farm speed boosts from hits.
+  </Card>
+  <Card title="Item Playstyle">
+    - Control item boxes.
+    - Deploy defensive shields.
+    - Target players with lasers.
+  </Card>
+</CardGrid>
+
+Managing environmental hazards like active mines is another critical skill. If a mine is already armed, walking directly over it will cause an explosion. You can bypass this hazard by using the slow-walk modifier and disarming the device manually.
+
+| Action | Input Command | Resulting Effect | Tactical Use |
+| --- | --- | --- | --- |
+| Light Strike | Quick tap | Knocks opponent down | Interrupts enemy swings |
+| Charged Swing | Hold and release | Launches enemy away | Pushes players into hazards |
+| Slow Walk | Hold Alt | Reduces movement speed | Safe navigation near mines |
+| Disarm Mine | Press E while slow walking | Disarms and collects mine | Steals enemy explosives |
+
+<Callout type="warning" title="Drowning Penalty">
+Falling into water hazards resets your character position and adds penalty strokes to your score. Always check your surroundings before charging a swing, as opponents will try to knock you off the edge.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Item Optimization and Steps to Victory">
+
+The map is filled with interactive items ranging from defensive shields to destructive orbital lasers. Understanding when to deploy these items can turn the tide of a match. For instance, the golf cart provides rapid transportation across large maps, while the shield blocks incoming projectiles and club strikes.
+
+To maximize your efficiency during a match, follow these structured steps:
+
+<Steps>
+  <Step num="1" title="Lobby Preparation">
+    Adjust item probabilities in the pregame lobby to suit your playstyle. Focus on high-value weapons if you prefer combat-heavy matches.
+  </Step>
+  <Step num="2" title="Opening Drive">
+    Execute a clean chip shot to get your ball onto the fairway. Immediately run toward the ball, striking any nearby opponents to build up your speed boost.
+  </Step>
+  <Step num="3" title="Item Collection">
+    Identify nearby item boxes. Collect shields for protection or orbital lasers to target players who have taken an early lead.
+  </Step>
+  <Step num="4" title="The Final Putt">
+    Approach the green cautiously. If opponents are nearby, use a quick club strike to clear the area before attempting your final putt.
+  </Step>
+</Steps>
+
+| Item Name | Primary Function | Counter Strategy | Utility Rating |
+| --- | --- | --- | --- |
+| Golf Cart | Rapid map traversal | Place mines in path | High |
+| Shield | Blocks attacks | Wait for duration to expire | Medium |
+| Orbital Laser | Heavy area damage | Move out of target zone | Maximum |
+| Explosive Mine | Area denial | Slow walk and disarm | High |
+
+<Callout type="info" title="Looting Tip">
+When you sink your ball to finish a round, your character becomes stationary. However, if you manage to finish the round while standing directly on an item box, your character will continue to automatically collect items until your inventory is completely full for the next round.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lobby Customization and Progression">
+
+The game offers robust hosting features that allow you to customize matches to your liking. As a lobby host, you can adjust the spawn rates of specific items. If you prefer a chaotic match, you can set the probability of high-tier items like orbital lasers to maximum.
+
+Currently, the game does not support saving multiple custom presets, meaning you must manually adjust these settings before each match. Hosting your own lobby also allows you to manage the lobby environment and kick disruptive or toxic players to maintain a positive match atmosphere.
+
+<Checklist
+  id="progression-goals"
+  title="Match Performance Goals:"
+  items={[
+    "Finish in the top three positions",
+    "Successfully disarm three enemy mines",
+    "Land a homing shot on a moving target",
+    "Max out your inventory at the end of a round"
+  ]}
+/>
+
+Participating in matches rewards you with currency based on your performance. This money can be spent in the customization menu to purchase cosmetic upgrades, outfits, and unique accessories for your character.
+
+<Callout type="tip" title="Host Authority">
+If you encounter uncooperative players in public matches, hosting your own custom lobby is the most effective way to ensure a fair and enjoyable gameplay experience.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Use this section to quickly resolve common queries regarding match strategies, controls, and lobby management.
+
+<FAQ items={[
+  {
+    question: "How do I earn the most points in a round?",
+    answer: "You must balance speed and stroke efficiency. Reaching the cup first awards placement points, while using fewer swings grants a significant stroke bonus."
+  },
+  {
+    question: "What is the best way to handle armed mines?",
+    answer: "Do not run over them. Hold the Alt key to slow walk toward the mine, then press E to safely disarm and add it to your inventory."
+  },
+  {
+    question: "How do I trigger a homing shot in Super Battle Golf?",
+    answer: "Fill your energy bar to maximum, then lock onto your target. You can use this to target the hole or detonate mines remotely."
+  },
+  {
+    question: "Can I save my custom lobby presets?",
+    answer: "The game does not support saving multiple custom presets. You must configure item probabilities manually before starting a new lobby."
+  }
+]} />
+
+</Section>

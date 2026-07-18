@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf no Steam: Guia de Gameplay e Configuração de 2026",
+  description: "Domine a fusão caótica de golfe e corrida em Super Battle Golf no Steam. Aprenda mecânicas de tacada, estratégias de itens e dicas de configuração de lobby.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Super+Battle+Golf+Steam+Guide",
+  date: "2026-07-18",
+  author: "Equipe do Wiki do Super Battle Golf"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Gameplay principal**: Experimente uma fusão caótica de golfe e corrida em Super Battle Golf no Steam com até oito jogadores.
+- **Melhor contagem de jogadores**: Jogue em lobbies de oito jogadores para equilibrar itens raros de recuperação e evitar vitórias fáceis dos líderes.
+- **Mecânicas de tacada**: Evite sobrecarregar suas tacadas para prevenir curvas severas e desvios em tacadas de longa distância (chips).
+- **Sistema de cosméticos**: Ganhe moedas para desbloquear chapéus engraçados, tacos personalizados e danças de vitória no Golf House.
+</Callout>
+
+<Section icon={Map} title="Super Battle Golf no Steam: Visão Geral de Multiplayer e Gameplay">
+
+Lançado no cenário multiplayer, Super Battle Golf no Steam oferece uma experiência de festa incrivelmente rápida e inspirada em arcade, que combina perfeitamente mecânicas tradicionais de golfe com corridas de kart repletas de combate. Em vez de jogarem em turnos lentos e metódicos, os jogadores correm simultaneamente em tempo real por ambientes vibrantes, batendo em suas bolas, utilizando power-ups caóticos e derrubando fisicamente os oponentes para chegar primeiro ao buraco. Esse ciclo único evoca o charme nostálgico dos clássicos jogos de festa da era do Dreamcast, priorizando a diversão baseada em física, tempos de partida rápidos e interações hilárias entre os jogadores, em vez de uma simulação monótona.
+
+**Destaques em Vídeo:**
+- **O Ponto Ideal de Oito Jogadores**: Embora as partidas de quatro jogadores sejam altamente divertidas, o equilíbrio caótico dos itens realmente brilha com um lobby cheio de oito jogadores.
+- **Netcode Peer-to-Peer Fluido**: Hospedar partidas é incrivelmente simples, apresentando uma estabilidade de conexão robusta mesmo ao misturar amigos locais com jogadores públicos.
+- **Estética Nostálgica do Dreamcast**: O jogo apresenta um estilo de arte colorido, designs de personagens excêntricos e uma trilha sonora chiptune cativante que lembra os clássicos retrô.
+
+<YouTubeEmbed videoId="NZWY2_1ur6U" title="Super Battle Golf | Vale o seu tempo e dinheiro (Visão Geral)" />
+
+Para aproveitar ao máximo as suas sessões, entender como os mapas e as configurações de lobby funcionam é essencial. O jogo apresenta três biomas distintos, cada um contendo nove buracos únicos, totalizando 27 mapas. As partidas são altamente personalizáveis, permitindo que os hosts configurem rodadas rápidas de nove buracos ou enfrentem a maratona inteira de 27 buracos.
+
+| Nome do Bioma | Número de Buracos | Estilo do Ambiente | Duração Típica da Partida |
+| :--- | :--- | :--- | :--- |
+| Grassland Hills | 9 | Colinas verdes brilhantes, fairways padrão | 10 a 15 minutos |
+| Desert Oasis | 9 | Obstáculos de areia, caminhos estreitos, cânions | 12 a 18 minutos |
+| Volcanic Ruins | 9 | Perigos de lava, plataformas verticais, portais | 15 a 22 minutos |
+
+<Callout type="tip" title="Estratégia de Configuração de Lobby">
+Se você tiver dificuldades para reunir sete amigos para uma sessão completa, hospede um lobby privado com seu grupo principal e abra as vagas restantes para o público. Jogadores aleatórios costumam entrar rapidamente, preenchendo o lobby até a capacidade ideal de os oito jogadores sem problemas de conexão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando a Tacada: Física e Controles">
+
+Navegar pelos campos neste jogo exige uma sólida compreensão de sua física arcade e layout de controles. Ao contrário dos jogos de golfe tradicionais com cálculos complexos de vento e seleções de tacos, este título simplifica a fórmula para manter a ação rápida. Você controla seu personagem em uma perspectiva de terceira pessoa, correndo até sua bola e alinhando as tacadas usando um medidor de força dinâmico. A precisão é fundamental, pois errar o tempo da sua tacada pode enviar sua bola para fora dos limites, forçando um respawn caro no último checkpoint desbloqueado.
+
+<Steps>
+  <Step num="1" title="Posicionamento e Mira">
+    Corra até a sua bola estacionária e segure o botão direito do mouse para travar a perspectiva da câmera. Use a roda do mouse ou as teclas de atalho do teclado para ajustar o ângulo de lançamento de 0 a 45 graus.
+  </Step>
+  <Step num="2" title="Tempo do Medidor de Força">
+    Segure o botão de tacada para carregar a barra de força. Solte exatamente no pico para obter a distância máxima. Tenha cuidado para não sobrecarregar, pois isso faz com que a bola desvie descontroladamente (slice).
+  </Step>
+  <Step num="3" title="Corrida e Locomoção">
+    Assim que a bola estiver no ar, corra imediatamente atrás dela. Use sua habilidade de pulo para navegar por plataformas, atalhos e perigos enquanto fica de olho nos oponentes ao redor.
+  </Step>
+  <Step num="4" title="Dando a Tacada Final (Putting) no Green">
+    Quando chegar ao green, reduza seu ângulo para 0 graus. Use toques suaves no medidor de força para deslizar a bola suavemente para dentro do buraco antes que o cronômetro de morte expire.
+  </Step>
+</Steps>
+
+Entender como os ângulos de tacada afetam a trajetória da bola é crucial para pegar atalhos. Embora um ângulo de 45 graus seja ideal para superar abismos massivos, ângulos mais baixos são perfeitos para manter a bola baixa sob obstáculos ou rolando ao longo de fairways planos.
+
+| Ângulo da Tacada | Caso de Uso Principal | Alcance Máximo | Nível de Precisão |
+| :--- | :--- | :--- | :--- |
+| 45 Graus | Superar grandes abismos, tacadas de aproximação de longa distância (chips) | Excelente | Moderado |
+| 30 Graus | Progressão de fairway de médio alcance, contornando arcos baixos | Bom | Alto |
+| 15 Graus | Aproximações de curto alcance, navegando por túneis estreitos | Moderado | Muito Alto |
+| 0 Graus | Tacada final (putting) no green, rolando por obstáculos de curto alcance | Baixo | Altíssima |
+
+<Callout type="warning" title="Penalidade de Sobrecarga">
+Sobrecarregar o medidor de tacada além do limite máximo não concede distância extra. Em vez disso, introduz uma curva ou desvio severo na sua trajetória, frequentemente enviando sua bola diretamente para obstáculos de água ou para fora do mapa. Mantenha seus níveis de força sob controle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gerenciamento do Caos: Guia de Itens e Armas">
+
+Assim como nos jogos de corrida de kart clássicos, o equilíbrio competitivo deste jogo depende muito de caixas de itens espalhadas por cada fairway. Pegar essas caixas equipa você com armas ofensivas poderosas, melhorias de mobilidade ou armadilhas defensivas. Usar essas ferramentas no momento certo pode virar o jogo de uma partida, permitindo que os jogadores que estão atrás alcancem os outros ou ajudando os líderes a garantirem sua liderança. No entanto, as mecânicas de itens funcionam de maneira diferente aqui porque não há voltas; os jogadores correm de forma linear, do ponto de partida (tee) até o buraco final.
+
+<CardGrid cols={3}>
+  <Card title="Power-Ups Ofensivos">
+    - **Lançadores de Foguetes**: Trave a mira nos jogadores à frente para interromper suas tacadas.
+    - **Lasers Orbitais**: Ataques extremamente raros que limpam grandes grupos.
+    - **Buzinas de Ar**: Ative perto de oponentes para forçar tacadas prematuras e desviadas.
+  </Card>
+  <Card title="Melhorias de Mobilidade">
+    - **Garrafa Térmica de Café**: Concede um aumento temporário massivo na velocidade de corrida.
+    - **Botas de Pulo**: Permitem que os jogadores deem pulos duplos sobre obstáculos e paredes.
+    - **Carrinhos de Golfe**: Invocação de veículo que permite que vários jogadores andem juntos.
+  </Card>
+  <Card title="Armadilhas Táticas">
+    - **Minas Terrestres**: Colocadas em caminhos estreitos para explodir golfistas que estão perseguindo.
+    - **Bloqueio Corporal**: Correr fisicamente contra as bolas dos oponentes para redirecioná-las.
+    - **Tacadas de Taco**: Ataques corpo a corpo para derrubar rivais e ganhar velocidade.
+  </Card>
+</CardGrid>
+
+Devido à natureza linear dos percursos, alguns itens podem parecer incrivelmente poderosos nas mãos do líder. For exemplo, colocar minas terrestres em pontes estreitas torna muito difícil para os jogadores que estão atrás alcançarem. Jogar com um lobby completo de oito jogadores ajuda a mitigar esse problema, pois os jogadores que estão atrás têm maior probabilidade de conseguir itens de recuperação de alto nível, como foguetes guiados ou ataques orbitais.
+
+| Nome do Item | Tipo de Item | Efeito Principal | Valor Estratégico |
+| :--- | :--- | :--- | :--- |
+| Lançador de Foguetes | Ofensivo | Míssil guiado que derruba o alvo | Alto |
+| Garrafa Térmica de Café | Mobilidade | Corrida rápida para alcançar os outros | Muito Alto |
+| Mina Terrestre | Armadilha | Explode ao ser pisada, bloqueando caminhos | Moderado |
+| Buzina de Ar | Disruptivo | Interrompe o tempo de tacada de jogadores próximos | Alto |
+| Carrinho de Golfe | Veículo | Transporte rápido de grupo por fairways amplos | Moderado |
+
+<Callout type="info" title="A Mecânica de Rancor">
+Não hesite em mirar em rivais específicos que atrapalharam você no início da partida. Embora atirar no líder seja a estratégia ideal para vencer, resolver rivalidades pessoais com tacadas de taco corpo a corpo ou ataques de foguete é uma parte enorme da diversão social do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas e Progressão do Golf House">
+
+Depois de completar uma partida caótica de nove buracos, os jogadores retornam ao Golf House, um lobby interativo de exploração livre onde você pode socializar, exibir seus equipamentos e comprar novos itens cosméticos. O jogo utiliza um sistema de progressão totalmente focado em cosméticos, evitando mecânicas de "pagar para vencer" (pay-to-win) ou equipamentos que aumentam atributos. Isso garante que todos os jogadores permaneçam em igualdade de condições, com as vitórias sendo determinadas puramente por habilidade, tempo de reação e uso inteligente de itens.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos Essenciais de Progressão:"
+  items={[
+    "Ganhar 500 moedas de ouro em partidas multiplayer",
+    "Desbloquear a cabeça de personagem alienígena por meio de conquistas",
+    "Comprar uma skin de taco de golfe personalizada na loja",
+    "Equipar uma dança de vitória personalizada para exibir no buraco"
+  ]}
+/>
+
+As moedas são ganhas ao participar de partidas, com bônus concedidos por tempos de conclusão rápidos, baixo número de tacadas e derrubadas bem-sucedidas de oponentes. Muitos dos cosméticos mais prestigiados, como cabeças de personagens exclusivas ou tacos de golfe brilhantes, estão bloqueados atrás de conquistas específicas no jogo antes de poderem ser comprados com moedas.
+
+| Categoria de Cosmético | Custo Médio em Moedas | Requisito de Desbloqueio | Impacto na Personalização |
+| :--- | :--- | :--- | :--- |
+| Cabeças de Personagem | 150 a 300 | Conquistas ou compra direta | Alta mudança visual |
+| Tacos de Golfe | 100 a 250 | Concluir rodadas em biomas específicos | Média mudança visual |
+| Danças de Vitória | 200 a 400 | Vencer um número definido de partidas | Alto impacto social |
+| Chapéus e Roupas | 50 a 150 | Rotação padrão da loja | Média mudança visual |
+
+<Callout type="success" title="Caça às Conquistas">
+Priorize o desbloqueio de conquistas logo no início do seu tempo de jogo. Os cosméticos bloqueados por conquistas costumam apresentar os designs mais legais do jogo, incluindo rostos alienígenas bizarros, cabeças monstruosas de um só olho e roupas altamente estilizadas que fazem seu personagem se destacar em lobbies cheios.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes do Super Battle Golf no Steam">
+
+Para ajudar você a começar sua jornada no golfe, reunimos respostas para as perguntas mais comuns sobre as mecânicas de partida, configuração e recursos multiplayer.
+
+<FAQ items={[
+  {
+    question: "Como funciona o sistema de pontuação no Super Battle Golf no Steam?",
+    answer: "O sistema de pontuação combina a velocidade da corrida e as tacadas de golfe tradicionais. Os pontos são concedidos com base na rapidez com que você encaçapa sua bola, no seu número total de tacadas em comparação com o par e em ações bônus, como derrubar oponentes com armas ou tacos de golfe."
+  },
+  {
+    question: "O que acontece quando o primeiro jogador encaçapa a bola?",
+    answer: "Encaçapar a bola em primeiro lugar ativa um cronômetro de morte de 20 a 30 segundos para todos os outros jogadores. Quem não conseguir encaçapar a bola antes que essa contagem regressiva chegue a zero recebe zero pontos por aquele buraco, criando um pânico imenso no green."
+  },
+  {
+    question: "É possível bloquear fisicamente as tacadas de outros jogadores?",
+    answer: "Sim. Você pode correr fisicamente contra a bola em movimento de um oponente para interceptá-la ou redirecioná-la. Esta é uma tática defensiva altamente eficaz perto do buraco, permitindo que você chute a bola dele para longe ou bloqueie uma tacada potencialmente vencedora."
+  },
+  {
+    question: "Existe um modo para um jogador disponível?",
+    answer: "Embora você possa explorar os mapas sozinho para praticar suas tacadas e aprender atalhos, o jogo foi projetado principalmente como uma experiência multiplayer. Ele é melhor aproveitado em lobbies de quatro a oito jogadores."
+  }
+]} />
+
+<Callout type="info" title="Desempenho Técnico">
+O jogo roda de forma excepcionalmente suave no Steam com requisitos mínimos de sistema. Como as partidas são hospedadas pelos próprios jogadores (peer-hosted), certifique-se de que o jogador com a conexão de internet mais estável hospede o lobby para garantir uma experiência sem lag para todos os participantes.
+</Callout>
+
+</Section>

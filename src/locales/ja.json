@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "ガイド",
+    "updates": "アップデート",
+    "platforms": "プラットフォーム",
+    "multiplayer": "マルチプレイ",
+    "achievements": "実績",
+    "cosmetics": "コスメ",
+    "maps": "マップ"
+  }
+}

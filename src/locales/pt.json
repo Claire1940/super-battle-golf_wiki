@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guia",
+    "updates": "Atualizações",
+    "platforms": "Plataformas",
+    "multiplayer": "Multijogador",
+    "achievements": "Conquistas",
+    "cosmetics": "Cosméticos",
+    "maps": "Mapas"
+  }
+}

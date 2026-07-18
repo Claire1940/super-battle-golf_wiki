@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileCode, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Custom Maps: Step-by-Step Creation Guide",
+  description: "Learn how to create, export, and install super battle golf custom maps using Unity and asset bundles with our professional 2026 guide.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Maps+Guide",
+  date: "2026-07-18",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Unity Export**: Use the specific Unity project template to build asset bundles for **super battle golf custom maps**.
+- **Bundle Naming**: Always use the `Username.PackName` format to prevent file conflicts in the mod folder.
+- **JSON Config**: Every map pack requires a matching JSON file to define hole names, par ratings, and difficulty.
+- **File Structure**: Place exported bundles in the `Weapon X/plugins/Super Battle maps/maps/` directory.
+- **Multiplayer**: Custom maps are fully compatible with multiplayer modes if all players have the same files installed.
+</Callout>
+
+<Section icon={Settings} title="Getting Started with Custom Mapping">
+
+Creating **super battle golf custom maps** allows players to move beyond the base game content and design unique challenges. The process involves using the Unity engine to construct levels and then exporting them as asset bundles that the game's modding framework can recognize. Before you begin, ensure you have the correct version of the Unity project template downloaded, as this contains the necessary scripts for the build pipeline.
+
+| Requirement | Description | Recommendation |
+| :--- | :--- | :--- |
+| **Unity Version** | Specific version matching the game build | Check official Discord for current version |
+| **Project Template** | Exported Unity project for Super Battle Golf | Essential for the build script |
+| **Asset Bundles** | Format used to package 3D scenes | Must be built via the custom menu |
+| **JSON Knowledge** | Basic text editing for map metadata | Required for hole definitions |
+
+<Callout type="tip" title="Project Organization">
+Keep your Unity project organized by placing all your custom scenes in a dedicated folder under `Assets/Scenes/Holes/CustomHoles/`. This makes it significantly easier to manage multiple map packs as your library grows.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exporting Your Maps from Unity">
+
+The export process is the most technical part of creating **super battle golf custom maps**. You must distinguish between scene bundles and asset bundles. A scene bundle contains the actual level layout (the hole), while an asset bundle contains custom 3D models or textures you have imported into the project.
+
+**Video Highlights:**
+- **Bundle Naming**: How to use the `username.packname` naming convention.
+- **Build Console**: Using the `B:` command to verify bundle contents.
+- **Export Pipeline**: Navigating the build menu to generate the final files.
+- **Multi-Scene Packs**: Adding multiple holes into a single asset bundle.
+
+<YouTubeEmbed videoId="7mkmXowrSlY" title="Super Battle Golf Custom Maps - Exporting Your Maps" />
+
+<Callout type="warning" title="Asset Bundle Restriction">
+You cannot mix scenes and other assets (like textures or models) in the same bundle. If you use custom objects that are not in the base game, you must create a separate bundle (e.g., `username.assets`) and reference it accordingly.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Clear Asset Bundles">
+    Before building, go to the Build menu in Unity and select "Clear All Asset Bundle Names." This ensures no old data interferes with your new export.
+  </Step>
+  <Step num="2" title="Assign Bundle Names">
+    Select your scene file in the Project window. In the Inspector (bottom right), create a new Asset Bundle name. Use the format `YourName.MapName`.
+  </Step>
+  <Step num="3" title="Build the Bundles">
+    Navigate to the "Build" menu and select "Build Asset Bundles." This process can take 1-2 minutes per scene depending on your hardware.
+  </Step>
+  <Step num="4" title="Locate Exported Files">
+    Open your project folder in Windows Explorer and navigate to `Assets/Bundles`. You only need the file with no extension (ignore the `.manifest` files).
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={FileCode} title="Directory Setup and File Management">
+
+Once you have exported your **super battle golf custom maps**, you must place them in the correct game directory. The game looks for custom content within the Weapon X plugin structure. Incorrect placement will result in the maps not appearing in the "Custom Holes" tab in-game.
+
+| Folder Level | Path Component | Purpose |
+| :--- | :--- | :--- |
+| **Root** | `Super Battle Golf/` | Main game installation folder |
+| **Plugin Path** | `Weapon X/plugins/` | Location for all mod-related data |
+| **Map Storage** | `Super Battle maps/maps/` | The specific directory for custom levels |
+| **Your Pack** | `15_cool_maps/` (Example) | A unique folder for your specific map pack |
+
+<CardGrid cols={2}>
+  <Card title="Bundle Files">
+    - The raw file exported from Unity.
+    - Contains the 3D geometry and logic.
+    - No file extension required.
+  </Card>
+  <Card title="JSON Files">
+    - The metadata file for the game.
+    - Defines par, difficulty, and name.
+    - Must be named correctly to match the bundle.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Expert Tip">
+If you are sharing maps with friends for multiplayer, ensure everyone uses the exact same folder names. The game identifies maps based on their internal scene names and the folder structure.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuring the JSON Metadata">
+
+The JSON file acts as the "ID Card" for your **super battle golf custom maps**. Without a properly configured JSON, the game will not know how to display your map in the menu or what the scoring rules are. You can copy the `example.json` provided in the mod folder and edit it with any text editor like Notepad++.
+
+| JSON Key | Value Type | Description |
+| :--- | :--- | :--- |
+| **sceneName** | String | Must match the exact name of the scene in Unity |
+| **holeName** | String | The name displayed to players in the menu |
+| **par** | Integer | The standard number of strokes for the hole |
+| **difficulty** | String | Easy, Medium, Hard, or Expert |
+| **enabled** | Boolean | Must be set to `true` to show up in-game |
+
+<Callout type="success" title="Multi-Hole Support">
+To add multiple holes to one pack, simply add a comma after the closing bracket of the first hole entry and paste a new set of brackets with the second hole's data.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimization and Quality Assurance">
+
+Creating a functional map is only the first step; ensuring it plays well is vital for community adoption. **super battle golf custom maps** should be tested locally before being shared. Pay close attention to collision zones and out-of-bounds triggers, as these are the most common points of failure in custom creations.
+
+<Checklist
+  id="map-qa-check"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify the scene name in JSON matches the Unity scene name exactly",
+    "Ensure 'enabled' is set to true in the configuration file",
+    "Test the par rating to ensure it is fair but challenging",
+    "Check for missing textures or 'pink' shaders in-game",
+    "Confirm the map loads in the 'Custom Holes' tab"
+  ]}
+/>
+
+<Callout type="warning" title="Broken Elements">
+Some features in the modding framework may still be in development. If certain interactive objects fail to work, it is likely a limitation of the current mod version rather than your map design.
+</Callout>
+
+| Difficulty Level | Suggested Par | Feature Focus |
+| :--- | :--- | :--- |
+| **Easy** | 3 | Wide fairways, no water hazards |
+| **Medium** | 4 | Some obstacles, minor elevation changes |
+| **Hard** | 4-5 | Tight corridors, moving platforms |
+| **Expert** | 5+ | High precision required, heavy hazards |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why aren't my super battle golf custom maps appearing in the menu?",
+    answer: "Most commonly, this is due to the 'enabled' field in your JSON file being set to 'false'. Also, ensure the JSON file is named correctly and the scene name matches your Unity project exactly."
+  },
+  {
+    question: "Can I use custom 3D models in my maps?",
+    answer: "Yes, but you must export them as a separate asset bundle. You cannot mix scenes and individual assets in the same bundle file."
+  },
+  {
+    question: "Does multiplayer work with custom maps?",
+    answer: "Yes, multiplayer is fully functional. However, every player in the lobby must have the exact same map pack and folder structure installed for the game to sync correctly."
+  },
+  {
+    question: "How do I update a map I've already exported?",
+    answer: "Re-export the bundle from Unity with the same name, replace the old file in your maps folder, and restart the game. You do not need to change the JSON unless the scene name changed."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, Settings, Gamepad } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Local Multiplayer: 2026 Setup Guide & Tips",
+  description: "Master Super Battle Golf local multiplayer with our 2026 guide. Learn OBS split-screen setups, controller mapping, and competitive battle strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-18",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Requirement**: Ensure you have at least two compatible **game controllers** for the best local experience.
+- **Setup Method**: Use the **OBS 4-screen split** technique for advanced layouts or standard in-game split-screen.
+- **Competitive Edge**: Focus on **power-up management** rather than just pure accuracy to win in battle mode.
+- **Optimization**: Set your refresh rate to at least **60Hz** to avoid input lag during high-speed golf brawls.
+- **Top Strategy**: Use the **Bomb Ball** power-up near the hole to displace opponents in local 1v1 matches.
+</Callout>
+
+<Section icon={Gamepad} title="Introduction to Super Battle Golf Local Multiplayer">
+
+Super Battle Golf has redefined the traditional sports genre by injecting high-octane combat mechanics into the classic game of golf. While online play is robust, the **super battle golf local multiplayer** experience remains the gold standard for competitive couch gaming in 2026. This mode allows players to compete side-by-side, reacting in real-time to every missed putt and every explosive power-up. Whether you are setting up a casual weekend tournament or a high-stakes local brawl, understanding the technical nuances of the local interface is crucial for a seamless experience.
+
+**Video Highlights:**
+- Demonstrating the **2-player multiplayer** dynamic in a live environment.
+- Showcasing the **4-screen OBS split** layout for professional-grade local streaming.
+- Visual breakdown of real-time ball physics and player interactions.
+- Examples of how to manage multiple inputs on a single PC setup.
+
+<YouTubeEmbed videoId="k800DyiQ21w" title="Super Battle Golf - 2 Player Multiplayer 4-Screen OBS Split!" />
+
+<Callout type="tip" title="Pro Tip">
+When playing locally, disable "Background Tasks" in your OS to ensure that input polling for multiple controllers remains consistent and lag-free.
+</Callout>
+
+The beauty of local play lies in the immediate feedback loop. Unlike online matches where latency can occasionally disrupt a frame-perfect swing, local play offers 0ms input delay when configured correctly. This guide will walk you through the hardware requirements, the software configurations for advanced layouts, and the strategies needed to dominate your friends on the green.
+
+</Section>
+
+<Section icon={Monitor} title="Hardware and Software Requirements">
+
+Before diving into the chaos of battle golf, you must ensure your rig is capable of handling multiple local instances or a split-screen render. In 2026, the performance overhead for local multiplayer has increased due to enhanced physics engines and high-fidelity textures.
+
+| Component | Minimum Requirement | Recommended for 4-Player |
+| :--- | :--- | :--- |
+| **Processor** | Quad-core 3.0GHz | Octa-core 4.2GHz+ |
+| **Memory** | 8GB DDR4 | 16GB DDR5 |
+| **Graphics** | GTX 1650 or equivalent | RTX 3070 or higher |
+| **Controllers** | XInput Compatible | 4x Wireless Xbox/PS5 Pads |
+| **Display** | 1080p 60Hz | 4K 144Hz Ultra-Wide |
+
+<Callout type="warning" title="Input Conflict Warning">
+Avoid mixing DirectInput and XInput controllers in the same session, as this can cause "Ghost Inputs" where one controller affects both players. Stick to one standard for all connected devices.
+</Callout>
+
+Beyond the internal specs, the choice of display is vital. Since **super battle golf local multiplayer** often utilizes vertical or horizontal splits, an Ultra-Wide monitor (21:9 or 32:9) provides significantly more screen real estate for each player, preventing the "claustrophobic" feeling of traditional 16:9 split-screen.
+
+| Software Tool | Purpose | 2026 Stability Rating |
+| :--- | :--- | :--- |
+| **OBS Studio** | Advanced split-screen layouts | ★★★★★ |
+| **DS4Windows** | PS4/PS5 Controller mapping | ★★★★☆ |
+| **Steam Input** | Universal controller support | ★★★★★ |
+| **JoyToKey** | Mapping keys to legacy pads | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Settings} title="Advanced Setup: OBS 4-Screen Split Configuration">
+
+As highlighted in recent community setups, using OBS Studio to manage your **super battle golf local multiplayer** layout can provide a much cleaner interface than the default in-game options. This is particularly useful for streamers or those using multiple monitors.
+
+<Steps>
+  <Step num="1" title="Launch Multiple Instances">
+    Open the game in windowed mode. If the game supports multiple local profiles, ensure each is assigned to a specific controller via the Steam Input settings.
+  </Step>
+  <Step num="2" title="Source Capture in OBS">
+    Create a new Scene in OBS. Add a 'Window Capture' source for each player's view. If the game uses a single window for split-screen, you will capture the same window multiple times.
+  </Step>
+  <Step num="3" title="Apply Cropping Filters">
+    Right-click on a source, go to 'Filters', and add a 'Crop/Pad' filter. Adjust the margins so that only Player 1's quadrant is visible for the first source, Player 2's for the second, and so on.
+  </Step>
+  <Step num="4" title="Layout Arrangement">
+    Resize and snap each cropped source into a 2x2 grid. This allows you to add custom overlays, player names, and facecams between the gameplay windows without obscuring the action.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Streamer Advantage">
+Using the OBS method allows you to output a "clean" feed to your friends' monitors while keeping a "detailed" feed with stats and chat on your primary screen.
+</Callout>
+
+This setup is the preferred method for local tournaments. It ensures that every player has a consistent UI scale, which can sometimes get distorted in native ultra-wide split-screen modes.
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer Modes and Playstyles">
+
+Super Battle Golf offers several ways to engage in local play. Choosing the right mode depends on the skill level of your group and how much "chaos" you want to endure.
+
+<CardGrid cols={3}>
+  <Card title="Classic Stroke Play">
+    - **Focus**: Lowest score wins.
+    - **Combat**: Disabled or minimal.
+    - **Best for**: Purists and beginners.
+  </Card>
+  <Card title="Battle Royale Mode">
+    - **Focus**: Survival and sabotage.
+    - **Combat**: High-intensity power-ups.
+    - **Best for**: Competitive groups.
+  </Card>
+  <Card title="Speed Golf">
+    - **Focus**: Finishing the hole fastest.
+    - **Combat**: Physical bumping allowed.
+    - **Best for**: High-energy sessions.
+  </Card>
+</CardGrid>
+
+In **super battle golf local multiplayer**, the "Battle Royale" mode is where the game truly shines. Unlike traditional golf, you can actively interfere with an opponent's trajectory. Understanding the power-up meta is essential.
+
+| Power-Up | Effect in Local Play | Strategic Value |
+| :--- | :--- | :--- |
+| **Ice Ball** | Freezes opponent's ball in place | High (Defense) |
+| **Magnet** | Pulls nearby balls toward yours | Medium (Utility) |
+| **Turbo Boost** | Increases roll distance significantly | High (Offense) |
+| **Smoke Screen** | Obscures the opponent's UI/Path | Very High (Sabotage) |
+| **Heavy Weight** | Makes ball immune to wind/pushes | Medium (Stability) |
+
+<Callout type="info" title="Mechanic Note">
+Power-ups in local play are shared from a global pool. If Player 1 picks up a Magnet, it is removed from the field for all other players until the next respawn cycle.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Winning Strategies for Local Brawls">
+
+To consistently win in **super battle golf local multiplayer**, you must move beyond the "swing and hope" mentality. Local play allows you to see your opponent's screen (often called "screen peeking"), which you should use to your advantage to time your sabotages.
+
+**Key Tactical Considerations:**
+- **The "Wait and See" Approach**: In battle mode, going first isn't always best. Let your opponent shoot, then use a displacement power-up to ruin their positioning.
+- **Stamina Management**: Running between shots in Speed Golf consumes stamina. Keep an eye on your local rival's bar; if they are empty, that is your time to sprint.
+- **Environmental Hazards**: Local maps in 2026 feature dynamic hazards like lava flows or moving platforms. Use the "Push" mechanic to shove opponents into these zones.
+
+| Map Type | Hazard Level | Recommended Strategy |
+| :--- | :--- | :--- |
+| **Emerald Grove** | Low | Focus on precision and birdy streaks. |
+| **Volcano Vault** | Extreme | Stay away from edges; use Heavy Weight ball. |
+| **Cyber Circuit** | Medium | Use speed pads to bypass long fairways. |
+| **Desert Dunes** | High | Manage sand trap penalties; use Loft shots. |
+
+<Callout type="tip" title="Mastering the Loft">
+High-loft shots are harder for opponents to intercept with projectiles. If you see a rival holding a Bomb power-up, aim for a higher arc to stay out of the blast radius.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Local Multiplayer Checklist">
+
+Before you start your 2026 championship season, run through this checklist to ensure everything is optimized for peak performance.
+
+<Checklist
+  id="local-multiplayer-prep"
+  title="Pre-Game Optimization:"
+  items={[
+    "Verify all controllers are calibrated in Steam/OS settings.",
+    "Set 'Screen Split' orientation (Vertical is usually better for 16:9).",
+    "Enable 'Instant Replay' to capture hilarious local fails.",
+    "Adjust audio levels so 'Player 1' and 'Player 2' sound effects are balanced.",
+    "Check for 2026 firmware updates for wireless gamepads."
+  ]}
+/>
+
+<Callout type="success" title="Final Setup Tip">
+If you are playing on a TV, ensure "Game Mode" is enabled to minimize the display lag that can ruin a timed power-up activation.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Super Battle Golf Local Play">
+
+<FAQ items={[
+  {
+    question: "How many players can play super battle golf local multiplayer on one PC?",
+    answer: "Most versions of the game in 2026 support up to 4 players locally on a single machine, provided you have enough USB ports or a high-quality Bluetooth adapter for controllers."
+  },
+  {
+    question: "Does the game support mixed inputs (Keyboard + Controller)?",
+    answer: "Yes, but it is not recommended. The keyboard player often has a slight advantage in menu navigation but a disadvantage in analog swing precision compared to controller users."
+  },
+  {
+    question: "Can I use Steam Remote Play Together for local multiplayer?",
+    answer: "Absolutely. This allows you to play the local multiplayer mode with friends online. Only the host needs to own the game, making it a cost-effective way to play with a group."
+  },
+  {
+    question: "What is the best split-screen setting for a 16:9 monitor?",
+    answer: "For 2 players, a vertical split is often preferred as it preserves the height needed to see the arc of the golf ball. For 4 players, a standard quadrant (2x2) is the only viable option."
+  }
+]} />
+
+</Section>

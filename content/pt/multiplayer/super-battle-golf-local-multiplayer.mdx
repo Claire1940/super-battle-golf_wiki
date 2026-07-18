@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, Settings, Gamepad } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Multiplayer Local: Guia de Configuração e Dicas para 2026",
+  description: "Domine o multiplayer local de Super Battle Golf com nosso guia de 2026. Aprenda configurações de tela dividida no OBS, mapeamento de controles e estratégias de batalha competitivas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki do Super Battle Golf",
+  keywords: "super battle golf, multiplayer local, configuração 2026, tela dividida OBS, dicas de batalha"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisito Essencial**: Certifique-se de ter pelo menos dois **controles de jogo** compatíveis para a melhor experiência local.
+- **Método de Configuração**: Use a técnica de **divisão de 4 telas no OBS** para layouts avançados ou a tela dividida padrão do jogo.
+- **Vantagem Competitiva**: Foque no **gerenciamento de power-ups** em vez de apenas precisão pura para vencer no modo de batalha.
+- **Otimização**: Defina sua taxa de atualização para pelo menos **60Hz** para evitar atrasos de comando (input lag) durante os combates intensos de golfe.
+- **Melhor Estratégia**: Use o power-up da **Bola Bomba** perto do buraco para deslocar os oponentes em partidas locais de 1v1.
+</Callout>
+
+<Section icon={Gamepad} title="Introdução ao Multiplayer Local de Super Battle Golf">
+
+Super Battle Golf redefiniu o gênero esportivo tradicional ao injetar mecânicas de combate de alta octanagem no clássico jogo de golfe. Embora o jogo online seja robusto, a experiência do **multiplayer local de Super Battle Golf** continua sendo o padrão de ouro para jogos competitivos de sofá em 2026. Este modo permite que os jogadores compitam lado a lado, reagindo em tempo real a cada tacada perdida e a cada power-up explosivo. Quer você esteja organizando um torneio casual de fim de semana ou um combate local de alto nível, entender as nuances técnicas da interface local é crucial para uma experiência perfeita.
+
+**Destaques do Vídeo:**
+- Demonstração da dinâmica de **multiplayer para 2 jogadores** em um ambiente ao vivo.
+- Apresentação do layout de **divisão de 4 telas no OBS** para transmissões locais de nível profissional.
+- Análise visual da física da bola em tempo real e das interações entre os jogadores.
+- Exemplos de como gerenciar múltiplas entradas de controle em uma única configuração de PC.
+
+<YouTubeEmbed videoId="k800DyiQ21w" title="Super Battle Golf - Multiplayer para 2 Jogadores com Divisão de 4 Telas no OBS!" />
+
+<Callout type="tip" title="Dica de Profissional">
+Ao jogar localmente, desative as \"Tarefas em Segundo Plano\" no seu sistema operacional para garantir que o tempo de resposta (input polling) de múltiplos controles permaneça consistente e livre de travamentos.
+</Callout>
+
+A beleza do jogo local está no feedback imediato. Ao contrário das partidas online, onde a latência pode ocasionalmente atrapalhar uma tacada perfeita, o jogo local oferece 0ms de atraso nos comandos quando configurado corretamente. Este guia o guiará pelos requisitos de hardware, pelas configurações de software para layouts avançados e pelas estratégias necessárias para dominar seus amigos no green.
+
+</Section>
+
+<Section icon={Monitor} title="Requisitos de Hardware e Software">
+
+Antes de mergulhar no caos do golfe de batalha, você deve garantir que sua máquina seja capaz de lidar com múltiplas instâncias locais ou com a renderização de tela dividida. Em 2026, a exigência de desempenho para o multiplayer local aumentou devido aos motores de física aprimorados e texturas de alta fidelidade.
+
+| Componente | Requisito Mínimo | Recomendado para 4 Jogadores |
+| :--- | :--- | :--- |
+| **Processador** | Quad-core 3.0GHz | Octa-core 4.2GHz+ |
+| **Memória** | 8GB DDR4 | 16GB DDR5 |
+| **Placa de Vídeo** | GTX 1650 ou equivalente | RTX 3070 ou superior |
+| **Controles** | Compatível com XInput | 4x Controles Sem Fio de Xbox/PS5 |
+| **Tela** | 1080p 60Hz | 4K 144Hz Ultra-Wide |
+
+<Callout type="warning" title="Aviso de Conflito de Entrada">
+Evite misturar controles DirectInput e XInput na mesma sessão, pois isso pode causar \"Comandos Fantasmas\", onde um controle afeta ambos os jogadores. Utilize apenas um padrão para todos os dispositivos conectados.
+</Callout>
+
+Além das especificações internas, a escolha da tela é vital. Como o **multiplayer local de Super Battle Golf** frequentemente utiliza divisões verticais ou horizontais, um monitor Ultra-Wide (21:9 ou 32:9) oferece significativamente mais espaço de tela para cada jogador, evitando a sensação claustrofóbica da tradicional tela dividida em 16:9.
+
+| Ferramenta de Software | Objetivo | Avaliação de Estabilidade para 2026 |
+| :--- | :--- | :--- |
+| **OBS Studio** | Layouts avançados de tela dividida | ★★★★★ |
+| **DS4Windows** | Mapeamento de controles de PS4/PS5 | ★★★★☆ |
+| **Steam Input** | Suporte universal de controles | ★★★★★ |
+| **JoyToKey** | Mapeamento de teclas para controles antigos | ★★★☆☆ |
+
+</Section>
+
+<Section icon={Settings} title="Configuração Avançada: Divisão de 4 Telas no OBS">
+
+Como destacado em configurações recentes da comunidade, usar o OBS Studio para gerenciar o layout do seu **multiplayer local de Super Battle Golf** pode fornecer uma interface muito mais limpa do que as opções padrão do jogo. Isso é particularmente útil para streamers ou para quem utiliza múltiplos monitores.
+
+<Steps>
+  <Step num="1" title="Iniciar Múltiplas Instâncias">
+    Abra o jogo em modo janela. Se o jogo suportar múltiplos perfis locais, certifique-se de que cada um esteja atribuído a um controle específico nas configurações do Steam Input.
+  </Step>
+  <Step num="2" title="Captura de Fonte no OBS">
+    Crie uma nova Cena no OBS. Adicione uma fonte de 'Captura de Janela' para a visão de cada jogador. Se o jogo usar uma única janela para a tela dividida, você capturará a mesma janela várias vezes.
+  </Step>
+  <Step num="3" title="Aplicar Filtros de Recorte">
+    Clique com o botão direito em uma fonte, vá em 'Filtros' e adicione um filtro de 'Recortar/Preencher'. Ajuste as margens de modo que apenas o quadrante do Jogador 1 fique visível na primeira fonte, o do Jogador 2 na segunda, e assim por diante.
+  </Step>
+  <Step num="4" title="Organização do Layout">
+    Redimensione e ajuste cada fonte recortada em uma grade de 2x2. Isso permite adicionar sobreposições personalizadas, nomes de jogadores e webcams entre as janelas de jogo sem obstruir a ação.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Vantagem para Streamers">
+Usar o método do OBS permite que você envie uma transmissão \"limpa\" para as telas dos seus amigos enquanto mantém uma transmissão \"detalhada\" com estatísticas e chat na sua tela principal.
+</Callout>
+
+Esta configuração é o método preferido para torneios locais. Ela garante que todos os jogadores tenham uma escala de interface (UI) consistente, o que às vezes pode ficar distorcido nos modos nativos de tela dividida em monitores ultra-wide.
+
+</Section>
+
+<Section icon={Swords} title="Modos de Jogo e Estilos de Jogo">
+
+Super Battle Golf oferece várias maneiras de se divertir no jogo local. A escolha do modo ideal depende do nível de habilidade do seu grupo e de quanto \"caos\" vocês estão dispostos a enfrentar.
+
+<CardGrid cols={3}>
+  <Card title="Jogo por Tacadas Clássico">
+    - **Foco**: Vence quem tiver a menor pontuação.
+    - **Combate**: Desativado ou mínimo.
+    - **Ideal para**: Puristas e iniciantes.
+  </Card>
+  <Card title="Modo Battle Royale">
+    - **Foco**: Sobrevivência e sabotagem.
+    - **Combate**: Power-ups de alta intensidade.
+    - **Ideal para**: Grupos competitivos.
+  </Card>
+  <Card title="Speed Golf">
+    - **Foco**: Terminar o buraco o mais rápido possível.
+    - **Combate**: Empurrões físicos permitidos.
+    - **Ideal para**: Sessões de alta energia.
+  </Card>
+</CardGrid>
+
+No **multiplayer local de Super Battle Golf**, o modo \"Battle Royale\" é onde o jogo realmente brilha. Ao contrário do golfe tradicional, você pode interferir ativamente na trajetória do oponente. Entender o meta dos power-ups é essencial.
+
+| Power-Up | Efeito no Jogo Local | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Bola de Gelo** | Congela a bola do oponente no lugar | Alto (Defensivo) |
+| **Ímã** | Atrai bolas próximas em direção à sua | Médio (Utilitário) |
+| **Super Impulso** | Aumenta significativamente a distância de rolamento | Alto (Ofensivo) |
+| **Cortina de Fumaça** | Obstrui a interface/trajetória do oponente | Muito Alto (Sabotagem) |
+| **Peso Pesado** | Torna a bola imune ao vento/empurrões | Médio (Estabilidade) |
+
+<Callout type="info" title="Nota sobre a Mecânica">
+Os power-ups no jogo local são compartilhados de um inventário global. Se o Jogador 1 pegar um Ímã, ele é removido do campo para todos os outros jogadores até o próximo ciclo de ressurgimento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégias de Vitória para Combates Locais">
+
+Para vencer consistentemente no **multiplayer local de Super Battle Golf**, você deve ir além da mentalidade de \"bater e torcer\". O jogo local permite que você veja a tela do seu oponente (prática conhecida como \"espiar a tela\" ou screen peeking), o que você deve usar a seu favor para cronometrar suas sabotagens.
+
+**Principais Considerações Táticas:**
+- **A Abordagem de \"Esperar para Ver\"**: No modo de batalha, ser o primeiro a jogar nem sempre é a melhor opção. Deixe seu oponente dar a tacada e use um power-up de deslocamento para estragar o posicionamento dele.
+- **Gerenciamento de Estamina**: Correr entre as tacadas no Speed Golf consome estamina. Fique de olho na barra do seu rival local; se a dele estiver vazia, essa é a sua hora de correr.
+- **Perigos Ambientais**: Os mapas locais em 2026 apresentam perigos dinâmicos, como fluxos de lava ou plataformas móveis. Use a mecânica de \"Empurrão\" para jogar os oponentes nessas zonas.
+
+| Tipo de Mapa | Nível de Perigo | Estratégia Recomendada |
+| :--- | :--- | :--- |
+| **Emerald Grove** | Baixo | Foque em precisão e sequências de birdies. |
+| **Volcano Vault** | Extremo | Fique longe das bordas; use a bola Peso Pesado. |
+| **Cyber Circuit** | Médio | Use painéis de velocidade para pular fairways longos. |
+| **Desert Dunes** | Alto | Gerencie as penalidades de bancas de areia; use tacadas com efeito Loft. |
+
+<Callout type="tip" title="Dominando o Loft">
+Tacadas com ângulo elevado (loft alto) são mais difíceis de serem interceptadas por projéteis dos oponentes. Se você vir um rival segurando um power-up de Bomba, mire em um arco mais alto para ficar fora do raio de explosão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist do Multiplayer Local">
+
+Antes de começar sua temporada de campeonato de 2026, passe por esta lista de verificação para garantir que tudo esteja otimizado para o máximo desempenho.
+
+<Checklist
+  id="local-multiplayer-prep"
+  title="Otimização Pré-Jogo:"
+  items={[
+    "Verifique se todos os controles estão calibrados nas configurações do Steam/SO.",
+    "Defina a orientação da 'Tela Dividida' (a vertical geralmente é melhor para 16:9).",
+    "Ative o 'Replay Instantâneo' para capturar falhas locais hilárias.",
+    "Ajuste os níveis de áudio para que os efeitos sonoros do 'Jogador 1' e do 'Jogador 2' fiquem equilibrados.",
+    "Verifique se há atualizações de firmware de 2026 para os controles sem fio."
+  ]}
+/>
+
+<Callout type="success" title="Dica Final de Configuração">
+Se estiver jogando em uma TV, certifique-se de que o \"Modo Jogo\" esteja ativado para minimizar o atraso de exibição que pode arruinar a ativação de um power-up no momento certo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes: Jogo Local do Super Battle Golf">
+
+<FAQ items={[
+  {
+    question: "Quantos jogadores podem jogar o multiplayer local de Super Battle Golf em um único PC?",
+    answer: "A maioria das versões do jogo em 2026 suporta até 4 jogadores localmente em uma única máquina, desde que você tenha portas USB suficientes ou um adaptador Bluetooth de alta qualidade para os controles."
+  },
+  {
+    question: "O jogo suporta entradas mistas (Teclado + Controle)?",
+    answer: "Sim, mas não é recomendado. O jogador no teclado geralmente tem uma leve vantagem na navegação dos menus, mas uma desvantagem na precisão analógica das tacadas em comparação com os usuários de controle."
+  },
+  {
+    question: "Posso usar o Steam Remote Play Together para o multiplayer local?",
+    answer: "Com certeza. Isso permite que você jogue o modo multiplayer local com amigos online. Apenas o anfitrião precisa ter o jogo, tornando-se uma maneira econômica de jogar em grupo."
+  },
+  {
+    question: "Qual é a melhor configuração de tela dividida para um monitor 16:9?",
+    answer: "Para 2 jogadores, uma divisão vertical costuma ser a preferida, pois preserva a altura necessária para enxergar o arco da bola de golfe. Para 4 jogadores, a divisão padrão em quadrantes (2x2) é a única opção viável."
+  }
+]} />
+
+</Section>
