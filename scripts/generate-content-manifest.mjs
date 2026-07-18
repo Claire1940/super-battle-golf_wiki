@@ -54,31 +54,33 @@ function main() {
   const manifest = {}
   let total = 0
 
-  // content/ 不存在是合法状态（新站尚未写入内容 / 已清空模板残留内容）：
-  // 此时应生成空清单 {} 并正常退出，而不是 process.exit(1) 中断构建。
-  let locales = []
-  if (fs.existsSync(CONTENT_DIR)) {
-    locales = fs
-      .readdirSync(CONTENT_DIR, { withFileTypes: true })
+  if (!fs.existsSync(CONTENT_DIR)) {
+    // 空壳站（0 文章、无 content/ 目录）：产空清单而非报错，静态导出只含首页/固定页，
+    // 不阻断 CI 构建（否则 deploy-workers.yml 的 manifest 步骤 exit 1，空壳站全栽）。
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, JSON.stringify(manifest, null, 2) + '\n', 'utf8')
+    console.log(`[content-manifest] content 目录不存在（空壳站），已写空清单: ${path.relative(ROOT, OUT_FILE)}`)
+    return
+  }
+
+  const locales = fs
+    .readdirSync(CONTENT_DIR, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+
+  for (const locale of locales) {
+    const localeDir = path.join(CONTENT_DIR, locale)
+    const contentTypes = fs
+      .readdirSync(localeDir, { withFileTypes: true })
       .filter((d) => d.isDirectory())
       .map((d) => d.name)
 
-    for (const locale of locales) {
-      const localeDir = path.join(CONTENT_DIR, locale)
-      const contentTypes = fs
-        .readdirSync(localeDir, { withFileTypes: true })
-        .filter((d) => d.isDirectory())
-        .map((d) => d.name)
-
-      manifest[locale] = {}
-      for (const contentType of contentTypes) {
-        const entries = collectEntries(path.join(localeDir, contentType))
-        manifest[locale][contentType] = entries
-        total += entries.length
-      }
+    manifest[locale] = {}
+    for (const contentType of contentTypes) {
+      const entries = collectEntries(path.join(localeDir, contentType))
+      manifest[locale][contentType] = entries
+      total += entries.length
     }
-  } else {
-    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，生成空清单`)
   }
 
   fs.mkdirSync(OUT_DIR, { recursive: true })

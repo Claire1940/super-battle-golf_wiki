@@ -291,7 +291,7 @@
       "title": "Mapas e Atalhos de Super Battle Golf",
       "subtitle": "Aprenda a abordar checkpoints, mudanças de elevação, obstáculos, caminhos estreitos e os greens finais.",
       "intro": "A conclusão rápida do campo depende da escolha de áreas de aterrissagem que facilitem a próxima tacada. O melhor atalho nem sempre é o caminho visível mais curto: uma rota também deve fornecer uma aterrissagem consistente, preservar o progresso no checkpoint e evitar expor você a nocautes fáceis.",
-      "displayType": "Cartões de Rota",
+      "displayType": "routeCards",
       "routes": [
         {
           "name": "Tee de Abertura e Fairway Longo",
@@ -443,7 +443,7 @@
       "title": "Guia de Multijogador de Super Battle Golf",
       "subtitle": "Crie partidas públicas ou privadas, convide amigos do Steam, configure as regras do lobby e escolha entre os modos solo, cada um por si e jogo em equipe.",
       "intro": "Super Battle Golf suporta lobbies online para partidas competitivas e casuais. Os anfitriões controlam a privacidade do lobby, senhas, vagas de jogadores disponíveis, configurações de percurso, regras de equipe e opções de comunicação antes de iniciar o jogo.",
-      "displayType": "passos",
+      "displayType": "steps",
       "steps": [
         {
           "title": "Escolha Partida Pública ou Privada",
@@ -538,7 +538,7 @@
       "title": "Guia de Controles de Super Battle Golf",
       "subtitle": "Aprenda as principais ações de teclado e controle e, em seguida, aprimore suas tacadas iniciais (drives), tacadas de aproximação, putts, movimentação e ataques de curta distância com o taco.",
       "intro": "Super Battle Golf combina mecânicas de golfe tradicionais com movimentação e combate em tempo real. Bons jogadores controlam a força da tacada com cuidado, movem-se imediatamente em direção ao próximo ponto de controle, guardam itens de interrupção para momentos importantes e usam pulos, mergulhos, carrinhos e balanços de taco para impedir que os oponentes cheguem ao buraco primeiro.",
-      "displayType": "acordeão",
+      "displayType": "accordion",
       "sections": [
         {
           "name": "Movimentação e Câmera",
@@ -727,7 +727,7 @@
       "title": "Data de Lançamento e Plataformas de Super Battle Golf",
       "subtitle": "Compare a edição Steam disponível com os lançamentos anunciados para PlayStation 5, Xbox Series X|S e Nintendo Switch 2.",
       "intro": "A edição para PC é distribuída através da Steam, enquanto edições nativas para console foram anunciadas para a geração atual de hardware PlayStation, Xbox e Nintendo. As linhas da plataforma separam claramente as informações lançadas de recursos de console que ainda não foram anunciados.",
-      "displayType": "tabela",
+      "displayType": "table",
       "platforms": [
         {
           "platform": "Steam PC",
@@ -938,7 +938,7 @@
       "title": "Atualizações e Notas do Patch de Super Battle Golf",
       "subtitle": "Acompanhe os principais lançamentos de conteúdo, adições de campos, novos itens, cosméticos, alterações de balanceamento, melhorias de desempenho e correções de bugs.",
       "intro": "As atualizações de Super Battle Golf expandem tanto o lado do golfe quanto o de combate do jogo. As alterações mais importantes incluem novos itens ofensivos e de utilidade, conteúdo jogável adicional, recompensas cosméticas, balanceamento de jogabilidade, trabalho de estabilidade e a expansão anunciada para PlayStation 5, Xbox Series X|S e Nintendo Switch 2.",
-      "displayType": "acordeão",
+      "displayType": "accordion",
       "updates": [
         {
           "version": "Versão de Lançamento",
