@@ -542,7 +542,7 @@
       "sections": [
         {
           "name": "移動とカメラ",
-          "type": "操作",
+          "type": "controls",
           "controls": [
             {
               "action": "移動",
@@ -572,7 +572,7 @@
         },
         {
           "name": "スイングとボールコントロール",
-          "type": "操作",
+          "type": "controls",
           "controls": [
             {
               "action": "ショットの準備",
@@ -596,7 +596,7 @@
         },
         {
           "name": "アイテムとインベントリ",
-          "type": "操作方法",
+          "type": "controls",
           "controls": [
             {
               "action": "選択したアイテムを使用する",
@@ -620,7 +620,7 @@
         },
         {
           "name": "ゴルフカートの操作方法",
-          "type": "操作方法",
+          "type": "controls",
           "controls": [
             {
               "action": "カートに乗る/降りる",
@@ -644,7 +644,7 @@
         },
         {
           "name": "ドライビングとアプローチショット",
-          "type": "テクニック",
+          "type": "techniques",
           "techniques": [
             {
               "name": "安全なオープニングドライブ",
@@ -670,7 +670,7 @@
         },
         {
           "name": "パッティングのテクニック",
-          "type": "テクニック",
+          "type": "techniques",
           "techniques": [
             {
               "name": "ストレートパット",
@@ -696,7 +696,7 @@
         },
         {
           "name": "高度な移動と戦闘",
-          "type": "テクニック",
+          "type": "techniques",
           "techniques": [
             {
               "name": "ジャンプダイブ移動",

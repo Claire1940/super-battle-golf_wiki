@@ -542,7 +542,7 @@
       "sections": [
         {
           "name": "Movimentação e Câmera",
-          "type": "controles",
+          "type": "controls",
           "controls": [
             {
               "action": "Mover",
@@ -572,7 +572,7 @@
         },
         {
           "name": "Tacada e Controle da Bola",
-          "type": "controles",
+          "type": "controls",
           "controls": [
             {
               "action": "Preparar uma tacada",
@@ -596,7 +596,7 @@
         },
         {
           "name": "Itens e Inventário",
-          "type": "controles",
+          "type": "controls",
           "controls": [
             {
               "action": "Usar o item selecionado",
@@ -620,7 +620,7 @@
         },
         {
           "name": "Controles do Carrinho de Golfe",
-          "type": "controles",
+          "type": "controls",
           "controls": [
             {
               "action": "Entrar ou sair de um carrinho",
@@ -644,7 +644,7 @@
         },
         {
           "name": "Tacadas de Saída e de Aproximação",
-          "type": "técnicas",
+          "type": "techniques",
           "techniques": [
             {
               "name": "Tacada de saída segura",
@@ -670,7 +670,7 @@
         },
         {
           "name": "Técnicas de Putting",
-          "type": "técnicas",
+          "type": "techniques",
           "techniques": [
             {
               "name": "Putt reto",
@@ -696,7 +696,7 @@
         },
         {
           "name": "Movimentação e Combate Avançados",
-          "type": "técnicas",
+          "type": "techniques",
           "techniques": [
             {
               "name": "Movimento de salto e mergulho",
