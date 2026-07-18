@@ -52,740 +52,1084 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Super Battle Golf Gameplay",
+    "description": "Compete across 63 chaotic holes with up to eight players, mix precision golf with real-time combat, and use weapons, items, and movement to sabotage rivals and reach the cup first."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Super Battle Golf",
+    "titleHighlight": "Guides",
+    "subtitle": "Jump straight to any Super Battle Golf topic, from beginner basics and item tiers to maps, multiplayer, controls, platforms, achievements, and patch notes.",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "description": "Match flow, swing power, checkpoints, items, and early priorities"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Item Tier List",
+        "description": "Offensive, defensive, mobility, and disruption items ranked"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "icon": "Eye",
+        "title": "Maps and Shortcuts",
+        "description": "Routes, hazards, hole-in-one setups, and safe landing zones"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "icon": "Users",
+        "title": "Multiplayer Guide",
+        "description": "Lobbies, friends, passwords, voice chat, and match formats"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Controls Guide",
+        "description": "Keyboard and controller actions, shots, putts, and combat"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Release and Platforms",
+        "description": "Steam, PS5, Xbox Series, and Nintendo Switch 2 details"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "ClipboardCheck",
+        "title": "Achievements",
+        "description": "All 50 Steam achievements, cosmetics, and unlock conditions"
       },
       {
         "icon": "Clock",
         "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "description": "New items, courses, balance changes, and recent fixes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "beginnerGuide": {
+      "eyebrow": "Getting Started",
+      "title": "Super Battle Golf Beginner Guide",
+      "subtitle": "Learn the complete match flow, from your opening swing to the final cup.",
+      "intro": "Super Battle Golf combines golf scoring with real-time movement, checkpoints, combat items, environmental hazards, and multiplayer disruption. Winning consistently requires accurate swings, quick route decisions, smart inventory use, and knowing when to attack or ignore other players.",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Understand the Match Objective",
+          "description": "Complete each hole by reaching the cup while managing strokes, travel time, hazards, and attacks from other players. Solo scoring rewards efficient golf, while multiplayer battles also reward reaching the finish before your opponents.",
+          "tips": [
+            "Check the hole layout before taking your first swing.",
+            "Prioritize forward progress instead of fighting every nearby player.",
+            "Use the safest route when carrying a strong item or protecting a lead."
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Aim and Control Swing Power",
+          "description": "Line up the shot direction, judge the expected flight path, and set enough power to reach a safe landing area. Maximum power is useful on open fairways but becomes risky near cliffs, narrow platforms, hazards, and the cup.",
+          "tips": [
+            "Use controlled shots when the landing area is small.",
+            "Aim for flat ground to make the next swing easier.",
+            "Reduce power near the hole instead of forcing a perfect finish."
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Move Quickly Between Shots",
+          "description": "After the ball lands, move toward the next playable position while watching for incoming attacks and environmental hazards. Good movement reduces downtime and helps you secure useful items before other players.",
+          "tips": [
+            "Keep moving when opponents are aiming offensive items.",
+            "Avoid standing in crowded item pickup areas.",
+            "Approach the ball from the direction of your planned next shot."
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Activate Checkpoints",
+          "description": "Checkpoints protect your progress by giving you a safer recovery position after a knockout, fall, or failed shortcut. Skipping one can save time, but it can also send you much farther back if the route fails.",
+          "tips": [
+            "Touch nearby checkpoints during your first attempts on a course.",
+            "Skip a checkpoint only when the shortcut has a reliable landing.",
+            "Secure a checkpoint before entering a heavily contested section."
+          ]
+        },
+        {
+          "title": "Manage Your Item Inventory",
+          "description": "Collect offensive, defensive, and mobility items placed around the course. Inventory space is limited, so keep items that match the next section rather than holding every pickup for the entire hole.",
+          "tips": [
+            "Save mobility tools for climbs, gaps, or major shortcuts.",
+            "Keep defensive items when approaching the cup with a lead.",
+            "Use weaker disruption items early instead of blocking a better pickup."
+          ]
+        },
+        {
+          "title": "Use Items at the Right Moment",
+          "description": "Items are most effective at narrow passages, difficult jumps, checkpoints, and final approaches. A well-timed attack can cost an opponent more time than constant low-value fighting on an open fairway.",
+          "tips": [
+            "Target players during their swing setup or landing recovery.",
+            "Place area attacks where opponents must pass.",
+            "Do not stop for a fight when you already have a clear route to the cup."
+          ]
+        },
+        {
+          "title": "Recover from Knockouts",
+          "description": "Explosions, direct attacks, falls, and course hazards can knock you out and return you to a recent recovery point. Immediately reassess the route instead of repeating the same risky shortcut without the required item or angle.",
+          "tips": [
+            "Move away from the checkpoint after respawning to avoid repeated attacks.",
+            "Choose the normal route after two failed shortcut attempts.",
+            "Use cover and terrain elevation to block direct lines of fire."
+          ]
+        },
+        {
+          "title": "Finish the Hole Safely",
+          "description": "The area around the cup is often the most dangerous part of a multiplayer match. Use a controlled final shot, keep a defensive item ready, and avoid overshooting while opponents create explosions, smoke, lightning, or other disruptions.",
+          "tips": [
+            "Take a short setup shot when the cup angle is poor.",
+            "Clear nearby opponents before beginning a slow precision swing.",
+            "Use terrain or smoke to hide your final approach."
+          ]
+        },
+        {
+          "title": "Follow the Beginner Priority Order",
+          "description": "Your main priorities should be reaching checkpoints, maintaining forward momentum, collecting one useful item, and completing the hole. Combat becomes valuable only when it directly protects your route or delays a close opponent.",
+          "tips": [
+            "Progress first, items second, combat third.",
+            "Learn the standard route before attempting advanced shortcuts.",
+            "Watch successful players to identify safer landing zones."
+          ]
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Check the hole layout and plan a safe landing before your first swing.",
+        "Touch checkpoints early so a failed shortcut never erases a large lead.",
+        "Carry one mobility item and one defensive item for the final approach.",
+        "Attack only the players directly competing for your finishing position."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "itemsTierList": {
+      "eyebrow": "Items and Equipment",
+      "title": "Super Battle Golf Item Tier List",
+      "subtitle": "Compare offensive, defensive, mobility, and disruption items by consistency and match impact.",
+      "intro": "The strongest items either create dependable knockouts, deny an important route, or protect progress near the hole. Precision weapons dominate open sightlines, while smoke, weather effects, and close-range disruption become stronger on narrow or crowded courses.",
+      "displayType": "tiers",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S",
+          "label": "Match-Changing",
+          "description": "Dependable items that can create a major lead, stop several opponents, or control the final section of a hole.",
+          "entries": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Railgun",
+              "category": "Offensive",
+              "strengths": "Fast, precise long-range pressure with strong value on open fairways and narrow bridges.",
+              "bestUse": "Aim at stationary players preparing a swing, opponents crossing exposed sections, or leaders approaching the cup.",
+              "weakness": "Requires accurate aim and loses value when terrain, smoke, or tight corners block the firing line."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Orbital Laser",
+              "category": "Offensive and Area Control",
+              "strengths": "Creates a powerful targeted danger zone that can punish grouped players and block important routes.",
+              "bestUse": "Place it on checkpoints, narrow paths, crowded greens, or an opponent's expected landing area.",
+              "weakness": "The warning and delayed impact give alert players time to escape."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "A",
+          "label": "Highly Effective",
+          "description": "Strong and flexible items that consistently disrupt opponents but require good timing or favorable terrain.",
+          "entries": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Thunderstorm",
+              "category": "Offensive and Area Denial",
+              "strengths": "Controls a broad section of the course and pressures several players without requiring a perfect direct hit.",
+              "bestUse": "Deploy it over crowded checkpoints, exposed fairways, or the final green to force opponents to move.",
+              "weakness": "Less effective when players can quickly leave the affected area or take an alternate route."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Smoke Bomb",
+              "category": "Defensive and Disruption",
+              "strengths": "Blocks visibility, disrupts precision attacks, and makes it harder for opponents to line up important swings.",
+              "bestUse": "Cover your final shot, cross an exposed route, escape a Railgun user, or hide a dangerous landing zone.",
+              "weakness": "Smoke can also obstruct your own aim and does not physically stop opponents from advancing."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Launch Items",
+              "category": "Offensive and Mobility",
+              "strengths": "Direct knockback can remove opponents from platforms, interrupt swings, or create emergency movement opportunities.",
+              "bestUse": "Attack players beside cliffs, water, narrow ledges, or the cup.",
+              "weakness": "Direct-impact tools are easier to avoid on open terrain and may provide limited value without a nearby hazard."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "B",
+          "label": "Situational",
+          "description": "Useful items with strong specific applications but less consistent value across every map and match state.",
+          "entries": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Flash Camera",
+              "category": "Disruption",
+              "strengths": "Briefly interferes with nearby opponents and can break their concentration during precision swings.",
+              "bestUse": "Activate it in crowded tunnels, near the cup, or immediately before making your own final shot.",
+              "weakness": "Its value drops at long range and against players who are already moving away."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Jumbo Burger",
+              "category": "Defensive Utility",
+              "strengths": "Provides temporary physical presence that is useful for surviving crowded encounters and contesting space.",
+              "bestUse": "Use it before entering a chaotic checkpoint, narrow passage, or heavily contested green.",
+              "weakness": "Its defensive value is lower when speed, precision, or a long-range attack is more important."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "mapsShortcuts": {
+      "eyebrow": "Courses and Routes",
+      "title": "Super Battle Golf Maps and Shortcuts",
+      "subtitle": "Learn how to approach checkpoints, elevation changes, hazards, narrow paths, and final greens.",
+      "intro": "Fast course completion depends on choosing landing areas that make the next swing easy. The best shortcut is not always the shortest visible path: a route must also provide a consistent landing, preserve checkpoint progress, and avoid exposing you to easy knockouts.",
+      "displayType": "routeCards",
+      "routes": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Opening Tee and Long Fairway",
+          "routeType": "Standard Speed Route",
+          "hazards": [
+            "Crowded starting area",
+            "Long-range attacks",
+            "Players landing in the same zone"
+          ],
+          "recommendedRoute": "Take a powerful opening swing toward a wide, flat landing area that gives you a clear second shot.",
+          "usefulItems": [
+            "Railgun",
+            "Smoke Bomb",
+            "Launch items"
+          ],
+          "shortcut": "Aim past the first safe landing zone only when the fairway remains wide and the next checkpoint can still be reached.",
+          "riskLevel": "Low to Medium"
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Checkpoint Route",
+          "routeType": "Safe Progress Route",
+          "hazards": [
+            "Checkpoint camping",
+            "Area attacks",
+            "Repeated knockback after respawning"
+          ],
+          "recommendedRoute": "Approach from the side, activate the checkpoint, and immediately move away from the crowded center.",
+          "usefulItems": [
+            "Smoke Bomb",
+            "Thunderstorm",
+            "Flash Camera"
+          ],
+          "shortcut": "A checkpoint can be bypassed when the following landing area is reliable and failure will not erase a large amount of progress.",
+          "riskLevel": "Medium"
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "name": "Climb and High-Ground Section",
+          "routeType": "Elevation Route",
+          "hazards": [
+            "Rolling backward",
+            "Falling from ledges",
+            "Limited landing space"
+          ],
+          "recommendedRoute": "Use several controlled swings to secure flat platforms instead of repeatedly attempting one maximum-power climb.",
+          "usefulItems": [
+            "Mobility items",
+            "Smoke Bomb",
+            "Jumbo Burger"
+          ],
+          "shortcut": "Mobility-assisted jumps can skip switchbacks or reach an upper platform directly.",
+          "riskLevel": "High"
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "name": "Water and Out-of-Bounds Section",
+          "routeType": "Precision Route",
+          "hazards": [
+            "Water",
+            "Cliffs",
+            "Small islands",
+            "Long recovery distance"
+          ],
+          "recommendedRoute": "Use medium-power shots and land near the center of each safe platform.",
+          "usefulItems": [
+            "Smoke Bomb",
+            "Railgun",
+            "Defensive items"
+          ],
+          "shortcut": "Skip intermediate platforms only when the destination is wide enough to absorb an imperfect landing.",
+          "riskLevel": "High"
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "name": "Bridge, Tunnel, and Narrow Passage",
+          "routeType": "Combat Choke Point",
+          "hazards": [
+            "Easy knockouts",
+            "Blocked visibility",
+            "Area denial",
+            "Player congestion"
+          ],
+          "recommendedRoute": "Wait for the largest attack effects to clear, then move through quickly without stopping for unnecessary fights.",
+          "usefulItems": [
+            "Thunderstorm",
+            "Flash Camera",
+            "Launch items",
+            "Smoke Bomb"
+          ],
+          "shortcut": "Use an outside ledge or mobility route only when it reconnects beyond the choke point.",
+          "riskLevel": "High"
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "name": "Moving Hazard Section",
+          "routeType": "Timing Route",
+          "hazards": [
+            "Moving obstacles",
+            "Changing openings",
+            "Forced waiting",
+            "Unpredictable knockback"
+          ],
+          "recommendedRoute": "Prepare the swing before the safe opening appears, then release as soon as the path becomes clear.",
+          "usefulItems": [
+            "Smoke Bomb",
+            "Railgun",
+            "Mobility items"
+          ],
+          "shortcut": "A high or angled swing may clear the moving obstacle instead of waiting for the normal opening.",
+          "riskLevel": "Medium to High"
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "name": "Downhill and Drop Section",
+          "routeType": "Momentum Route",
+          "hazards": [
+            "Overshooting",
+            "Uncontrolled rolling",
+            "Missing lower checkpoints"
+          ],
+          "recommendedRoute": "Reduce swing power and aim for a flat lower platform rather than the farthest visible point.",
+          "usefulItems": [
+            "Defensive items",
+            "Smoke Bomb",
+            "Railgun"
+          ],
+          "shortcut": "A long drop can bypass multiple turns when the landing zone is wide and protected from out-of-bounds areas.",
+          "riskLevel": "Medium"
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "name": "Final Green and Cup",
+          "routeType": "Precision Finish",
+          "hazards": [
+            "Orbital Laser attacks",
+            "Thunderstorm zones",
+            "Smoke",
+            "Close-range knockback",
+            "Overshooting the cup"
+          ],
+          "recommendedRoute": "Take a controlled setup shot, keep a defensive item ready, and finish from a stable angle.",
+          "usefulItems": [
+            "Smoke Bomb",
+            "Flash Camera",
+            "Orbital Laser",
+            "Thunderstorm"
+          ],
+          "shortcut": "A direct aggressive shot saves time only when the cup has a clear approach and the green is not covered by active attacks.",
+          "riskLevel": "Very High"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "multiplayerGuide": {
+      "eyebrow": "Online Multiplayer",
+      "title": "Super Battle Golf Multiplayer Guide",
+      "subtitle": "Create public or private matches, invite Steam friends, configure lobby rules, and choose between solo, free-for-all, and team play.",
+      "intro": "Super Battle Golf supports online lobbies for competitive and casual matches. Hosts control lobby privacy, passwords, available player slots, course settings, team rules, and communication options before starting the game.",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Choose Public or Private Play",
+          "description": "Use a public lobby to play with available online players or create a private lobby when organizing a match with friends.",
+          "points": [
+            "Public lobbies appear in the server browser.",
+            "Private lobbies restrict access through invitations or a lobby password.",
+            "The host menu displays the current player-slot limit for the server."
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Create a Lobby",
+          "description": "Select the host option, choose the lobby visibility, configure the match rules, and wait in the lobby until the group is ready.",
+          "points": [
+            "Select the course or course rotation.",
+            "Choose the game format.",
+            "Set the available player slots.",
+            "Review team and scoring settings before starting."
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Invite Steam Friends",
+          "description": "Open the Steam friends interface while the lobby is active and send invitations to the players you want to join.",
+          "points": [
+            "The invited player must be online in Steam.",
+            "Keep the lobby open until all invited players connect.",
+            "Friends can also join through the Steam friend menu when lobby permissions allow it."
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Join with a Lobby Password",
+          "description": "Players joining a protected lobby must enter the exact password created by the host.",
+          "points": [
+            "Passwords are case-sensitive when the lobby interface treats uppercase and lowercase characters separately.",
+            "Share the password privately rather than posting it in a public chat.",
+            "Replace the password when unwanted players repeatedly attempt to join."
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Configure Voice Chat",
+          "description": "Review the in-game voice settings before the match and select the correct microphone and output device.",
+          "points": [
+            "Adjust microphone volume and voice playback separately.",
+            "Use push-to-talk when background noise is a problem.",
+            "Mute individual players through the lobby or player interface when needed."
+          ]
+        },
+        {
+          "title": "Select a Match Format",
+          "description": "Choose the format that matches the group's preferred level of competition and cooperation.",
+          "modes": [
+            {
+              "name": "Solo Scoring",
+              "description": "Players focus on completing holes efficiently, with performance determined by golf results rather than team cooperation."
+            },
+            {
+              "name": "Free-for-All",
+              "description": "Every player competes independently while using items and course hazards to delay the rest of the lobby."
+            },
+            {
+              "name": "Team Mode",
+              "description": "Players are divided into teams and coordinate routes, attacks, defensive items, and finishing order."
+            }
+          ]
+        },
+        {
+          "title": "Set Up a Balanced Friends Match",
+          "description": "Use familiar courses and simple rules for new players, then add more aggressive items and demanding routes as the group learns the mechanics.",
+          "points": [
+            "Balance team sizes before starting.",
+            "Avoid placing every experienced player on the same team.",
+            "Use private lobbies for practice and route testing.",
+            "Confirm that every player has loaded into the lobby before launching the match."
+          ]
+        },
+        {
+          "title": "Fix Common Connection Problems",
+          "description": "Most joining problems can be resolved by checking the lobby state, Steam connection, game version, and host settings.",
+          "points": [
+            "Confirm that the host has not already started the match.",
+            "Make sure every player is running the same game version.",
+            "Restart Steam and the game when invitations stop responding.",
+            "Recreate the lobby if it no longer appears in the server browser.",
+            "Check that the password and privacy settings match the host's instructions.",
+            "Allow the game through the operating system firewall when connections repeatedly fail."
+          ]
+        }
+      ]
+    },
+    "controlsGuide": {
+      "eyebrow": "Controls and Techniques",
+      "title": "Super Battle Golf Controls Guide",
+      "subtitle": "Learn the main keyboard and controller actions, then improve your drives, approach shots, putts, movement, and close-range club attacks.",
+      "intro": "Super Battle Golf combines normal golf mechanics with real-time movement and combat. Good players control shot power carefully, move toward the next checkpoint immediately, save disruptive items for important moments, and use jumps, dives, carts, and club swings to prevent opponents from reaching the hole first.",
+      "displayType": "accordion",
+      "sections": [
+        {
+          "name": "Movement and Camera",
+          "type": "controls",
+          "controls": [
+            {
+              "action": "Move",
+              "keyboard": "W, A, S, and D",
+              "controller": "Left stick",
+              "tip": "Start moving as soon as the ball is struck instead of waiting for it to stop."
+            },
+            {
+              "action": "Aim and control the camera",
+              "keyboard": "Mouse movement",
+              "controller": "Right stick",
+              "tip": "Check the landing area, nearby hazards, opponents, and the next checkpoint before committing to full power."
+            },
+            {
+              "action": "Jump",
+              "keyboard": "Space",
+              "controller": "A / Cross",
+              "tip": "Jump over small obstacles and combine it with a dive to maintain speed."
+            },
+            {
+              "action": "Dive",
+              "keyboard": "Movement modifier or assigned dive key",
+              "controller": "Assigned face button",
+              "tip": "Dive down slopes, through hazards, or toward a loose ball, but avoid diving past the next checkpoint."
+            }
+          ]
+        },
+        {
+          "name": "Swing and Ball Control",
+          "type": "controls",
+          "controls": [
+            {
+              "action": "Prepare a shot",
+              "keyboard": "Aim with the mouse and hold the swing input",
+              "controller": "Aim with the right stick and hold the swing trigger",
+              "tip": "Use the projected direction and surrounding terrain to choose a safe landing area."
+            },
+            {
+              "action": "Set swing power",
+              "keyboard": "Hold the swing input and release at the desired power",
+              "controller": "Hold and release the swing trigger",
+              "tip": "Full power is useful for open fairways, while partial power is safer near cliffs, walls, water, and the hole."
+            },
+            {
+              "action": "Swing the club at an opponent",
+              "keyboard": "Use the normal swing input while standing near the opponent",
+              "controller": "Use the normal swing trigger at close range",
+              "tip": "Approach from the side or rear so the opponent has less time to dodge."
+            }
+          ]
+        },
+        {
+          "name": "Items and Inventory",
+          "type": "controls",
+          "controls": [
+            {
+              "action": "Use the selected item",
+              "keyboard": "Assigned item-use input",
+              "controller": "Assigned shoulder button",
+              "tip": "Aim offensive items before activating them and avoid wasting powerful attacks on players far behind."
+            },
+            {
+              "action": "Change the selected item",
+              "keyboard": "Inventory selection inputs",
+              "controller": "Inventory selection controls",
+              "tip": "Keep mobility or defensive equipment ready while travelling and switch to offensive equipment near the hole."
+            },
+            {
+              "action": "Drop an inventory item",
+              "keyboard": "Assigned drop input",
+              "controller": "Assigned inventory-drop input",
+              "tip": "Discard a weak or situational item when a stronger pickup is available."
+            }
+          ]
+        },
+        {
+          "name": "Golf Cart Controls",
+          "type": "controls",
+          "controls": [
+            {
+              "action": "Enter or leave a cart",
+              "keyboard": "Interact input",
+              "controller": "Interact button",
+              "tip": "Use carts on long open sections, but leave early when the route becomes narrow."
+            },
+            {
+              "action": "Steer",
+              "keyboard": "A and D",
+              "controller": "Left stick",
+              "tip": "Make small steering corrections because sharp turns can roll or redirect the cart."
+            },
+            {
+              "action": "Accelerate and reverse",
+              "keyboard": "W and S",
+              "controller": "Right and left triggers",
+              "tip": "Reduce speed before ramps, cliffs, tight corners, and crowded checkpoints."
+            }
+          ]
+        },
+        {
+          "name": "Driving and Approach Shots",
+          "type": "techniques",
+          "techniques": [
+            {
+              "name": "Safe opening drive",
+              "instructions": "Aim toward the widest part of the route and use high power without targeting the absolute edge of the fairway.",
+              "bestFor": "Starting areas, long fairways, and chaotic public matches"
+            },
+            {
+              "name": "Checkpoint-first shot",
+              "instructions": "Prioritize crossing the next checkpoint over gaining maximum distance. A shorter valid shot is faster than returning for a missed checkpoint.",
+              "bestFor": "Courses with gates, narrow paths, or multiple route changes"
+            },
+            {
+              "name": "Bank shot",
+              "instructions": "Use angled walls to redirect the ball when a direct route is blocked or too dangerous.",
+              "bestFor": "Indoor sections, sharp corners, and protected greens"
+            },
+            {
+              "name": "Recovery shot",
+              "instructions": "Use moderate power to return the ball to a stable surface instead of attempting another maximum-distance shot from a bad lie.",
+              "bestFor": "Slopes, edges, hazards, and crowded terrain"
+            }
+          ]
+        },
+        {
+          "name": "Putting Techniques",
+          "type": "techniques",
+          "techniques": [
+            {
+              "name": "Straight putt",
+              "instructions": "Center the aim on the hole and use the lowest power that can comfortably cover the remaining distance.",
+              "bestFor": "Flat greens"
+            },
+            {
+              "name": "Uphill putt",
+              "instructions": "Add power gradually because the slope will remove speed before the ball reaches the cup.",
+              "bestFor": "Raised holes and sloped greens"
+            },
+            {
+              "name": "Downhill putt",
+              "instructions": "Use very low power and allow gravity to carry the ball.",
+              "bestFor": "Greens where overshooting leads to a long recovery"
+            },
+            {
+              "name": "Crowded-hole putt",
+              "instructions": "Approach from an angle that keeps opponents outside your direct swing line, then putt before entering a prolonged club fight.",
+              "bestFor": "Public matches with several players already near the cup"
+            }
+          ]
+        },
+        {
+          "name": "Advanced Movement and Combat",
+          "type": "techniques",
+          "techniques": [
+            {
+              "name": "Jump-dive movement",
+              "instructions": "Jump while moving forward, then dive near the top of the jump to cover ground quickly and clear low obstacles.",
+              "bestFor": "Shortcuts, slopes, and escaping enemy attacks"
+            },
+            {
+              "name": "Ball-to-player transition",
+              "instructions": "Begin running toward the expected landing area immediately after releasing the shot.",
+              "bestFor": "Reducing downtime between swings"
+            },
+            {
+              "name": "Side-angle club knockback",
+              "instructions": "Stand beside the opponent and swing toward an open edge, hazard, wall, or route away from the hole.",
+              "bestFor": "Removing players from checkpoints and greens"
+            },
+            {
+              "name": "Item-and-club combination",
+              "instructions": "Use a stun, vision-blocking, displacement, or area-control item before closing the distance for a club strike.",
+              "bestFor": "Stopping the current leader near the final hole"
+            }
+          ]
+        }
+      ]
+    },
+    "releasePlatforms": {
+      "eyebrow": "Release Information",
+      "title": "Super Battle Golf Release Date and Platforms",
+      "subtitle": "Compare the available Steam edition with the announced PlayStation 5, Xbox Series X|S, and Nintendo Switch 2 releases.",
+      "intro": "The PC edition is distributed through Steam, while native console editions have been announced for current-generation PlayStation, Xbox, and Nintendo hardware. Platform rows clearly separate released information from console features that have not been announced.",
+      "displayType": "table",
+      "platforms": [
+        {
+          "platform": "Steam PC",
+          "status": "Available",
+          "release": "Released February 19, 2026",
+          "price": "Current regional price on Steam",
+          "storefront": "Steam"
+        },
+        {
+          "platform": "PlayStation 5",
+          "status": "Announced",
+          "release": "Summer 2026",
+          "price": "Not announced",
+          "storefront": "PlayStation Store"
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "status": "Announced",
+          "release": "Summer 2026",
+          "price": "Not announced",
+          "storefront": "Microsoft Store"
+        },
+        {
+          "platform": "Nintendo Switch 2",
+          "status": "Announced",
+          "release": "Summer 2026",
+          "price": "Not announced",
+          "storefront": "Nintendo eShop"
+        },
+        {
+          "platform": "Older Consoles (PS4, Xbox One, Switch)",
+          "status": "Not announced",
+          "release": "Not announced",
+          "price": "Not announced",
+          "storefront": "Not announced"
+        },
+        {
+          "platform": "PC System Requirements",
+          "status": "Published",
+          "release": "Current PC build",
+          "price": "Included with the Steam purchase",
+          "storefront": "Steam system-requirements panel"
+        }
+      ],
+      "requirements": [
+        "Minimum and recommended PC specifications",
+        "Processor, memory, graphics, and DirectX requirements",
+        "64-bit Windows storage requirement",
+        "Native macOS and Linux editions are not announced"
+      ]
+    },
+    "achievements": {
+      "eyebrow": "Achievements and Rewards",
+      "title": "Super Battle Golf Achievements and Cosmetics",
+      "subtitle": "Track progression goals, multiplayer challenges, knockout objectives, item tasks, hidden achievements, and cosmetic rewards.",
+      "intro": "Super Battle Golf has 50 Steam achievements that cover normal golf progression as well as the game's combat, movement, item, and multiplayer systems. Complete easy course objectives first, then use private matches or coordinated public matches for requirements that depend on specific items, knockouts, unusual shots, or several players.",
+      "displayType": "categoryCards",
+      "categories": [
+        {
+          "category": "Basic Progression",
+          "difficulty": "Easy",
+          "rarity": "Common",
+          "objectives": [
+            "Complete introductory gameplay objectives",
+            "Finish holes and courses",
+            "Reach normal progression milestones",
+            "Complete a full match"
+          ],
+          "strategy": "Play complete matches instead of leaving after a difficult hole. Focus on passing every checkpoint and safely finishing the course.",
+          "reward": "Progression-related cosmetics are awarded when attached to the completed objective."
+        },
+        {
+          "category": "Match Victories",
+          "difficulty": "Medium",
+          "rarity": "Uncommon",
+          "objectives": [
+            "Finish ahead of other players",
+            "Win multiplayer matches",
+            "Complete victory-related milestones"
+          ],
+          "strategy": "Use safe shots early, save mobility or defensive items for the final holes, and attack only the players directly competing for first place.",
+          "reward": "Victory cosmetics are unlocked by the matching achievement when listed."
+        },
+        {
+          "category": "Low-Score Challenges",
+          "difficulty": "Medium",
+          "rarity": "Uncommon",
+          "objectives": [
+            "Finish holes with strong golf scores",
+            "Complete efficient routes",
+            "Avoid unnecessary recovery shots"
+          ],
+          "strategy": "Learn each checkpoint route, use partial-power approach shots, and avoid maximum-power swings near narrow greens.",
+          "reward": "Score-based cosmetic reward when attached to the achievement."
+        },
+        {
+          "category": "Hole-in-One Challenges",
+          "difficulty": "Hard",
+          "rarity": "Rare",
+          "objectives": [
+            "Sink the ball with the opening shot on eligible holes",
+            "Complete hole-in-one-related milestones"
+          ],
+          "strategy": "Practice the same hole repeatedly, copy a consistent camera angle, and adjust power in small increments rather than changing both aim and power after every attempt.",
+          "reward": "Hole-in-one cosmetic reward when listed."
+        },
+        {
+          "category": "Player Knockouts",
+          "difficulty": "Medium",
+          "rarity": "Uncommon",
+          "objectives": [
+            "Knock out another player",
+            "Complete knockout totals",
+            "Remove opponents with direct attacks"
+          ],
+          "strategy": "Fight near cliffs, moving hazards, narrow bridges, and greens. A side-angle club swing creates more useful displacement than hitting directly toward a wall.",
+          "reward": "Combat-themed cosmetic reward when attached to the objective."
+        },
+        {
+          "category": "Item Knockouts",
+          "difficulty": "Hard",
+          "rarity": "Rare",
+          "objectives": [
+            "Knock out players with offensive items",
+            "Complete objectives tied to specific weapons",
+            "Use area attacks against grouped opponents"
+          ],
+          "strategy": "Hold high-impact items until players gather near a checkpoint or hole. Railgun and area-control attacks are easier to land when opponents have limited escape routes.",
+          "reward": "Item-themed cosmetic reward when listed."
+        },
+        {
+          "category": "Disruption and Status Effects",
+          "difficulty": "Medium",
+          "rarity": "Uncommon",
+          "objectives": [
+            "Disrupt opponents with Smoke Bomb",
+            "Affect players with Thunderstorm",
+            "Use Flash Camera successfully",
+            "Complete status-effect milestones"
+          ],
+          "strategy": "Use visual disruption near precision shots and activate area effects when multiple players are inside the same checkpoint or green.",
+          "reward": "Associated item or effect cosmetic when attached to the achievement."
+        },
+        {
+          "category": "Mobility and Cart Challenges",
+          "difficulty": "Medium",
+          "rarity": "Uncommon",
+          "objectives": [
+            "Use golf carts during a match",
+            "Complete movement-related objectives",
+            "Perform route or traversal challenges"
+          ],
+          "strategy": "Choose open courses with long roads, control speed before corners, and leave the cart before entering narrow putting areas.",
+          "reward": "Mobility-themed cosmetic reward when listed."
+        },
+        {
+          "category": "Inventory and Item Collection",
+          "difficulty": "Medium",
+          "rarity": "Uncommon",
+          "objectives": [
+            "Pick up and use different items",
+            "Complete item-use totals",
+            "Interact with newer additions such as Railgun, Smoke Bomb, Thunderstorm, Flash Camera, and Jumbo Burger"
+          ],
+          "strategy": "Prioritize unfamiliar pickups instead of repeatedly using the same dependable item. Drop unwanted inventory when a required item appears.",
+          "reward": "Collection or item-themed cosmetic when attached to the completed objective."
+        },
+        {
+          "category": "Secret Objectives",
+          "difficulty": "Hard",
+          "rarity": "Rare",
+          "objectives": [
+            "Complete hidden interactions",
+            "Trigger unusual course events",
+            "Perform actions that remain concealed until unlocked"
+          ],
+          "strategy": "Explore alternative routes, interact with unusual course objects, test items in different environments, and review the hidden-objective section after completing normal progression.",
+          "reward": "Secret cosmetic reward when the hidden achievement includes one."
+        },
+        {
+          "category": "Update-Specific Challenges",
+          "difficulty": "Variable",
+          "rarity": "Rare",
+          "objectives": [
+            "Complete achievements introduced with content updates",
+            "Use newly added items",
+            "Finish objectives on newly added courses or modes"
+          ],
+          "strategy": "Play the newest content first and check whether an objective requires a particular map, item, multiplayer count, or game mode.",
+          "reward": "Update-specific cosmetic reward when listed."
+        },
+        {
+          "category": "Completion Cleanup",
+          "difficulty": "Hard",
+          "rarity": "Very Rare",
+          "objectives": [
+            "Complete the remaining multiplayer-specific objectives",
+            "Finish demanding item and knockout challenges",
+            "Unlock the full Steam achievement set"
+          ],
+          "strategy": "Sort unfinished achievements by map, item, and player-count requirements, then complete several compatible objectives during the same match.",
+          "reward": "Final achievement and any remaining linked cosmetic unlocks."
+        }
+      ]
+    },
+    "updatesPatchNotes": {
+      "eyebrow": "Latest Changes",
+      "title": "Super Battle Golf Updates and Patch Notes",
+      "subtitle": "Follow major content releases, course additions, new items, cosmetics, balance changes, performance improvements, and bug fixes.",
+      "intro": "Super Battle Golf updates expand both the golf and combat sides of the game. The most important changes include new offensive and utility items, additional playable content, cosmetic rewards, gameplay balancing, stability work, and the announced expansion to PlayStation 5, Xbox Series X|S, and Nintendo Switch 2.",
+      "displayType": "accordion",
+      "updates": [
+        {
+          "version": "Launch Build",
+          "date": "Published through Steam News",
+          "type": "Full Release",
+          "headline": "Core Super Battle Golf Experience",
+          "newContent": [
+            "Real-time competitive golf matches",
+            "Checkpoint-based course progression",
+            "Player movement between shots",
+            "Club-based combat and knockouts",
+            "Item inventory system",
+            "Driveable golf carts",
+            "Achievements and cosmetic progression"
+          ],
+          "balance": [
+            "Initial tuning for golf shots, player movement, combat, and item interactions"
+          ],
+          "fixes": [
+            "Launch stability and compatibility support for the Steam edition"
+          ]
+        },
+        {
+          "version": "Console Announcement",
+          "date": "April 2026",
+          "type": "Platform Roadmap",
+          "headline": "PlayStation 5, Xbox Series X|S, and Nintendo Switch 2 Versions Announced",
+          "newContent": [
+            "PlayStation 5 edition announced",
+            "Xbox Series X|S edition announced",
+            "Nintendo Switch 2 edition announced",
+            "Summer 2026 console release window"
+          ],
+          "balance": [],
+          "fixes": [
+            "Console-specific technical details are handled separately from the current Steam build"
+          ]
+        },
+        {
+          "version": "Item Content Update",
+          "date": "Published through the linked Steam update",
+          "type": "Weapons and Utility Items",
+          "headline": "New Battle Items Expand Match Strategy",
+          "newContent": [
+            "Railgun",
+            "Smoke Bomb",
+            "Thunderstorm",
+            "Flash Camera",
+            "Jumbo Burger"
+          ],
+          "balance": [
+            "Expanded offensive, defensive, disruption, and recovery options",
+            "More counterplay around crowded checkpoints and final holes",
+            "Additional reasons to manage inventory instead of immediately using every pickup"
+          ],
+          "fixes": [
+            "Item interaction and gameplay fixes included with the content update"
+          ]
+        },
+        {
+          "version": "Course and Mode Expansion",
+          "date": "Published through Steam News",
+          "type": "Content Update",
+          "headline": "Additional Courses and Match Content",
+          "newContent": [
+            "Additional course content",
+            "New route and checkpoint situations",
+            "More multiplayer match variety",
+            "Additional cosmetic unlock opportunities"
+          ],
+          "balance": [
+            "Course flow adjustments",
+            "Checkpoint and hazard tuning",
+            "Improvements to demanding or easily exploited sections"
+          ],
+          "fixes": [
+            "Collision fixes",
+            "Course-object interaction fixes",
+            "Out-of-bounds and respawn corrections"
+          ]
+        },
+        {
+          "version": "Gameplay Balance Update",
+          "date": "Published through Steam News",
+          "type": "Balance Patch",
+          "headline": "Shot, Combat, Item, and Movement Adjustments",
+          "newContent": [],
+          "balance": [
+            "Swing and putting consistency adjustments",
+            "Club knockback tuning",
+            "Item power and dependability adjustments",
+            "Golf cart handling changes",
+            "Movement and recovery tuning",
+            "Changes intended to reduce unavoidable disruption near the hole"
+          ],
+          "fixes": [
+            "Corrections for inconsistent hits, physics reactions, and item effects"
+          ]
+        },
+        {
+          "version": "Cosmetic Update",
+          "date": "Published through Steam News",
+          "type": "Customization",
+          "headline": "Additional Cosmetic Rewards",
+          "newContent": [
+            "New cosmetic unlocks",
+            "Achievement-linked rewards",
+            "Additional appearance options",
+            "Update-specific progression rewards"
+          ],
+          "balance": [],
+          "fixes": [
+            "Cosmetic display and unlock-condition fixes"
+          ]
+        },
+        {
+          "version": "Performance and Stability Patch",
+          "date": "Published through Steam News",
+          "type": "Technical Update",
+          "headline": "Smoother Matches and Fewer Gameplay Interruptions",
+          "newContent": [],
+          "balance": [],
+          "fixes": [
+            "Performance improvements",
+            "Online match stability fixes",
+            "Physics and collision corrections",
+            "Controller input fixes",
+            "Menu and interface fixes",
+            "Achievement tracking corrections",
+            "Respawn and checkpoint fixes",
+            "General bug fixes"
+          ]
+        },
+        {
+          "version": "Latest Steam Build",
+          "date": "Shown on the newest Steam News entry",
+          "type": "Current Version",
+          "headline": "Most Recent Live Changes",
+          "newContent": [
+            "Newest courses, modes, items, and cosmetics listed in the latest announcement"
+          ],
+          "balance": [
+            "Current item, combat, movement, and course balance adjustments"
+          ],
+          "fixes": [
+            "Latest performance improvements and resolved bugs"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Super Battle Golf",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know about Super Battle Golf before you play.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Super Battle Golf?",
+        "answer": "Super Battle Golf is a chaotic multiplayer golf game on Steam where one to eight players race through 63 holes while using weapons, utility items, movement, and club combat to sabotage rivals and reach the cup first."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Which platforms is Super Battle Golf available on?",
+        "answer": "Super Battle Golf is available now on Steam for PC, and native PlayStation 5, Xbox Series X|S, and Nintendo Switch 2 editions have been announced for Summer 2026."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many players can play Super Battle Golf at once?",
+        "answer": "Super Battle Golf supports one to eight players in the same match, with solo scoring, free-for-all, and team mode options available across public and private lobbies."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Super Battle Golf have single-player content?",
+        "answer": "Yes. Super Battle Golf includes single-player support, so you can practice courses, swing angles, and item timing on your own before joining public or private multiplayer matches."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How many courses and holes does Super Battle Golf include?",
+        "answer": "Super Battle Golf currently features 63 holes across multiple biomes such as Forest, Desert, Coast, Snow, and City, each with checkpoints, hazards, shortcuts, and hole-in-one opportunities."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many achievements does Super Battle Golf have?",
+        "answer": "Super Battle Golf has 50 Steam achievements covering progression, victories, knockouts, item use, mobility, secret objectives, and cosmetic unlocks."
+      },
+      {
+        "question": "Does Super Battle Golf support controllers?",
+        "answer": "Yes. Super Battle Golf supports keyboard and mouse as well as controllers, including full swing aiming, item use, movement, and golf cart controls on both input methods."
+      },
+      {
+        "question": "Will Super Battle Golf keep receiving updates?",
+        "answer": "Yes. Super Battle Golf continues to receive new items, courses, cosmetics, balance changes, and stability fixes through Steam News, and the announced console editions are tracked in the updates guide."
       }
     ]
   },
   "cta": {
     "title": "Ready to Play Super Battle Golf?",
-    "description": "Join the Super Battle Golf community on Discord and Reddit for guides, updates, and discussions!",
+    "description": "Join the Super Battle Golf community on Discord and Steam for guides, updates, patch notes, and discussions.",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
     "title": "Super Battle Golf Wiki",
-    "description": "Your complete resource hub for Super Battle Golf courses, items, achievements, multiplayer, cosmetics, and update guides.",
+    "description": "Your complete resource hub for Super Battle Golf courses, items, achievements, multiplayer, cosmetics, controls, and update guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -802,121 +1146,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Super Battle Golf Guides",
+      "description": "Complete Super Battle Golf guides from beginner basics to advanced swing, item, and shortcut strategies.",
+      "metaTitle": "Super Battle Golf Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Super Battle Golf guides covering beginner tips, swing mechanics, items, multiplayer strategies, and expert tactics for chaotic multiplayer golf.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Super Battle Golf match flow, swing mechanics, checkpoint routes, item timing, and multiplayer strategies from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Description": "Understand swing power, angles, checkpoints, and items to avoid common beginner mistakes",
+        "step2Title": "Finish Holes Faster",
+        "step2Description": "Follow proven routes and shortcuts to reach the cup before your rivals",
+        "step3Title": "Master Combat Strategy",
+        "step3Description": "Develop tactics for using items, knockouts, and movement against other players"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "title": "Super Battle Golf Items",
+      "description": "Master Super Battle Golf items with offensive, defensive, mobility, and disruption tools ranked by match impact.",
+      "metaTitle": "Super Battle Golf Items - Weapons, Utility & Tier List",
+      "metaDescription": "Complete Super Battle Golf item database including Railgun, Orbital Laser, Thunderstorm, Smoke Bomb, and more. Learn how to use every weapon and utility item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "whatIsDescription": "Detailed guides for Super Battle Golf offensive, defensive, mobility, and disruption items. Learn timing, range, strengths, weaknesses, and the best moments to use each pickup.",
+      "why": "Why study items?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose the Right Loadout",
+        "step1Description": "Match items to the next section of the course for maximum value",
+        "step2Title": "Time Your Attacks",
+        "step2Description": "Use weapons at checkpoints, narrow paths, and final approaches",
+        "step3Title": "Counter Opponents",
+        "step3Description": "Understand item weaknesses and how to escape dangerous situations"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "items": {
+      "title": "Super Battle Golf Courses",
+      "description": "Explore every Super Battle Golf biome, hole, hazard, checkpoint, shortcut, and hole-in-one setup.",
+      "metaTitle": "Super Battle Golf Courses - Maps, Routes & Shortcuts",
+      "metaDescription": "Explore all 63 Super Battle Golf holes across Forest, Desert, Coast, Snow, and City biomes. Find routes, shortcuts, hazards, and safe landing zones.",
+      "categoryLabel": "COURSES & MAPS",
+      "whatIs": "What are Courses?",
+      "whatIsDescription": "Course-by-course guides covering Super Battle Golf biomes, hazards, checkpoints, recommended routes, useful items, risk levels, and hole-in-one opportunities.",
+      "why": "Why study courses?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Plan Safe Routes",
+        "step1Description": "Choose landing zones that make the next swing easier",
+        "step2Title": "Avoid Hazards",
+        "step2Description": "Recognize water, cliffs, choke points, and moving obstacles",
+        "step3Title": "Find Shortcuts",
+        "step3Description": "Skip sections safely without losing checkpoint progress"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Courses"
+    },
+    "biomes": {
+      "title": "Super Battle Golf Multiplayer",
+      "description": "Set up lobbies, invite friends, choose match formats, and fix connection problems in Super Battle Golf.",
+      "metaTitle": "Super Battle Golf Multiplayer - Lobbies, Friends & Team Mode",
+      "metaDescription": "Master Super Battle Golf multiplayer with guides on public and private lobbies, Steam friend invites, passwords, voice chat, solo, free-for-all, and team mode.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "Guides to Super Battle Golf online lobbies, including host settings, player slots, course selection, team rules, voice chat, and common connection troubleshooting.",
+      "why": "Why learn multiplayer?",
+      "whySteps": {
+        "step1Title": "Host Matches",
+        "step1Description": "Create public or private lobbies with the right rules",
+        "step2Title": "Play With Friends",
+        "step2Description": "Invite Steam friends and manage passwords and slots",
+        "step3Title": "Choose a Format",
+        "step3Description": "Pick solo scoring, free-for-all, or team mode for your group"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Super Battle Golf Achievements",
+      "description": "Track all 50 Super Battle Golf Steam achievements, cosmetic unlocks, and completion strategies.",
+      "metaTitle": "Super Battle Golf Achievements - All 50 Steam Achievements & Cosmetics",
+      "metaDescription": "Complete Super Battle Golf achievement checklist with requirements, difficulty, rarity, recommended strategy, and linked cosmetic rewards for every objective.",
+      "categoryLabel": "ACHIEVEMENTS",
+      "whatIs": "What are Achievements?",
+      "whatIsDescription": "Full Super Battle Golf achievement tracker covering progression, victories, knockouts, item use, mobility, secret objectives, and the cosmetics tied to each milestone.",
+      "why": "Why track achievements?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Plan Your Route",
+        "step1Description": "Group objectives by map, item, and player count",
+        "step2Title": "Unlock Cosmetics",
+        "step2Description": "Earn appearance rewards linked to each achievement",
+        "step3Title": "Reach 100%",
+        "step3Description": "Complete demanding multiplayer and secret objectives"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Achievement Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "title": "Super Battle Golf Support",
+      "description": "Release dates, platforms, system requirements, controls, and troubleshooting for Super Battle Golf.",
+      "metaTitle": "Super Battle Golf Support - Platforms, Requirements & Fixes",
+      "metaDescription": "Get Super Battle Golf support including release dates, Steam requirements, console announcements, controls, and fixes for common technical issues.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering Super Battle Golf release dates, platform availability, PC system requirements, controller setup, and fixes for common connection and stability issues.",
       "why": "Why check support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Confirm Platforms",
+        "step1Description": "Check Steam, PS5, Xbox Series, and Switch 2 availability",
+        "step2Title": "Verify Requirements",
+        "step2Description": "Match your PC specs to the minimum and recommended settings",
+        "step3Title": "Fix Issues",
+        "step3Description": "Resolve connection, controller, and stability problems"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
