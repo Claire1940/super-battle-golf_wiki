@@ -54,29 +54,31 @@ function main() {
   const manifest = {}
   let total = 0
 
-  if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
-  }
-
-  const locales = fs
-    .readdirSync(CONTENT_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
-    .map((d) => d.name)
-
-  for (const locale of locales) {
-    const localeDir = path.join(CONTENT_DIR, locale)
-    const contentTypes = fs
-      .readdirSync(localeDir, { withFileTypes: true })
+  // content/ 不存在是合法状态（新站尚未写入内容 / 已清空模板残留内容）：
+  // 此时应生成空清单 {} 并正常退出，而不是 process.exit(1) 中断构建。
+  let locales = []
+  if (fs.existsSync(CONTENT_DIR)) {
+    locales = fs
+      .readdirSync(CONTENT_DIR, { withFileTypes: true })
       .filter((d) => d.isDirectory())
       .map((d) => d.name)
 
-    manifest[locale] = {}
-    for (const contentType of contentTypes) {
-      const entries = collectEntries(path.join(localeDir, contentType))
-      manifest[locale][contentType] = entries
-      total += entries.length
+    for (const locale of locales) {
+      const localeDir = path.join(CONTENT_DIR, locale)
+      const contentTypes = fs
+        .readdirSync(localeDir, { withFileTypes: true })
+        .filter((d) => d.isDirectory())
+        .map((d) => d.name)
+
+      manifest[locale] = {}
+      for (const contentType of contentTypes) {
+        const entries = collectEntries(path.join(localeDir, contentType))
+        manifest[locale][contentType] = entries
+        total += entries.length
+      }
     }
+  } else {
+    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，生成空清单`)
   }
 
   fs.mkdirSync(OUT_DIR, { recursive: true })
