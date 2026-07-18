@@ -105,11 +105,6 @@ export default function HomePageClient({
           height: 1080,
           caption: "Super Battle Golf - Chaotic Multiplayer Golf",
         },
-        potentialAction: {
-          "@type": "SearchAction",
-          target: `${siteUrl}/search?q={search_term_string}`,
-          "query-input": "required name=search_term_string",
-        },
       },
       {
         "@type": "Organization",
@@ -136,6 +131,8 @@ export default function HomePageClient({
           "https://store.steampowered.com/app/4069520/Super_Battle_Golf/",
           "https://brimstone.games/",
           "https://www.youtube.com/@brimstonedevs",
+          "https://x.com/BrimstoneDevs",
+          "https://steamcommunity.com/app/4069520",
         ],
       },
       {

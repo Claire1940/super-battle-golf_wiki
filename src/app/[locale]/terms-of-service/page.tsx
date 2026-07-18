@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.super-battle-golf.wiki'
   const path = '/terms-of-service'
 
   return {
-    title: "Terms of Service - Lucid Blocks Wiki",
-    description: "Read the Terms of Service for Lucid Blocks Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
+    title: "Terms of Service - Super Battle Golf Wiki",
+    description: "Read the Terms of Service for Super Battle Golf Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: "Lucid Blocks Wiki",
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
+      siteName: "Super Battle Golf Wiki",
+      title: "Terms of Service - Super Battle Golf Wiki",
+      description: "Terms and conditions for using Super Battle Golf Wiki.",
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: "Lucid Blocks Wiki",
+          alt: "Super Battle Golf Wiki",
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
-      images: [`${siteUrl}/og-image.jpg`],
+      title: "Terms of Service - Super Battle Golf Wiki",
+      description: "Terms and conditions for using Super Battle Golf Wiki.",
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -62,10 +62,10 @@ export default function TermsOfService() {
             Terms of Service
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Terms and conditions for using Lucid Blocks Wiki
+            Terms and conditions for using Super Battle Golf Wiki
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 18, 2026
           </p>
         </div>
       </section>
@@ -76,30 +76,30 @@ export default function TermsOfService() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing and using Lucid Blocks Wiki ("the Website", "we", "our", or "us"), you agree to be bound
+              By accessing and using Super Battle Golf Wiki ("the Website", "we", "our", or "us"), you agree to be bound
               by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Website.
             </p>
             <p>
-              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Lucid Blocks Wiki.
+              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Super Battle Golf Wiki.
               Your continued use of the Website signifies your acceptance of these Terms and any future modifications.
             </p>
 
             <h2>2. Description of Service</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
-              and resources related to the Steam game "Lucid Blocks". Our services include, but are not limited to:
+              Super Battle Golf Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
+              and resources related to the Steam game "Super Battle Golf". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
+              <li>Course guides and shortcut strategies</li>
+              <li>Item tier lists and loadout guides</li>
+              <li>Map and course hazard information</li>
+              <li>Controls, shots, and multiplayer guides</li>
               <li>Achievement walkthroughs</li>
               <li>Community discussion and content</li>
             </ul>
             <p>
-              <strong>Important:</strong> Lucid Blocks Wiki is NOT affiliated with, endorsed by, or associated with
-              Valve Corporation (Steam) or the official developers of Lucid Blocks. We are an independent fan community.
+              <strong>Important:</strong> Super Battle Golf Wiki is NOT affiliated with, endorsed by, or associated with
+              Valve Corporation (Steam) or the official developers of Super Battle Golf. We are an independent fan community.
             </p>
 
             <h2>3. User Responsibilities</h2>
@@ -130,14 +130,14 @@ export default function TermsOfService() {
             <h3>4.1 Website Content</h3>
             <p>
               The Website and its original content, features, and functionality (including but not limited to text,
-              graphics, logos, images, and software) are owned by Lucid Blocks Wiki and are protected by international
+              graphics, logos, images, and software) are owned by Super Battle Golf Wiki and are protected by international
               copyright, trademark, and other intellectual property laws.
             </p>
 
             <h3>4.2 Game Content</h3>
             <p>
               All game-related content, including but not limited to character images, game screenshots, logos, and
-              trademarks, are the property of Valve Corporation (Steam) and/or the developers of Lucid Blocks. We use such
+              trademarks, are the property of Valve Corporation (Steam) and/or the developers of Super Battle Golf. We use such
               content under fair use principles for informational and educational purposes only.
             </p>
 
@@ -165,7 +165,7 @@ export default function TermsOfService() {
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              TO THE FULLEST EXTENT PERMITTED BY LAW, LUCID BLOCKS WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+              TO THE FULLEST EXTENT PERMITTED BY LAW, SUPER BATTLE GOLF WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
               SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY
               OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
             </p>
@@ -251,7 +251,7 @@ export default function TermsOfService() {
             <h2>13. Entire Agreement</h2>
             <p>
               These Terms, together with our Privacy Policy and Copyright Notice, constitute the entire agreement between
-              you and Lucid Blocks Wiki regarding the use of the Website and supersede any prior agreements or understandings.
+              you and Super Battle Golf Wiki regarding the use of the Website and supersede any prior agreements or understandings.
             </p>
 
             <h2>14. Contact Information</h2>
@@ -259,7 +259,7 @@ export default function TermsOfService() {
               If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:legal@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:legal@super-battle-golf.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@super-battle-golf.wiki</a>
             </p>
             <p>
               We will respond to all inquiries within a reasonable timeframe.

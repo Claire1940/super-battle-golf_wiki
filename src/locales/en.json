@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Super Battle Golf Wiki - Courses, Items & Achievements",
+      "description": "Explore Super Battle Golf courses, items, achievements, controls, team mode, cosmetics, updates, and beginner tips for faster wins on every chaotic hole.",
+      "keywords": "Super Battle Golf, wiki, courses, items, achievements, team mode, cosmetics, controls, updates",
+      "ogTitle": "Super Battle Golf Wiki - Courses, Items & Achievements",
+      "ogDescription": "Explore Super Battle Golf courses, items, achievements, controls, team mode, cosmetics, updates, and beginner tips for faster wins on every chaotic hole.",
+      "twitterTitle": "Super Battle Golf Wiki - Courses, Items & Achievements",
+      "twitterDescription": "Super Battle Golf Wiki covers courses, items, achievements, team mode, cosmetics, controls, and updates for chaotic multiplayer golf on Steam."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Chaotic Multiplayer Golf",
+    "title": "Super Battle Golf Wiki",
+    "description": "Race through 63 chaotic holes with up to eight players, master swing power and angles, collect weapons and utility items, sabotage rivals, unlock cosmetics, and win solo or team matches.",
+    "getFreeCodesCTA": "View Latest Update",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "1M+",
+        "label": "Copies Sold"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "63",
+        "label": "Holes Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1-8",
+        "label": "Players per Match"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "50",
+        "label": "Steam Achievements"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Super Battle Golf?",
+    "description": "Join the Super Battle Golf community on Discord and Reddit for guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Super Battle Golf Wiki",
+    "description": "Your complete resource hub for Super Battle Golf courses, items, achievements, multiplayer, cosmetics, and update guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Super Battle Golf Wiki. Not affiliated with the developers of Super Battle Golf.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
