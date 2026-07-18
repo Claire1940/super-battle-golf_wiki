@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Super Battle Golf Wiki - Campos, Itens e Conquistas",
+      "description": "Explore os campos, itens, conquistas, controles, modo de equipe, cosméticos, atualizações e dicas para iniciantes do Super Battle Golf para vitórias mais rápidas em cada buraco caótico.",
+      "keywords": "Super Battle Golf, wiki, campos, itens, conquistas, modo de equipe, cosméticos, controles, atualizações",
+      "ogTitle": "Super Battle Golf Wiki - Campos, Itens e Conquistas",
+      "ogDescription": "Explore os campos, itens, conquistas, controles, modo de equipe, cosméticos, atualizações e dicas para iniciantes do Super Battle Golf para vitórias mais rápidas em cada buraco caótico.",
+      "twitterTitle": "Super Battle Golf Wiki - Campos, Itens e Conquistas",
+      "twitterDescription": "A Super Battle Golf Wiki cobre campos, itens, conquistas, modo de equipe, cosméticos, controles e atualizações para o golfe multijogador caótico no Steam."
+    }
+  },
   "nav": {
     "guide": "Guia",
     "updates": "Atualizações",
@@ -7,5 +18,1280 @@
     "achievements": "Conquistas",
     "cosmetics": "Cosméticos",
     "maps": "Mapas"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Golfe Multijogador Caótico",
+    "title": "Super Battle Golf Wiki",
+    "description": "Corra por 63 buracos caóticos com até oito jogadores, domine a força e os ângulos do swing, colete armas e itens utilitários, sabote rivais, desbloqueie cosméticos e vença partidas solo ou em equipe.",
+    "getFreeCodesCTA": "Ver Última Atualização",
+    "playOnSteamCTA": "Jogue no Steam",
+    "stats": {
+      "stat1": {
+        "value": "1M+",
+        "label": "Cópias Vendidas"
+      },
+      "stat2": {
+        "value": "63",
+        "label": "Buracos Disponíveis"
+      },
+      "stat3": {
+        "value": "1-8",
+        "label": "Jogadores por Partida"
+      },
+      "stat4": {
+        "value": "50",
+        "label": "Conquistas Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Super Battle Golf",
+    "description": "Compita em 63 buracos caóticos com até oito jogadores, misture golfe de precisão com combate em tempo real e use armas, itens e movimentação para sabotar rivais e chegar primeiro ao buraco."
+  },
+  "tools": {
+    "title": "Super Battle Golf",
+    "titleHighlight": "Guias",
+    "subtitle": "Vá direto para qualquer tópico de Super Battle Golf, desde o básico para iniciantes e tiers de itens até mapas, multiplayer, controles, plataformas, conquistas e notas de atualização.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Fluxo da partida, força da tacada, checkpoints, itens e prioridades iniciais"
+      },
+      {
+        "icon": "Star",
+        "title": "Tier List de Itens",
+        "description": "Itens ofensivos, defensivos, de mobilidade e de interrupção ranqueados"
+      },
+      {
+        "icon": "Eye",
+        "title": "Mapas e Atalhos",
+        "description": "Rotas, perigos, configurações de hole-in-one e zonas de pouso seguras"
+      },
+      {
+        "icon": "Users",
+        "title": "Guia de Multiplayer",
+        "description": "Lobbies, amigos, senhas, chat de voz e formatos de partida"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Guia de Controles",
+        "description": "Ações de teclado e controle, tacadas, putts e combate"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Lançamento e Plataformas",
+        "description": "Detalhes de Steam, PS5, Xbox Series e Nintendo Switch 2"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Conquistas",
+        "description": "Todas as 50 conquistas Steam, cosméticos e condições de desbloqueio"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações e Notas de Patch",
+        "description": "Novos itens, campos, mudanças de equilíbrio e correções recentes"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "eyebrow": "Primeiros Passos",
+      "title": "Guia de Super Battle Golf para Iniciantes",
+      "subtitle": "Aprenda o fluxo completo da partida, desde a tacada inicial até o buraco final.",
+      "intro": "Super Battle Golf combina a pontuação do golfe com movimentação em tempo real, checkpoints, itens de combate, perigos ambientais e interrupção multiplayer. Vencer consistentemente exige tacadas precisas, decisões rápidas de rota, uso inteligente do inventário e saber quando atacar ou ignorar outros jogadores.",
+      "displayType": "steps",
+      "steps": [
+        {
+          "title": "Entenda o Objetivo da Partida",
+          "description": "Complete cada buraco chegando ao buraco enquanto gerencia tacadas, tempo de viagem, perigos e ataques de outros jogadores. A pontuação solo recompensa o golfe eficiente, enquanto as batalhas multiplayer também recompensam chegar ao final antes dos seus oponentes.",
+          "tips": [
+            "Verifique o layout do buraco antes de dar a primeira tacada.",
+            "Priorize o progresso para frente em vez de lutar contra todos os jogadores próximos.",
+            "Use a rota mais segura ao carregar um item forte ou proteger a liderança."
+          ]
+        },
+        {
+          "title": "Mire e Controle a Força da Tacada",
+          "description": "Alinhe a direção da tacada, avalie a trajetória de voo esperada e defina força suficiente para alcançar uma área de pouso segura. A força máxima é útil em fairways abertos, mas torna-se arriscada perto de penhascos, plataformas estreitas, perigos e do buraco.",
+          "tips": [
+            "Use tacadas controladas quando a área de pouso for pequena.",
+            "Mire em terreno plano para facilitar a próxima tacada.",
+            "Reduza a força perto do buraco em vez de forçar uma finalização perfeita."
+          ]
+        },
+        {
+          "title": "Mova-se Rapidamente Entre as Tacadas",
+          "description": "Depois que a bola pousar, mova-se em direção à próxima posição de jogo enquanto observa ataques recebidos e perigos ambientais. Uma boa movimentação reduz o tempo de inatividade e ajuda você a garantir itens úteis antes de outros jogadores.",
+          "tips": [
+            "Continue se movendo quando os oponentes estiverem mirando itens ofensivos.",
+            "Evite ficar em áreas de coleta de itens lotadas.",
+            "Aproxime-se da bola pela direção planejada para a sua próxima tacada."
+          ]
+        },
+        {
+          "title": "Ative os Checkpoints",
+          "description": "Os checkpoints protegem seu progresso, oferecendo uma posição de recuperação mais segura após um knockout, queda ou atalho mal-sucedido. Pular um pode economizar tempo, mas também pode mandá-lo muito mais para trás se a rota falhar.",
+          "tips": [
+            "Toque nos checkpoints próximos durante suas primeiras tentativas em um percurso.",
+            "Pule um checkpoint apenas quando o atalho tiver um pouso confiável.",
+            "Garanta um checkpoint antes de entrar em uma seção altamente contestada."
+          ]
+        },
+        {
+          "title": "Gerencie seu Inventário de Itens",
+          "description": "Colete itens ofensivos, defensivos e de mobilidade espalhados pelo percurso. O espaço no inventário é limitado, então guarde itens que combinem com a próxima seção em vez de segurar cada coleta pelo buraco inteiro.",
+          "tips": [
+            "Guarde ferramentas de mobilidade para subidas, vãos ou atalhos importantes.",
+            "Mantenha itens defensivos ao se aproximar do buraco com uma vantagem.",
+            "Use itens de interrupção mais fracos cedo, em vez de bloquear uma coleta melhor."
+          ]
+        },
+        {
+          "title": "Use Itens no Momento Certo",
+          "description": "Os itens são mais eficazes em passagens estreitas, saltos difíceis, checkpoints e aproximações finais. Um ataque bem cronometrado pode custar mais tempo a um oponente do que lutas constantes de baixo valor em um fairway aberto.",
+          "tips": [
+            "Alveje jogadores durante a preparação da tacada ou na recuperação do pouso.",
+            "Posicione ataques de área por onde os oponentes devem passar.",
+            "Não pare para lutar quando já tiver uma rota clara para o buraco."
+          ]
+        },
+        {
+          "title": "Recupere-se de Knockouts",
+          "description": "Explosões, ataques diretos, quedas e perigos do percurso podem nocauteá-lo e devolvê-lo a um ponto de recuperação recente. Reavalie a rota imediatamente em vez de repetir o mesmo atalho arriscado sem o item ou ângulo necessário.",
+          "tips": [
+            "Afaste-se do checkpoint após o respawn para evitar ataques repetidos.",
+            "Escolha a rota normal após duas tentativas de atalho fracassadas.",
+            "Use cobertura e elevação de terreno para bloquear linhas de tiro diretas."
+          ]
+        },
+        {
+          "title": "Termine o Buraco com Segurança",
+          "description": "A área ao redor do buraco costuma ser a parte mais perigosa de uma partida multiplayer. Use uma tacada final controlada, mantenha um item defensivo pronto e evite ultrapassar o limite enquanto os oponentes criam explosões, fumaça, raios ou outras interrupções.",
+          "tips": [
+            "Faça uma tacada curta de preparação quando o ângulo para o buraco estiver ruim.",
+            "Afaste os oponentes próximos antes de iniciar uma tacada de precisão lenta.",
+            "Use o terreno ou fumaça para esconder sua aproximação final."
+          ]
+        },
+        {
+          "title": "Siga a Ordem de Prioridade para Iniciantes",
+          "description": "Suas principais prioridades devem ser alcançar checkpoints, manter o impulso para frente, coletar um item útil e completar o buraco. O combate torna-se valioso apenas quando protege diretamente sua rota ou atrasa um oponente próximo.",
+          "tips": [
+            "Progresso primeiro, itens em segundo, combate em terceiro.",
+            "Aprenda a rota padrão antes de tentar atalhos avançados.",
+            "Observe jogadores bem-sucedidos para identificar zonas de pouso mais seguras."
+          ]
+        }
+      ],
+      "quickTips": [
+        "Verifique o layout do buraco e planeje um pouso seguro antes da sua primeira tacada.",
+        "Toque nos checkpoints cedo para que um atalho malsucedido nunca acabe com uma grande vantagem.",
+        "Carregue um item de mobilidade e um item defensivo para a aproximação final.",
+        "Ataque apenas os jogadores que estão competindo diretamente pela sua posição de chegada."
+      ]
+    },
+    "itemsTierList": {
+      "eyebrow": "Itens e Equipamentos",
+      "title": "Tier List de Itens de Super Battle Golf",
+      "subtitle": "Compare itens ofensivos, defensivos, de mobilidade e de desestabilização por consistência e impacto na partida.",
+      "intro": "Os itens mais fortes criam nocautes confiáveis, bloqueiam uma rota importante ou protegem o progresso perto do buraco. Armas de precisão dominam linhas de visão abertas, enquanto fumaça, efeitos climáticos e desestabilização a curta distância se tornam mais fortes em campos estreitos ou lotados.",
+      "displayType": "tiers",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Decisivos para a Partida",
+          "description": "Itens confiáveis que podem criar uma grande vantagem, parar vários oponentes ou controlar a seção final de um buraco.",
+          "entries": [
+            {
+              "name": "Railgun",
+              "category": "Ofensivo",
+              "strengths": "Pressão rápida e precisa de longo alcance, com grande valor em fairways abertos e pontes estreitas.",
+              "bestUse": "Mire em jogadores parados se preparando para uma tacada, oponentes cruzando seções expostas ou nos líderes se aproximando do buraco.",
+              "weakness": "Requer mira precisa e perde valor quando o terreno, fumaça ou curvas fechadas bloqueiam a linha de tiro."
+            },
+            {
+              "name": "Laser Orbital",
+              "category": "Ofensivo e Controle de Área",
+              "strengths": "Cria uma poderosa zona de perigo direcionada que pode punir jogadores agrupados e bloquear rotas importantes.",
+              "bestUse": "Posicione-o em checkpoints, caminhos estreitos, greens lotados ou na área de pouso esperada de um oponente.",
+              "weakness": "O aviso e o impacto atrasado dão tempo para jogadores atentos escaparem."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Altamente Eficaz",
+          "description": "Itens fortes e flexíveis que desestabilizam oponentes de forma consistente, mas exigem bom timing ou terreno favorável.",
+          "entries": [
+            {
+              "name": "Tempestade de Raios",
+              "category": "Ofensivo e Negação de Área",
+              "strengths": "Controla uma ampla seção do campo e pressiona vários jogadores sem exigir um acerto direto perfeito.",
+              "bestUse": "Ative-o sobre checkpoints lotados, fairways expostos ou no green final para forçar os oponentes a se moverem.",
+              "weakness": "Menos eficaz quando os jogadores conseguem sair rapidamente da área afetada ou pegar uma rota alternativa."
+            },
+            {
+              "name": "Bomba de Fumaça",
+              "category": "Defensivo e Desestabilização",
+              "strengths": "Bloqueia a visibilidade, atrapalha ataques de precisão e torna mais difícil para os oponentes alinharem tacadas importantes.",
+              "bestUse": "Proteja sua tacada final, cruze uma rota exposta, escape de um usuário de Railgun ou oculte uma zona de pouso perigosa.",
+              "weakness": "A fumaça também pode obstruir sua própria mira e não impede fisicamente o avanço dos oponentes."
+            },
+            {
+              "name": "Itens de Lançamento",
+              "category": "Ofensivo e Mobilidade",
+              "strengths": "O knockback direto pode remover oponentes de plataformas, interromper tacadas ou criar oportunidades de movimento de emergência.",
+              "bestUse": "Ataque jogadores perto de penhascos, água, saliências estreitas ou do buraco.",
+              "weakness": "Ferramentas de impacto direto são mais fáceis de evitar em terrenos abertos e podem oferecer valor limitado sem um perigo por perto."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Situacional",
+          "description": "Itens úteis com aplicações específicas fortes, mas com valor menos consistente em todos os mapas e estados de partida.",
+          "entries": [
+            {
+              "name": "Câmera Flash",
+              "category": "Perturbação",
+              "strengths": "Interfere brevemente com oponentes próximos e pode quebrar a concentração deles durante tacadas de precisão.",
+              "bestUse": "Ative-o em túneis congestionados, perto do buraco ou imediatamente antes de dar a sua própria tacada final.",
+              "weakness": "Seu valor cai a longo alcance e contra jogadores que já estão se afastando."
+            },
+            {
+              "name": "Hambúrguer Jumbo",
+              "category": "Utilidade Defensiva",
+              "strengths": "Fornece presença física temporária que é útil para sobreviver a confrontos lotados e disputar espaço.",
+              "bestUse": "Use-o antes de entrar em um checkpoint caótico, passagem estreita ou um green altamente disputado.",
+              "weakness": "Seu valor defensivo é menor quando a velocidade, precisão ou um ataque de longo alcance são mais importantes."
+            }
+          ]
+        }
+      ]
+    },
+    "mapsShortcuts": {
+      "eyebrow": "Campos e Rotas",
+      "title": "Mapas e Atalhos de Super Battle Golf",
+      "subtitle": "Aprenda a abordar checkpoints, mudanças de elevação, obstáculos, caminhos estreitos e os greens finais.",
+      "intro": "A conclusão rápida do campo depende da escolha de áreas de aterrissagem que facilitem a próxima tacada. O melhor atalho nem sempre é o caminho visível mais curto: uma rota também deve fornecer uma aterrissagem consistente, preservar o progresso no checkpoint e evitar expor você a nocautes fáceis.",
+      "displayType": "Cartões de Rota",
+      "routes": [
+        {
+          "name": "Tee de Abertura e Fairway Longo",
+          "routeType": "Rota de Velocidade Padrão",
+          "hazards": [
+            "Área de saída lotada",
+            "Ataques de longo alcance",
+            "Jogadores aterrissando na mesma zona"
+          ],
+          "recommendedRoute": "Dê uma tacada inicial poderosa em direção a uma área de aterrissagem ampla e plana que lhe dê uma segunda tacada desimpedida.",
+          "usefulItems": [
+            "Railgun",
+            "Bomba de Fumaça",
+            "Itens de lançamento"
+          ],
+          "shortcut": "Mire além da primeira zona de aterrissagem segura apenas quando o fairway continuar amplo e o próximo checkpoint ainda puder ser alcançado.",
+          "riskLevel": "Baixo a Médio"
+        },
+        {
+          "name": "Rota de Checkpoint",
+          "routeType": "Rota de Progresso Seguro",
+          "hazards": [
+            "Camping no checkpoint",
+            "Ataques de área",
+            "Repulsão repetida após o ressurgimento"
+          ],
+          "recommendedRoute": "Aproxime-se pelo lado, ative o checkpoint e afaste-se imediatamente do centro congestionado.",
+          "usefulItems": [
+            "Bomba de Fumaça",
+            "Tempestade de Raios",
+            "Câmera Flash"
+          ],
+          "shortcut": "Um checkpoint pode ser ignorado quando a área de aterrissagem seguinte for confiável e a falha não apagar uma grande quantidade de progresso.",
+          "riskLevel": "Médio"
+        },
+        {
+          "name": "Seção de Subida e Terreno Elevado",
+          "routeType": "Rota de Elevação",
+          "hazards": [
+            "Rolando para trás",
+            "Caindo de saliências",
+            "Espaço de aterrissagem limitado"
+          ],
+          "recommendedRoute": "Use várias tacadas controladas para garantir plataformas planas em vez de tentar repetidamente uma subida com força máxima.",
+          "usefulItems": [
+            "Itens de mobilidade",
+            "Bomba de Fumaça",
+            "Hambúrguer Jumbo"
+          ],
+          "shortcut": "Saltos assistidos por mobilidade podem pular ziguezagues ou alcançar uma plataforma superior diretamente.",
+          "riskLevel": "Alto"
+        },
+        {
+          "name": "Seção de Água e Fora de Campo",
+          "routeType": "Rota de Precisão",
+          "hazards": [
+            "Água",
+            "Penhascos",
+            "Pequenas ilhas",
+            "Longa distância de recuperação"
+          ],
+          "recommendedRoute": "Use tacadas de média força e aterrisse perto do centro de cada plataforma segura.",
+          "usefulItems": [
+            "Bomba de Fumaça",
+            "Railgun",
+            "Itens defensivos"
+          ],
+          "shortcut": "Pule plataformas intermediárias apenas quando o destino for amplo o suficiente para obter uma aterrissagem imperfeita.",
+          "riskLevel": "Alto"
+        },
+        {
+          "name": "Ponte, Túnel e Passagem Estreita",
+          "routeType": "Ponto de Estrangulamento de Combate",
+          "hazards": [
+            "Nocautes fáceis",
+            "Visibilidade bloqueada",
+            "Negação de área",
+            "Congestionamento de jogadores"
+          ],
+          "recommendedRoute": "Espere os maiores efeitos de ataque desaparecerem e, em seguida, mova-se rapidamente sem parar para lutas desnecessárias.",
+          "usefulItems": [
+            "Tempestade de Raios",
+            "Câmera com Flash",
+            "Itens de lançamento",
+            "Bomba de Fumaça"
+          ],
+          "shortcut": "Use uma beirada externa ou rota de mobilidade apenas quando ela se reconectar além do ponto de estrangulamento.",
+          "riskLevel": "Alto"
+        },
+        {
+          "name": "Seção de Perigos Móveis",
+          "routeType": "Rota de Tempo",
+          "hazards": [
+            "Obstáculos móveis",
+            "Aberturas que mudam",
+            "Espera forçada",
+            "Repulsão imprevisível"
+          ],
+          "recommendedRoute": "Prepare a tacada antes que a abertura segura apareça e solte assim que o caminho estiver livre.",
+          "usefulItems": [
+            "Bomba de Fumaça",
+            "Railgun",
+            "Itens de mobilidade"
+          ],
+          "shortcut": "Uma tacada alta ou angulada pode superar o obstáculo móvel em vez de esperar pela abertura normal.",
+          "riskLevel": "Médio a Alto"
+        },
+        {
+          "name": "Seção de Descida e Queda",
+          "routeType": "Rota de Impulso",
+          "hazards": [
+            "Ultrapassar o alvo",
+            "Rolagem descontrolada",
+            "Perder checkpoints inferiores"
+          ],
+          "recommendedRoute": "Reduza a força da tacada e mire em uma plataforma inferior plana em vez do ponto visível mais distante.",
+          "usefulItems": [
+            "Itens defensivos",
+            "Bomba de Fumaça",
+            "Railgun"
+          ],
+          "shortcut": "Uma queda longa pode pular várias curvas quando a zona de pouso é ampla e protegida de áreas fora de campo.",
+          "riskLevel": "Médio"
+        },
+        {
+          "name": "Green Final e Buraco",
+          "routeType": "Finalização de Precisão",
+          "hazards": [
+            "Ataques de Laser Orbital",
+            "Zonas de Tempestade de Raios",
+            "Fumaça",
+            "Repulsão de curto alcance",
+            "Ultrapassar o buraco"
+          ],
+          "recommendedRoute": "Dê uma tacada de aproximação controlada, mantenha um item defensivo pronto e finalize de um ângulo estável.",
+          "usefulItems": [
+            "Bomba de Fumaça",
+            "Câmera de Flash",
+            "Laser Orbital",
+            "Tempestade de Raios"
+          ],
+          "shortcut": "Uma tacada direta agressiva economiza tempo apenas quando o buraco tem uma aproximação livre e o green não está coberto por ataques ativos.",
+          "riskLevel": "Muito Alto"
+        }
+      ]
+    },
+    "multiplayerGuide": {
+      "eyebrow": "Multijogador Online",
+      "title": "Guia de Multijogador de Super Battle Golf",
+      "subtitle": "Crie partidas públicas ou privadas, convide amigos do Steam, configure as regras do lobby e escolha entre os modos solo, cada um por si e jogo em equipe.",
+      "intro": "Super Battle Golf suporta lobbies online para partidas competitivas e casuais. Os anfitriões controlam a privacidade do lobby, senhas, vagas de jogadores disponíveis, configurações de percurso, regras de equipe e opções de comunicação antes de iniciar o jogo.",
+      "displayType": "passos",
+      "steps": [
+        {
+          "title": "Escolha Partida Pública ou Privada",
+          "description": "Use um lobby público para jogar com jogadores online disponíveis ou crie um lobby privado ao organizar uma partida com amigos.",
+          "points": [
+            "Lobbies públicos aparecem no navegador de servidores.",
+            "Lobbies privados restringem o acesso através de convites ou de uma senha do lobby.",
+            "O menu do host exibe o limite atual de slots de jogador do servidor."
+          ]
+        },
+        {
+          "title": "Criar um Lobby",
+          "description": "Selecione a opção de host, escolha a visibilidade do lobby, configure as regras da partida e aguarde no lobby até que o grupo esteja pronto.",
+          "points": [
+            "Selecione o campo ou a rotação de campos.",
+            "Escolha o formato de jogo.",
+            "Defina os slots de jogador disponíveis.",
+            "Revise as configurações de equipe e pontuação antes de iniciar."
+          ]
+        },
+        {
+          "title": "Convidar Amigos do Steam",
+          "description": "Abra a interface de amigos do Steam enquanto o lobby estiver ativo e envie convites para os jogadores que você deseja que entrem.",
+          "points": [
+            "O jogador convidado deve estar online no Steam.",
+            "Mantenha o lobby aberto até que todos os jogadores convidados se conectem.",
+            "Os amigos também podem entrar pelo menu de amigos do Steam quando as permissões do lobby permitirem."
+          ]
+        },
+        {
+          "title": "Entrar com uma Senha do Lobby",
+          "description": "Os jogadores que entrarem em um lobby protegido devem inserir a senha exata criada pelo host.",
+          "points": [
+            "As senhas diferenciam maiúsculas de minúsculas quando a interface do lobby trata caracteres maiúsculos e minúsculos separadamente.",
+            "Compartilhe a senha de forma privada em vez de publicá-la em um chat público.",
+            "Substitua a senha quando jogadores indesejados tentarem entrar repetidamente."
+          ]
+        },
+        {
+          "title": "Configurar Chat de Voz",
+          "description": "Revise as configurações de voz do jogo antes da partida e selecione o microfone e o dispositivo de saída corretos.",
+          "points": [
+            "Ajuste o volume do microfone e a reprodução de voz separadamente.",
+            "Use \"pressione para falar\" quando o ruído de fundo for um problema.",
+            "Silencie jogadores individuais através do lobby ou da interface do jogador quando necessário."
+          ]
+        },
+        {
+          "title": "Selecionar um Formato de Partida",
+          "description": "Escolha o formato que corresponda ao nível de competição e cooperação preferido do grupo.",
+          "modes": [
+            {
+              "name": "Pontuação Individual",
+              "description": "Os jogadores se concentram em completar os buracos de forma eficiente, com o desempenho determinado pelos resultados do golfe, em vez da cooperação em equipe."
+            },
+            {
+              "name": "Todos Contra Todos",
+              "description": "Cada jogador compete de forma independente enquanto usa itens e perigos do campo para atrasar o resto do lobby."
+            },
+            {
+              "name": "Modo de Equipe",
+              "description": "Os jogadores são divididos em equipes e coordenam rotas, ataques, itens defensivos e a ordem de finalização."
+            }
+          ]
+        },
+        {
+          "title": "Configurar uma Partida Equilibrada com Amigos",
+          "description": "Use campos familiares e regras simples para novos jogadores, depois adicione itens mais agressivos e rotas mais exigentes à medida que o grupo aprende as mecânicas.",
+          "points": [
+            "Equilibre o tamanho das equipes antes de começar.",
+            "Evite colocar todos os jogadores experientes na mesma equipe.",
+            "Use lobbies privados para praticar e testar rotas.",
+            "Confirme se todos os jogadores carregaram no lobby antes de iniciar a partida."
+          ]
+        },
+        {
+          "title": "Corrigir Problemas Comuns de Conexão",
+          "description": "A maioria dos problemas ao entrar pode ser resolvida verificando o estado do lobby, a conexão do Steam, a versão do jogo e as configurações do host.",
+          "points": [
+            "Confirme se o host ainda não iniciou a partida.",
+            "Certifique-se de que todos os jogadores estejam utilizando a mesma versão do jogo.",
+            "Reinicie o Steam e o jogo caso os convites parem de responder.",
+            "Recrie a sala (lobby) caso ela não apareça mais no navegador de servidores.",
+            "Verifique se as configurações de senha e privacidade correspondem às instruções do anfitrião.",
+            "Permita o jogo através do firewall do sistema operacional caso as conexões falhem repetidamente."
+          ]
+        }
+      ]
+    },
+    "controlsGuide": {
+      "eyebrow": "Controles e Técnicas",
+      "title": "Guia de Controles de Super Battle Golf",
+      "subtitle": "Aprenda as principais ações de teclado e controle e, em seguida, aprimore suas tacadas iniciais (drives), tacadas de aproximação, putts, movimentação e ataques de curta distância com o taco.",
+      "intro": "Super Battle Golf combina mecânicas de golfe tradicionais com movimentação e combate em tempo real. Bons jogadores controlam a força da tacada com cuidado, movem-se imediatamente em direção ao próximo ponto de controle, guardam itens de interrupção para momentos importantes e usam pulos, mergulhos, carrinhos e balanços de taco para impedir que os oponentes cheguem ao buraco primeiro.",
+      "displayType": "acordeão",
+      "sections": [
+        {
+          "name": "Movimentação e Câmera",
+          "type": "controles",
+          "controls": [
+            {
+              "action": "Mover",
+              "keyboard": "W, A, S e D",
+              "controller": "Analógico esquerdo",
+              "tip": "Comece a se mover assim que a bola for atingida, em vez de esperar que ela pare."
+            },
+            {
+              "action": "Mirar e controlar a câmera",
+              "keyboard": "Movimento do mouse",
+              "controller": "Analógico direito",
+              "tip": "Verifique a área de aterrissagem, perigos próximos, oponentes e o próximo ponto de controle antes de decidir pela força total."
+            },
+            {
+              "action": "Pular",
+              "keyboard": "Espaço",
+              "controller": "A / Cruz (Cross)",
+              "tip": "Pule sobre pequenos obstáculos e combine com um mergulho para manter a velocidade."
+            },
+            {
+              "action": "Mergulhar",
+              "keyboard": "Modificador de movimento ou tecla de mergulho atribuída",
+              "controller": "Botão de face atribuído",
+              "tip": "Mergulhe em descidas, através de perigos ou em direção a uma bola solta, mas evite mergulhar além do próximo ponto de controle."
+            }
+          ]
+        },
+        {
+          "name": "Tacada e Controle da Bola",
+          "type": "controles",
+          "controls": [
+            {
+              "action": "Preparar uma tacada",
+              "keyboard": "Mire com o mouse e mantenha pressionado o comando de tacada",
+              "controller": "Mire com o analógico direito e mantenha pressionado o gatilho de tacada",
+              "tip": "Use a direção projetada e o terreno ao redor para escolher uma área de aterrissagem segura."
+            },
+            {
+              "action": "Definir a força da tacada",
+              "keyboard": "Mantenha pressionado o comando de tacada e solte na força desejada",
+              "controller": "Mantenha pressionado e solte o gatilho de tacada",
+              "tip": "A força total é útil em fairways abertos, enquanto a força parcial é mais segura perto de penhascos, paredes, água e do buraco."
+            },
+            {
+              "action": "Balançar o taco em um oponente",
+              "keyboard": "Use o comando de tacada normal enquanto estiver perto do oponente",
+              "controller": "Use o gatilho de tacada normal a curta distância",
+              "tip": "Aproxime-se pela lateral ou por trás para que o oponente tenha menos tempo para esquivar."
+            }
+          ]
+        },
+        {
+          "name": "Itens e Inventário",
+          "type": "controles",
+          "controls": [
+            {
+              "action": "Usar o item selecionado",
+              "keyboard": "Comando de uso de item atribuído",
+              "controller": "Botão de ombro atribuído",
+              "tip": "Mire itens ofensivos antes de ativá-los e evite desperdiçar ataques poderosos em jogadores que estão muito atrás."
+            },
+            {
+              "action": "Alterar o item selecionado",
+              "keyboard": "Comandos de seleção de inventário",
+              "controller": "Controles de seleção de inventário",
+              "tip": "Mantenha equipamentos de mobilidade ou defesa prontos durante o trajeto e mude para equipamentos ofensivos perto do buraco."
+            },
+            {
+              "action": "Largar um item do inventário",
+              "keyboard": "Comando de largar atribuído",
+              "controller": "Comando de largar item do inventário atribuído",
+              "tip": "Descarte um item fraco ou situacional quando um item melhor estiver disponível."
+            }
+          ]
+        },
+        {
+          "name": "Controles do Carrinho de Golfe",
+          "type": "controles",
+          "controls": [
+            {
+              "action": "Entrar ou sair de um carrinho",
+              "keyboard": "Comando de interação",
+              "controller": "Botão de interação",
+              "tip": "Use carrinhos em seções longas e abertas, mas saia cedo quando a rota ficar estreita."
+            },
+            {
+              "action": "Direção",
+              "keyboard": "A e D",
+              "controller": "Analógico esquerdo",
+              "tip": "Faça pequenas correções de direção, pois curvas fechadas podem capotar ou desviar o carrinho."
+            },
+            {
+              "action": "Acelerar e dar ré",
+              "keyboard": "W e S",
+              "controller": "Gatilhos direito e esquerdo",
+              "tip": "Reduza a velocidade antes de rampas, penhascos, curvas fechadas e checkpoints lotados."
+            }
+          ]
+        },
+        {
+          "name": "Tacadas de Saída e de Aproximação",
+          "type": "técnicas",
+          "techniques": [
+            {
+              "name": "Tacada de saída segura",
+              "instructions": "Mire na parte mais larga da rota e use alta potência sem mirar na borda extrema do fairway.",
+              "bestFor": "Áreas iniciais, fairways longos e partidas públicas caóticas"
+            },
+            {
+              "name": "Tacada focada no checkpoint",
+              "instructions": "Priorize cruzar o próximo checkpoint em vez de ganhar distância máxima. Uma tacada curta válida é mais rápida do que voltar para um checkpoint perdido.",
+              "bestFor": "Campos com portões, caminhos estreitos ou múltiplas mudanças de rota"
+            },
+            {
+              "name": "Tacada de tabela",
+              "instructions": "Use paredes anguladas para redirecionar a bola quando uma rota direta estiver bloqueada ou for muito perigosa.",
+              "bestFor": "Seções internas, cantos vivos e greens protegidos"
+            },
+            {
+              "name": "Tacada de recuperação",
+              "instructions": "Use potência moderada para retornar a bola a uma superfície estável em vez de tentar outra tacada de distância máxima de uma posição ruim.",
+              "bestFor": "Inclinações, bordas, perigos e terreno lotado"
+            }
+          ]
+        },
+        {
+          "name": "Técnicas de Putting",
+          "type": "técnicas",
+          "techniques": [
+            {
+              "name": "Putt reto",
+              "instructions": "Centralize a mira no buraco e use a menor potência que consiga cobrir confortavelmente a distância restante.",
+              "bestFor": "Greens planos"
+            },
+            {
+              "name": "Putt em subida",
+              "instructions": "Adicione potência gradualmente, pois a inclinação removerá a velocidade antes que a bola alcance o copo.",
+              "bestFor": "Buracos elevados e greens inclinados"
+            },
+            {
+              "name": "Putt em descida",
+              "instructions": "Use potência muito baixa e deixe a gravidade levar a bola.",
+              "bestFor": "Greens onde ultrapassar o buraco leva a uma longa recuperação"
+            },
+            {
+              "name": "Putt em buraco lotado",
+              "instructions": "Aborde de um ângulo que mantenha os oponentes fora da sua linha direta de swing, então dê o putt antes de entrar em uma luta prolongada de tacos.",
+              "bestFor": "Partidas públicas com vários jogadores já perto do copo"
+            }
+          ]
+        },
+        {
+          "name": "Movimentação e Combate Avançados",
+          "type": "técnicas",
+          "techniques": [
+            {
+              "name": "Movimento de salto e mergulho",
+              "instructions": "Salte enquanto se move para frente, então mergulhe perto do topo do salto para cobrir terreno rapidamente e superar obstáculos baixos.",
+              "bestFor": "Atalhos, inclinações e escapar de ataques inimigos"
+            },
+            {
+              "name": "Transição de bola para jogador",
+              "instructions": "Comece a correr em direção à área de pouso esperada imediatamente após soltar a tacada.",
+              "bestFor": "Reduzindo o tempo de inatividade entre os swings"
+            },
+            {
+              "name": "Knockback de taco em ângulo lateral",
+              "instructions": "Fique ao lado do oponente e balance em direção a uma borda aberta, perigo, parede ou rota para longe do buraco.",
+              "bestFor": "Removendo jogadores de checkpoints e greens"
+            },
+            {
+              "name": "Combinação de item e taco",
+              "instructions": "Use um item de atordoamento, bloqueio de visão, deslocamento ou controle de área antes de fechar a distância para um golpe de taco.",
+              "bestFor": "Parando o líder atual perto do buraco final"
+            }
+          ]
+        }
+      ]
+    },
+    "releasePlatforms": {
+      "eyebrow": "Informações de Lançamento",
+      "title": "Data de Lançamento e Plataformas de Super Battle Golf",
+      "subtitle": "Compare a edição Steam disponível com os lançamentos anunciados para PlayStation 5, Xbox Series X|S e Nintendo Switch 2.",
+      "intro": "A edição para PC é distribuída através da Steam, enquanto edições nativas para console foram anunciadas para a geração atual de hardware PlayStation, Xbox e Nintendo. As linhas da plataforma separam claramente as informações lançadas de recursos de console que ainda não foram anunciados.",
+      "displayType": "tabela",
+      "platforms": [
+        {
+          "platform": "Steam PC",
+          "status": "Disponível",
+          "release": "Lançado em 19 de fevereiro de 2026",
+          "price": "Preço regional atual no Steam",
+          "storefront": "Steam"
+        },
+        {
+          "platform": "PlayStation 5",
+          "status": "Anunciado",
+          "release": "Verão de 2026",
+          "price": "Não anunciado",
+          "storefront": "PlayStation Store"
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "status": "Anunciado",
+          "release": "Verão de 2026",
+          "price": "Não anunciado",
+          "storefront": "Microsoft Store"
+        },
+        {
+          "platform": "Nintendo Switch 2",
+          "status": "Anunciado",
+          "release": "Verão de 2026",
+          "price": "Não anunciado",
+          "storefront": "Nintendo eShop"
+        },
+        {
+          "platform": "Consoles antigos (PS4, Xbox One, Switch)",
+          "status": "Não anunciado",
+          "release": "Não anunciado",
+          "price": "Não anunciado",
+          "storefront": "Não anunciado"
+        },
+        {
+          "platform": "Requisitos de sistema para PC",
+          "status": "Publicado",
+          "release": "Versão atual para PC",
+          "price": "Incluído na compra do Steam",
+          "storefront": "Painel de requisitos de sistema do Steam"
+        }
+      ],
+      "requirements": [
+        "Especificações mínimas e recomendadas para PC",
+        "Requisitos de processador, memória, placa de vídeo e DirectX",
+        "Requisito de armazenamento para Windows de 64 bits",
+        "Edições nativas para macOS e Linux não foram anunciadas"
+      ]
+    },
+    "achievements": {
+      "eyebrow": "Conquistas e Recompensas",
+      "title": "Conquistas e Cosméticos de Super Battle Golf",
+      "subtitle": "Acompanhe objetivos de progressão, desafios multijogador, objetivos de nocaute, tarefas de itens, conquistas ocultas e recompensas cosméticas.",
+      "intro": "Super Battle Golf possui 50 conquistas do Steam que cobrem a progressão normal de golfe, bem como os sistemas de combate, movimentação, itens e multijogador do jogo. Conclua primeiro os objetivos fáceis dos campos e, depois, use partidas privadas ou partidas públicas coordenadas para requisitos que dependem de itens específicos, nocautes, tacadas incomuns ou vários jogadores.",
+      "displayType": "categoryCards",
+      "categories": [
+        {
+          "category": "Progressão Básica",
+          "difficulty": "Fácil",
+          "rarity": "Comum",
+          "objectives": [
+            "Conclua objetivos introdutórios de jogabilidade",
+            "Termine buracos e campos",
+            "Alcance marcos de progressão normais",
+            "Complete uma partida inteira"
+          ],
+          "strategy": "Jogue partidas completas em vez de sair após um buraco difícil. Foque em passar por cada ponto de controle e terminar o campo com segurança.",
+          "reward": "Cosméticos relacionados à progressão são concedidos quando vinculados ao objetivo concluído."
+        },
+        {
+          "category": "Vitórias em Partidas",
+          "difficulty": "Médio",
+          "rarity": "Incomum",
+          "objectives": [
+            "Termine à frente de outros jogadores",
+            "Vença partidas multiplayer",
+            "Complete marcos relacionados a vitórias"
+          ],
+          "strategy": "Use tacadas seguras no início, guarde itens de mobilidade ou defesa para os buracos finais e ataque apenas os jogadores que estão competindo diretamente pelo primeiro lugar.",
+          "reward": "Cosméticos de vitória são desbloqueados pela conquista correspondente quando listados."
+        },
+        {
+          "category": "Desafios de Pontuação Baixa",
+          "difficulty": "Médio",
+          "rarity": "Incomum",
+          "objectives": [
+            "Termine buracos com bons resultados de golfe",
+            "Complete rotas eficientes",
+            "Evite tacadas de recuperação desnecessárias"
+          ],
+          "strategy": "Aprenda cada rota de ponto de controle, use tacadas de aproximação com força parcial e evite tacadas de força máxima perto de greens estreitos.",
+          "reward": "Recompensa cosmética baseada em pontuação quando vinculada à conquista."
+        },
+        {
+          "category": "Desafios de Hole-in-One",
+          "difficulty": "Difícil",
+          "rarity": "Raro",
+          "objectives": [
+            "Acerte a bola com a tacada inicial em buracos elegíveis",
+            "Complete marcos relacionados a hole-in-one"
+          ],
+          "strategy": "Pratique o mesmo buraco repetidamente, copie um ângulo de câmera consistente e ajuste a força em pequenos incrementos em vez de mudar a mira e a força após cada tentativa.",
+          "reward": "Recompensa cosmética de hole-in-one quando listada."
+        },
+        {
+          "category": "Nocautes de Jogadores",
+          "difficulty": "Médio",
+          "rarity": "Incomum",
+          "objectives": [
+            "Nocauteie outro jogador",
+            "Complete totais de nocautes",
+            "Elimine oponentes com ataques diretos"
+          ],
+          "strategy": "Lute perto de penhascos, perigos móveis, pontes estreitas e greens. Um balanço de taco em ângulo lateral cria um deslocamento mais útil do que acertar diretamente em direção a uma parede.",
+          "reward": "Recompensa cosmética com tema de combate quando vinculada ao objetivo."
+        },
+        {
+          "category": "Nocautes com Itens",
+          "difficulty": "Difícil",
+          "rarity": "Raro",
+          "objectives": [
+            "Nocauteie jogadores com itens ofensivos",
+            "Conclua objetivos vinculados a armas específicas",
+            "Use ataques de área contra oponentes agrupados"
+          ],
+          "strategy": "Guarde itens de alto impacto até que os jogadores se reúnam perto de um checkpoint ou buraco. Ataques de Railgun e de controle de área são mais fáceis de acertar quando os oponentes têm rotas de fuga limitadas.",
+          "reward": "Recompensa cosmética temática de item quando listada."
+        },
+        {
+          "category": "Interrupção e Efeitos de Status",
+          "difficulty": "Médio",
+          "rarity": "Incomum",
+          "objectives": [
+            "Atrapalhe oponentes com a Smoke Bomb",
+            "Afete jogadores com a Thunderstorm",
+            "Use a Flash Camera com sucesso",
+            "Conclua marcos de efeitos de status"
+          ],
+          "strategy": "Use interrupção visual perto de tacadas de precisão e ative efeitos de área quando vários jogadores estiverem dentro do mesmo checkpoint ou green.",
+          "reward": "Cosmético de item ou efeito associado quando anexado à conquista."
+        },
+        {
+          "category": "Desafios de Mobilidade e Carrinho",
+          "difficulty": "Médio",
+          "rarity": "Incomum",
+          "objectives": [
+            "Use carrinhos de golfe durante uma partida",
+            "Conclua objetivos relacionados a movimento",
+            "Realize desafios de rota ou travessia"
+          ],
+          "strategy": "Escolha campos abertos com estradas longas, controle a velocidade antes das curvas e deixe o carrinho antes de entrar em áreas estreitas de putting.",
+          "reward": "Recompensa cosmética temática de mobilidade quando listada."
+        },
+        {
+          "category": "Inventário e Coleta de Itens",
+          "difficulty": "Médio",
+          "rarity": "Incomum",
+          "objectives": [
+            "Pegue e use itens diferentes",
+            "Conclua totais de uso de itens",
+            "Interaja com adições recentes, como Railgun, Smoke Bomb, Thunderstorm, Flash Camera e Jumbo Burger"
+          ],
+          "strategy": "Priorize itens desconhecidos em vez de usar repetidamente o mesmo item confiável. Descarte itens indesejados do inventário quando um item necessário aparecer.",
+          "reward": "Cosmético de coleção ou temático de item quando anexado ao objetivo concluído."
+        },
+        {
+          "category": "Objetivos Secretos",
+          "difficulty": "Difícil",
+          "rarity": "Raro",
+          "objectives": [
+            "Conclua interações ocultas",
+            "Ative eventos incomuns no campo",
+            "Realize ações que permanecem ocultas até serem desbloqueadas"
+          ],
+          "strategy": "Explore rotas alternativas, interaja com objetos incomuns do campo, teste itens em diferentes ambientes e revise a seção de objetivos ocultos após concluir a progressão normal.",
+          "reward": "Recompensa cosmética secreta quando a conquista oculta incluir uma."
+        },
+        {
+          "category": "Desafios Específicos de Atualização",
+          "difficulty": "Variável",
+          "rarity": "Raro",
+          "objectives": [
+            "Conclua as conquistas introduzidas com as atualizações de conteúdo",
+            "Use os itens recém-adicionados",
+            "Conclua objetivos em campos ou modos recém-adicionados"
+          ],
+          "strategy": "Jogue o conteúdo mais recente primeiro e verifique se um objetivo exige um mapa, item, número de jogadores ou modo de jogo específico.",
+          "reward": "Recompensa cosmética específica da atualização quando listada."
+        },
+        {
+          "category": "Limpeza de Conclusão",
+          "difficulty": "Difícil",
+          "rarity": "Muito Raro",
+          "objectives": [
+            "Conclua os objetivos restantes específicos do modo multijogador",
+            "Conclua desafios exigentes de itens e nocautes",
+            "Desbloqueie o conjunto completo de conquistas do Steam"
+          ],
+          "strategy": "Ordene as conquistas inacabadas por requisitos de mapa, item e número de jogadores, depois conclua vários objetivos compatíveis durante a mesma partida.",
+          "reward": "Conquista final e quaisquer desbloqueios cosméticos vinculados restantes."
+        }
+      ]
+    },
+    "updatesPatchNotes": {
+      "eyebrow": "Últimas Alterações",
+      "title": "Atualizações e Notas do Patch de Super Battle Golf",
+      "subtitle": "Acompanhe os principais lançamentos de conteúdo, adições de campos, novos itens, cosméticos, alterações de balanceamento, melhorias de desempenho e correções de bugs.",
+      "intro": "As atualizações de Super Battle Golf expandem tanto o lado do golfe quanto o de combate do jogo. As alterações mais importantes incluem novos itens ofensivos e de utilidade, conteúdo jogável adicional, recompensas cosméticas, balanceamento de jogabilidade, trabalho de estabilidade e a expansão anunciada para PlayStation 5, Xbox Series X|S e Nintendo Switch 2.",
+      "displayType": "acordeão",
+      "updates": [
+        {
+          "version": "Versão de Lançamento",
+          "date": "Publicado através das Notícias do Steam",
+          "type": "Lançamento Completo",
+          "headline": "Experiência Principal de Super Battle Golf",
+          "newContent": [
+            "Partidas de golfe competitivas em tempo real",
+            "Progressão de campo baseada em checkpoints",
+            "Movimentação do jogador entre as tacadas",
+            "Combate baseado em tacos e nocautes",
+            "Sistema de inventário de itens",
+            "Carrinhos de golfe dirigíveis",
+            "Conquistas e progressão de cosméticos"
+          ],
+          "balance": [
+            "Ajustes iniciais para tacadas de golfe, movimentação do jogador, combate e interações de itens"
+          ],
+          "fixes": [
+            "Estabilidade de lançamento e suporte de compatibilidade para a edição do Steam"
+          ]
+        },
+        {
+          "version": "Anúncio para Consoles",
+          "date": "Abril de 2026",
+          "type": "Roteiro de Plataformas",
+          "headline": "Anunciadas as versões para PlayStation 5, Xbox Series X|S e Nintendo Switch 2",
+          "newContent": [
+            "Edição para PlayStation 5 anunciada",
+            "Edição para Xbox Series X|S anunciada",
+            "Edição para Nintendo Switch 2 anunciada",
+            "Janela de lançamento para consoles no verão de 2026"
+          ],
+          "balance": [],
+          "fixes": [
+            "Os detalhes técnicos específicos do console são tratados separadamente da versão atual do Steam"
+          ]
+        },
+        {
+          "version": "Atualização de Conteúdo de Itens",
+          "date": "Publicado através da atualização vinculada do Steam",
+          "type": "Armas e Itens Utilitários",
+          "headline": "Novos Itens de Batalha Expandem a Estratégia das Partidas",
+          "newContent": [
+            "Railgun",
+            "Bomba de Fumaça",
+            "Tempestade de Raios",
+            "Câmera Flash",
+            "Hambúrguer Jumbo"
+          ],
+          "balance": [
+            "Opções expandidas de ataque, defesa, desestabilização e recuperação",
+            "Mais contra-jogo em torno de checkpoints cheios e buracos finais",
+            "Motivos adicionais para gerenciar o inventário em vez de usar imediatamente cada item coletado"
+          ],
+          "fixes": [
+            "Correções de jogabilidade e interação de itens incluídas na atualização de conteúdo"
+          ]
+        },
+        {
+          "version": "Expansão de Campos e Modos",
+          "date": "Publicado através das Notícias do Steam",
+          "type": "Atualização de Conteúdo",
+          "headline": "Campos e Conteúdos de Partida Adicionais",
+          "newContent": [
+            "Conteúdo de campo adicional",
+            "Novas rotas e situações de checkpoints",
+            "Mais variedade de partidas multijogador",
+            "Oportunidades adicionais de desbloqueio de cosméticos"
+          ],
+          "balance": [
+            "Ajustes de fluxo do campo",
+            "Ajustes de checkpoints e obstáculos",
+            "Melhorias em seções exigentes ou facilmente exploráveis"
+          ],
+          "fixes": [
+            "Correções de colisão",
+            "Correções de interação com objetos do campo",
+            "Correções de fora de limites e respawn"
+          ]
+        },
+        {
+          "version": "Atualização de Balanceamento de Jogabilidade",
+          "date": "Publicado através das Notícias do Steam",
+          "type": "Patch de Balanceamento",
+          "headline": "Ajustes de Tacada, Combate, Itens e Movimentação",
+          "newContent": [],
+          "balance": [
+            "Ajustes de consistência de swing e putting",
+            "Ajustes de knockback do taco",
+            "Ajustes de poder e confiabilidade dos itens",
+            "Alterações no controle do carrinho de golfe",
+            "Ajustes de movimentação e recuperação",
+            "Alterações para reduzir a desestabilização inevitável perto do buraco"
+          ],
+          "fixes": [
+            "Correções para tacadas inconsistentes, reações da física e efeitos de itens"
+          ]
+        },
+        {
+          "version": "Atualização Cosmética",
+          "date": "Publicado através das Notícias do Steam",
+          "type": "Personalização",
+          "headline": "Recompensas cosméticas adicionais",
+          "newContent": [
+            "Novos desbloqueios cosméticos",
+            "Recompensas vinculadas a conquistas",
+            "Opções de aparência adicionais",
+            "Recompensas de progressão específicas de atualização"
+          ],
+          "balance": [],
+          "fixes": [
+            "Correções de exibição de cosméticos e condições de desbloqueio"
+          ]
+        },
+        {
+          "version": "Patch de desempenho e estabilidade",
+          "date": "Publicado nas Notícias do Steam",
+          "type": "Atualização técnica",
+          "headline": "Partidas mais fluidas e menos interrupções de jogabilidade",
+          "newContent": [],
+          "balance": [],
+          "fixes": [
+            "Melhorias de desempenho",
+            "Correções de estabilidade de partidas online",
+            "Correções de física e colisão",
+            "Correções de entrada do controle",
+            "Correções de menu e interface",
+            "Correções de rastreamento de conquistas",
+            "Correções de respawn e checkpoint",
+            "Correções gerais de bugs"
+          ]
+        },
+        {
+          "version": "Versão mais recente do Steam",
+          "date": "Mostrado na publicação mais recente do Notícias do Steam",
+          "type": "Versão atual",
+          "headline": "Alterações ao vivo mais recentes",
+          "newContent": [
+            "Novos campos, modos, itens e cosméticos listados no anúncio mais recente"
+          ],
+          "balance": [
+            "Ajustes atuais de balanceamento de itens, combate, movimentação e campos"
+          ],
+          "fixes": [
+            "Últimas melhorias de desempenho e bugs resolvidos"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Super Battle Golf",
+    "titleHighlight": "FAQ",
+    "subtitle": "Tudo o que você precisa saber sobre o Super Battle Golf antes de jogar.",
+    "questions": [
+      {
+        "question": "O que é o Super Battle Golf?",
+        "answer": "Super Battle Golf é um jogo de golfe multijogador caótico no Steam, onde de um a oito jogadores correm por 63 buracos usando armas, itens utilitários, movimentação e combate com tacos para sabotar rivais e chegar primeiro ao buraco."
+      },
+      {
+        "question": "Em quais plataformas o Super Battle Golf está disponível?",
+        "answer": "Super Battle Golf já está disponível no Steam para PC, e edições nativas para PlayStation 5, Xbox Series X|S e Nintendo Switch 2 foram anunciadas para o verão de 2026."
+      },
+      {
+        "question": "Quantos jogadores podem jogar o Super Battle Golf ao mesmo tempo?",
+        "answer": "O Super Battle Golf suporta de um a oito jogadores na mesma partida, com opções de pontuação individual, todos contra todos e modos de equipe disponíveis em lobbies públicos e privados."
+      },
+      {
+        "question": "O Super Battle Golf tem conteúdo para um jogador?",
+        "answer": "Sim. O Super Battle Golf inclui suporte para um jogador, para que você possa praticar nos campos, ângulos de tacada e tempo dos itens por conta própria antes de entrar em partidas multijogador públicas ou privadas."
+      },
+      {
+        "question": "Quantos campos e buracos o Super Battle Golf inclui?",
+        "answer": "O Super Battle Golf atualmente apresenta 63 buracos em vários biomes, como Floresta, Deserto, Costa, Neve e Cidade, cada um com checkpoints, obstáculos, atalhos e oportunidades de hole-in-one."
+      },
+      {
+        "question": "Quantas conquistas o Super Battle Golf tem?",
+        "answer": "Super Battle Golf possui 50 conquistas Steam que abrangem progressão, vitórias, nocautes, uso de itens, mobilidade, objetivos secretos e desbloqueios de cosméticos."
+      },
+      {
+        "question": "O Super Battle Golf é compatível com controles?",
+        "answer": "Sim. Super Battle Golf suporta teclado e mouse, bem como controles, incluindo mira completa de swing, uso de itens, movimentação e controles de carrinho de golfe em ambos os métodos de entrada."
+      },
+      {
+        "question": "O Super Battle Golf continuará recebendo atualizações?",
+        "answer": "Sim. Super Battle Golf continua a receber novos itens, campos, cosméticos, mudanças de equilíbrio e correções de estabilidade através das Notícias Steam, e as edições de console anunciadas são acompanhadas no guia de atualizações."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Super Battle Golf?",
+    "description": "Junte-se à comunidade de Super Battle Golf no Discord e Steam para guias, atualizações, notas de atualização e discussões.",
+    "joinCommunity": "Juntar-se ao Discord",
+    "joinGame": "Jogar no Steam"
+  },
+  "footer": {
+    "title": "Super Battle Golf Wiki",
+    "description": "Seu hub de recursos completo para campos, itens, conquistas, multijogador, cosméticos, controles e guias de atualização de Super Battle Golf.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidade Steam",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Super Battle Golf Wiki. Não afiliado aos desenvolvedores de Super Battle Golf.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de Super Battle Golf",
+      "description": "Guias completos de Super Battle Golf cobrindo mecânicas de swing, controles, itens e táticas de vitória para cada buraco caótico.",
+      "metaTitle": "Guias de Super Battle Golf - Controles, Dicas e Estratégias",
+      "metaDescription": "Domine o Super Battle Golf com controles para iniciantes, dicas de swing, tempo de uso de itens e estratégias avançadas para vencer partidas solo e em equipe.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias passo a passo cobrindo a configuração inicial de Super Battle Golf, força e ângulos de swing, movimento, mira, slots de itens e as principais condições de vitória para partidas solo e em equipe.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda a força do swing, ângulos, checkpoints e itens para evitar erros comuns de iniciantes",
+        "step2Title": "Termine os Buracos Mais Rápido",
+        "step2Description": "Siga rotas e atalhos comprovados para chegar ao buraco antes de seus rivais",
+        "step3Title": "Domine a Estratégia de Combate",
+        "step3Description": "Acerte o tempo de seus itens, nocautes e movimentos para superar até sete oponentes"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "updates": {
+      "title": "Atualizações de Super Battle Golf",
+      "description": "Notas de patch mais recentes de Super Battle Golf, novos campos, itens e mudanças de equilíbrio monitoradas de cada lançamento oficial.",
+      "metaTitle": "Atualizações de Super Battle Golf - Notas de Patch e Novo Conteúdo",
+      "metaDescription": "Acompanhe todas as atualizações de Super Battle Golf, incluindo novos campos, itens, patches do modo de equipe e mudanças de equilíbrio das notas de lançamento oficiais.",
+      "categoryLabel": "NOTAS DE PATCH",
+      "whatIs": "O que são Atualizações?",
+      "whatIsDescription": "Cobertura lançamento a lançamento das mudanças de versão de Super Battle Golf, incluindo novos ambientes como City, campos novos, novos itens, conquistas e ajustes de equilíbrio direto dos anúncios oficiais do Steam.",
+      "why": "Por que acompanhar as atualizações?",
+      "whySteps": {
+        "step1Title": "Descubra Novo Conteúdo",
+        "step1Description": "Encontre novos campos, itens e cosméticos adicionados em cada patch",
+        "step2Title": "Adapte-se às Mudanças de Equilíbrio",
+        "step2Description": "Ajuste seu loadout e estratégia quando itens ou regras forem ajustados",
+        "step3Title": "Nunca Perca um Evento",
+        "step3Description": "Aproveite modos de tempo limitado, atualizações do Modo de Equipe e drops sazonais"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Atualizações"
+    },
+    "platforms": {
+      "title": "Plataformas de Super Battle Golf",
+      "description": "Onde jogar Super Battle Golf - disponibilidade no Steam, status de lançamento em consoles, requisitos de sistema e suporte a dispositivos.",
+      "metaTitle": "Plataformas de Super Battle Golf - Steam, Consoles e Especificações de Sistema",
+      "metaDescription": "Descubra onde jogar Super Battle Golf: detalhes do lançamento no Steam, status para PS5, Xbox e Switch, requisitos de sistema e compatibilidade de dispositivos.",
+      "categoryLabel": "PLATAFORMAS E ESPECIFICAÇÕES",
+      "whatIs": "O que são Plataformas?",
+      "whatIsDescription": "Cobertura de cada plataforma em que Super Battle Golf roda, incluindo o lançamento no Steam, status monitorado para PlayStation 5, Xbox Series e Nintendo Switch, requisitos mínimos de sistema e suporte a controles.",
+      "why": "Por que verificar as plataformas?",
+      "whySteps": {
+        "step1Title": "Escolha a Plataforma Certa",
+        "step1Description": "Compare opções de Steam, consoles e dispositivos antes de comprar",
+        "step2Title": "Combine com seu Hardware",
+        "step2Description": "Confirme se seu PC atende às especificações mínimas para um jogo fluido",
+        "step3Title": "Acompanhe Lançamentos para Consoles",
+        "step3Description": "Fique atualizado sobre as datas oficiais de lançamento para PS5, Xbox e Switch"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Plataformas"
+    },
+    "multiplayer": {
+      "title": "Multiplayer de Super Battle Golf",
+      "description": "Modos multiplayer de Super Battle Golf explicados - lobbies públicos e privados, partidas de 1 a 8 jogadores, equipes e correções de conexão.",
+      "metaTitle": "Multiplayer de Super Battle Golf - Equipes, Lobbies e Crossplay",
+      "metaDescription": "Domine o multiplayer de Super Battle Golf com regras do modo de equipe, lobbies privados, partidas de 1 a 8 jogadores, chat de voz e solução de problemas de conexão.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "O que é Multiplayer?",
+      "whatIsDescription": "Tudo sobre o jogo online de Super Battle Golf, incluindo partidas de 1 a 8 jogadores, servidores públicos e privados, Modo de Equipe vermelho vs azul, chat de voz e como convidar amigos para rodadas caóticas em grupo.",
+      "why": "Por que jogar multiplayer?",
+      "whySteps": {
+        "step1Title": "Executar Modo de Time",
+        "step1Description": "Aprenda as regras dos times vermelho e azul, pontuação e proteção de aliados",
+        "step2Title": "Hospedar Lobbies Privados",
+        "step2Description": "Crie salas, convide amigos e configure as definições do servidor",
+        "step3Title": "Corrigir Problemas de Conexão",
+        "step3Description": "Resolva chat de voz, matchmaking e desconexões de grupo rapidamente"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Multiplayer"
+    },
+    "achievements": {
+      "title": "Conquistas de Super Battle Golf",
+      "description": "Todas as 50 conquistas Steam de Super Battle Golf com condições de desbloqueio, dificuldade e o caminho mais rápido para os 100%.",
+      "metaTitle": "Conquistas de Super Battle Golf - Lista Completa das 50 no Steam",
+      "metaDescription": "Desbloqueie todas as conquistas Steam de Super Battle Golf com condições, conquistas ocultas e uma rota eficiente para os 100%.",
+      "categoryLabel": "CONQUISTAS",
+      "whatIs": "O que são Conquistas?",
+      "whatIsDescription": "Um banco de dados completo de todas as 50 conquistas Steam de Super Battle Golf, cobrindo condições de desbloqueio, conquistas ocultas como Rocket Driver e Behind You, classificações de dificuldade e se cada uma exige cooperação no multiplayer.",
+      "why": "Por que caçar conquistas?",
+      "whySteps": {
+        "step1Title": "Planeje sua Jornada",
+        "step1Description": "Siga uma ordem eficiente para alcançar os 100% de conclusão mais rápido",
+        "step2Title": "Encontre as Ocultas",
+        "step2Description": "Encontre conquistas secretas como Frog Legs e Underwater Expedition",
+        "step3Title": "Use os Mapas Certos",
+        "step3Description": "Escolha os melhores campos e itens para condições de conquistas complicadas"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Conquistas"
+    },
+    "cosmetics": {
+      "title": "Cosméticos de Super Battle Golf",
+      "description": "Todos os cosméticos de Super Battle Golf — chapéus, óculos, trajes, tacos, bolas, sapatos e emotes — além de como desbloquear cada um.",
+      "metaTitle": "Cosméticos de Super Battle Golf - Trajes, Chapéus e Emotes",
+      "metaDescription": "Navegue por todos os cosméticos de Super Battle Golf, incluindo chapéus, trajes, tacos, bolas, sapatos e emotes, com métodos de desbloqueio para cada item.",
+      "categoryLabel": "COSMÉTICOS",
+      "whatIs": "O que são Cosméticos?",
+      "whatIsDescription": "Um catálogo de cosméticos e decorações de personagens de Super Battle Golf, incluindo chapéus, óculos, trajes, tacos, bolas, sapatos e efeitos de pontuação, além da origem de cada item.",
+      "why": "Por que colecionar cosméticos?",
+      "whySteps": {
+        "step1Title": "Conheça Todas as Fontes",
+        "step1Description": "Saiba as origens de loja, padrão, conquistas, eventos e colaborações",
+        "step2Title": "Planeje Desbloqueios",
+        "step2Description": "Foque nos cosméticos vinculados a conquistas e eventos limitados",
+        "step3Title": "Personalize seu Visual",
+        "step3Description": "Misture chapéus, trajes, tacos e emotes para se destacar no campo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Cosméticos"
+    },
+    "maps": {
+      "title": "Campos de Super Battle Golf",
+      "description": "Todos os 63 buracos de Super Battle Golf nos ambientes de Floresta, Deserto, Costa, Neve e Cidade, com obstáculos, biomas e atalhos.",
+      "metaTitle": "Campos de Super Battle Golf - Todos os 63 Buracos e Mapas",
+      "metaDescription": "Explore cada campo e buraco de Super Battle Golf em Floresta, Deserto, Costa, Neve e Cidade, com obstáculos, biomas, atalhos e pontos de aterrissagem seguros.",
+      "categoryLabel": "CAMPOS E MAPAS",
+      "whatIs": "O que são Campos?",
+      "whatIsDescription": "Um atlas completo de todos os 63 buracos de Super Battle Golf organizados por ambiente - Floresta, Deserto, Costa, Neve e Cidade - cobrindo biomas, obstáculos, veículos, atalhos e ângulos de saída recomendados.",
+      "why": "Por que estudar os campos?",
+      "whySteps": {
+        "step1Title": "Aprenda Cada Ambiente",
+        "step1Description": "Domine os layouts dos campos de Floresta, Deserto, Costa, Neve e Cidade",
+        "step2Title": "Encontre Atalhos",
+        "step2Description": "Identifique zonas de aterrissagem seguras e ângulos que evitam obstáculos",
+        "step3Title": "Evite Obstáculos",
+        "step3Description": "Desvie de água, veículos e obstáculos que arruinam sua rodada"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Campos"
+    }
   }
 }
