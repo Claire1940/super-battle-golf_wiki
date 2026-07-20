@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Bots: 2026 AI Strategy & Modding Guide",
+  description: "Master Super Battle Golf bots with our expert guide on AI behavior, modded automation, and competitive lobby setup for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Super+Battle+Golf+Bots+Guide",
+  date: "2026-07-21",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Super battle golf bots** serve as AI opponents in local matches and can be enhanced through community-developed mods.
+- **AI Behavior** is characterized by high precision with projectile items like rockets, requiring defensive items for survival.
+- **Modded Automation** via tools like ChaosTricks allows for external "bots" to interact with live gameplay through Twitch.
+- **SBGL UnifiedMod** is the standard for competitive play, ensuring bot-free, fair matchmaking in ranked environments.
+- **Practice Mode** is the best way to learn bot patterns before jumping into high-stakes multiplayer lobbies.
+</Callout>
+
+<Section icon={Cpu} title="Understanding Super Battle Golf Bots and AI">
+
+The implementation of **super battle golf bots** provides players with a consistent challenge when human opponents are unavailable. These AI-controlled entities are designed to simulate the chaotic nature of "war golf," utilizing the full arsenal of weapons and movement mechanics available in the game. In the 2026 meta, understanding the logic behind these bots is essential for both casual practice and mod development.
+
+The built-in AI follows a specific priority list: pathing toward the hole, acquiring power-ups, and aggressively targeting the leading player. Unlike human players who might hesitate, bots possess near-frame-perfect input for certain items, making them formidable gatekeepers on complex courses.
+
+| Bot Trait | Behavior Description | Counter-Strategy |
+| :--- | :--- | :--- |
+| **Targeting** | Prioritizes the player with the lowest stroke count | Stay in the middle of the pack to avoid focus fire |
+| **Accuracy** | Pinpoint precision with Rocket Launchers and Snipers | Always hold a Shield or stay near cover/mushrooms |
+| **Pathing** | Follows the most direct route to the green | Use Landmines on narrow bridges to disrupt their path |
+| **Item Usage** | Deploys items immediately upon acquisition | Wait for the bot to exhaust its item before attacking |
+
+<Callout type="warning" title="Aimbot Warning">
+Bots in higher difficulty settings exhibit "aimbot-like" behavior with the RPG. If you see a bot stop moving and rotate toward you, activate your shield immediately or seek cover behind terrain.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Modding and Automation Tools">
+
+For players looking to expand beyond standard AI, the modding community on platforms like Thunderstore has introduced sophisticated automation tools. These aren't just simple opponents; they are functional "bots" that manage lobbies, enforce rules, and even allow live audiences to influence the game state.
+
+The 2026 modding landscape is dominated by the BepInEx framework, which allows for deep integration of custom scripts. Below are the primary modding packages that enhance or manage the **super battle golf bots** experience.
+
+| Mod Package | Category | Primary Function |
+| :--- | :--- | :--- |
+| **ChaosTricks SBG** | Twitch Bot | Allows viewers to trigger in-game events via points |
+| **SBGL UnifiedMod** | Ranked Bot | Manages matchmaking queues and checks compliance |
+| **MoveAfterScoring** | Quality of Life | Automates player movement after the ball is holed |
+| **BetterDistance** | Utility | Provides automated, accurate distance estimation |
+
+<CardGrid cols={2}>
+  <Card title="Twitch Integration Bots">
+    The ChaosTricks mod acts as a bridge between the game and external bots. It allows a streamer's chat to act as a collective "AI," spawning landmines or orbital strikes at critical moments.
+  </Card>
+  <Card title="Ranked Matchmaking Bots">
+    The Super Battle Golf League (SBGL) uses automated systems to verify player mods and submit results to a live leaderboard API, ensuring a professional competitive environment.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mod Manager Recommendation">
+Use **r2modman** or **GaleModManager** to handle your installations. These tools automate the dependency checks for BepInEx, ensuring your bots and gameplay mods don't crash the client.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Strategies Against High-Level AI">
+
+Engaging with **super battle golf bots** requires a different tactical mindset than playing against humans. Bots do not suffer from "tilt" or psychological pressure; they execute their programmed routines with mechanical efficiency. To overcome them, you must exploit their pathing limitations and item cooldowns.
+
+**Video Highlights:**
+- Demonstrates advanced bot targeting logic on Twin Beach.
+- Shows how to use the environment to block AI rocket fire.
+- Explains the "Shield-Flick" technique to reflect bot projectiles.
+
+<YouTubeEmbed videoId="rplEa-b1uJQ" title="Super Battle Golf Gameplay Mechanics" />
+
+Bots struggle most with verticality and physics-based obstacles. On maps with numerous mushrooms or boost pads, the AI often takes a conservative route. You can use this to your advantage by taking high-risk, high-reward shortcuts that the bot's pathfinding is programmed to avoid.
+
+| Combat Scenario | Bot Action | Recommended Player Response |
+| :--- | :--- | :--- |
+| **Narrow Passageway** | Drops Landmines behind it | Use Spring Shoes to jump over the hazard zone |
+| **Open Fairway** | Fires Rocket Launcher | Side-strafe or use a Shield to reflect the shot |
+| **Near the Hole** | Uses Fish Spanking/Melee | Keep distance and use a precision putt |
+| **Out of Bounds** | Resets to last safe position | Aggressively push the bot off the edge with a cart |
+
+<Callout type="success" title="The Mushroom Advantage">
+Bots rarely account for the variable bounce height of mushrooms. If a bot is chasing you, lead it into a mushroom field; the AI often mistimes its jumps, leading to a penalty stroke or an out-of-bounds reset.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Setup a Modded Bot Lobby">
+
+Setting up a customized environment with **super battle golf bots** and automated mods is a straightforward process if you follow the correct initialization sequence. This setup is ideal for streamers or groups wanting to test new course layouts with AI filling the gaps.
+
+<Steps>
+  <Step num="1" title="Install the Framework">
+    Download and install the **BepInExPack** from Thunderstore. This is the foundation for all Super Battle Golf mods. Ensure you are using the version preconfigured for Mono Unity games.
+  </Step>
+  <Step num="2" title="Select Your Automation Mods">
+    Add **ChaosTricks** if you want audience interaction, or **Pro Golf Plus** if you want to automate the scoring and "ready-up" flow between holes.
+  </Step>
+  <Step num="3" title="Configure Bot Difficulty">
+    Navigate to the in-game settings menu. Modded lobbies often allow for "Experimental" AI settings where you can increase bot aggression and item frequency.
+  </Step>
+  <Step num="4" title="Launch and Verify">
+    Start the game through your mod manager. Check the console log to ensure all libraries (like Gamemode Lib) have loaded correctly. If the "SBGL" watermark appears, your matchmaking bots are active.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Host-Only Mods">
+Remember that some mods, like **Hamilton** (which adds a dueling pistol mode), are host-only. This means only the lobby creator needs the mod installed for the automated dueling "bot" to function for all players.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Game Modes and AI Roles">
+
+The versatility of **super battle golf bots** is best showcased in custom gamemodes. These modes often repurpose the AI logic to serve as "hunters" or "obstacles" rather than traditional golfers.
+
+<CardGrid cols={3}>
+  <Card title="PropHunt Mode">
+    Bots act as seekers, utilizing their perfect vision to find players disguised as environmental props like mushrooms or crates.
+  </Card>
+  <Card title="Sharks and Minnows">
+    In this high-speed mode, "Sharks" (often AI-controlled) must intercept "Minnows" before they can reach the green.
+  </Card>
+  <Card title="SBGL Ranked">
+    AI is strictly prohibited in the final holes to ensure that every point earned on the leaderboard is the result of human skill.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="lobby-prep"
+  title="Lobby Setup Checklist for 2026:"
+  items={[
+    "Verify BepInEx version is 5.4.21 or higher",
+    "Enable 'MoveAfterScoring' to prevent lobby idling",
+    "Set bot difficulty to 'Hard' for realistic practice",
+    "Check SBGL compliance if running a ranked match",
+    "Sync custom maps with all human participants"
+  ]}
+/>
+
+<Callout type="tip" title="Practice Tip">
+If you are struggling with a specific course, fill a private lobby with 7 bots. The constant barrage of items will force you to master defensive movement and shield timing much faster than a standard match.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Competitive Bot FAQ">
+
+<FAQ items={[
+  {
+    question: "Do super battle golf bots have access to all items?",
+    answer: "Yes, bots can use any item they pick up, including Rockets, Landmines, and Shields. In certain modded modes like Hamilton, they can even trigger Orbital Strikes."
+  },
+  {
+    question: "Can I use mods to make the bots smarter?",
+    answer: "While most mods focus on player features, libraries like 'Gamemode Lib' allow developers to create custom AI behaviors for specific modes like PropHunt."
+  },
+  {
+    question: "Is it possible to play ranked matches with bots?",
+    answer: "No. The SBGL UnifiedMod enforces a human-only rule for ranked matchmaking to maintain the integrity of the live leaderboard and API results."
+  },
+  {
+    question: "How do I fix bots getting stuck on custom maps?",
+    answer: "This is usually a pathing issue in the map design. Ensure your custom maps have clear 'NavMesh' data so the AI knows where the safe terrain is located."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+Whether you are using them for practice or as part of a complex modded Twitch stream, **super battle golf bots** are an integral part of the game's ecosystem. Mastering their patterns is the first step to becoming a top-tier player in the Super Battle Golf League.
+</Callout>
+
+</Section>

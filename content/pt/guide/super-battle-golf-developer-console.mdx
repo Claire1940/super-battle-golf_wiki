@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Console de Desenvolvedor do Super Battle Golf: Guia de Comandos e Configuração 2026",
+  description: "Domine o console de desenvolvedor do Super Battle Golf com nosso guia de 2026. Aprenda a acessar comandos ocultos, spawnar armas de dev e otimizar a performance.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Developer+Console+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Super Battle Golf",
+  keywords: "console de desenvolvedor, comandos, configuração, Super Battle Golf, guia 2026"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O acesso ao **console de desenvolvedor do Super Battle Golf** geralmente requer argumentos de inicialização específicos ou a tecla til (~).
+- **Armas de Dev**, como a Buzina de Ar e Minas Terrestres, podem ser testadas e spawnadas através de IDs de comando específicos.
+- **Mecânicas de Tacada Perfeita** são críticas para o jogo de alto nível, exigindo um acerto de 100% de força imediatamente após a contagem regressiva.
+- **Rotas Secretas** existem na maioria dos mapas, muitas vezes exigindo manobras precisas de mergulho e impulsos de velocidade.
+- **Ferramentas de Depuração** permitem que os jogadores corrijam bugs comuns de física ou resetem a posição da bola durante testes de jogo.
+</Callout>
+
+<Section icon={Target} title="Entendendo o Console de Desenvolvedor do Super Battle Golf">
+
+O **console de desenvolvedor do Super Battle Golf** serve como o hub central para depuração, teste de mecânicas e acesso a equipamentos de "nível dev". Embora o jogo enfatize a diversão multijogador caótica, entender os sistemas subjacentes usados pelos criadores pode lhe dar uma vantagem significativa. Nas atualizações recentes de 2026, o console foi refinado para permitir um controle mais granular sobre os parâmetros de física e o surgimento de itens.
+
+**Destaques do Vídeo:**
+- **Insights dos Desenvolvedores**: Assista aos criadores originais demonstrando jogadas de alto nível e "armas de dev".
+- **Timing Perfeito**: Aprenda a janela exata para o impulso de velocidade de 100% na tacada inicial.
+- **Interação de Itens**: Veja como itens como o Escudo e a Buzina de Ar interagem com o ambiente.
+- **Rotas Secretas**: Um visual passo a passo sobre como navegar pelos atalhos da ilha.
+
+<YouTubeEmbed videoId="5MR5BmeNnSs" title="Jogamos com os desenvolvedores do Super Battle Golf..." />
+
+Acessar esses recursos permite que os jogadores simulem o mesmo ambiente que os desenvolvedores usam para testes. Se você está procurando consertar uma bola presa ou experimentar o "Cogumelo da Segurança", o console é sua ferramenta principal para exploração profunda do jogo.
+
+<Callout type="tip" title="Dica de Profissional">
+Os desenvolvedores costumam usar o console para testar "Armas de Dev" que possuem taxas de destruição mais altas ou propriedades físicas únicas. Aprender os IDs de comando para esses itens é essencial para testes em sandbox.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Ativar e Acessar o Console">
+
+Ativar o **console de desenvolvedor do Super Battle Golf** é o primeiro passo para dominar as mecânicas ocultas do jogo. Dependendo da sua plataforma, o método pode variar ligeiramente, mas a funcionalidade principal permanece consistente em toda a versão de 2026.
+
+<Steps>
+  <Step num="1" title="Configuração das Opções de Inicialização">
+    Clique com o botão direito no jogo em sua biblioteca e navegue até Propriedades. No campo 'Opções de Inicialização', digite `-console` ou `-debugmode`. Isso inicializa as ferramentas de backend ao iniciar.
+  </Step>
+  <Step num="2" title="Ativação No Jogo">
+    Assim que o jogo estiver rodando, pressione a tecla Til (`~`) localizada abaixo da tecla Escape. Isso deve alternar o campo de entrada de texto na parte inferior da tela.
+  </Step>
+  <Step num="3" title="Verificação de Permissão">
+    Digite `help` para ver uma lista de comandos disponíveis. Se o console retornar uma lista de funções, você obteve com sucesso o acesso de nível de desenvolvedor.
+  </Step>
+</Steps>
+
+| Método de Acesso | Requisito | Estabilidade |
+| :--- | :--- | :--- |
+| **Tecla Til (~)** | Atalho Padrão | Alta |
+| **Argumento de Inicialização** | Parâmetro `-console` | Muito Alta |
+| **Edição de Configuração** | Modificação de `settings.json` | Moderada |
+| **Menu de Dev** | Teclas F1 - F12 (Depende da Build) | Variável |
+
+<Callout type="warning" title="Aviso Anti-Cheat">
+Usar o console de desenvolvedor em partidas ranqueadas públicas pode acionar o sistema anti-cheat automatizado. Sempre restrinja o uso do console a lobbies privados ou sessões de prática local.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comandos Comuns e Armas de Dev">
+
+O poder do **console de desenvolvedor do Super Battle Golf** reside em sua biblioteca de comandos. Desde spawnar um "Carrinho de Golfe" até implantar "Minas Terrestres", esses comandos permitem manipular o estado do jogo em tempo real. Os desenvolvedores costumam usá-los para testar como tacadas de nível "Tiger Woods" interagem com itens caóticos.
+
+| Categoria de Comando | Sintaxe Comum | Função |
+| :--- | :--- | :--- |
+| **Spawn de Itens** | `/spawn [item_id]` | Invoca itens como Escudos ou Buzinas de Ar |
+| **Alternar Física** | `/physics_gravity [valor]` | Ajusta o peso da bola e o arco de voo |
+| **Stats do Jogador** | `/set_score [jogador] [val]` | Sobrescreve manualmente os pontos do placar |
+| **Navegação no Mapa** | `/tp [coordenadas]` | Teleporta a bola para pontos específicos do mapa |
+| **Depuração Visual** | `/show_hitboxes` | Exibe caixas de colisão para todos os objetos |
+
+### Referência de ID de Itens de Desenvolvedor
+
+Ao usar o comando `/spawn`, você deve usar os IDs internos corretos. O banco de dados de itens de 2026 inclui várias ferramentas de alto impacto:
+
+<CardGrid cols={3}>
+  <Card title="Itens Táticos">
+    - **Mina Terrestre**: ID `item_mine_01`
+    - **Escudo**: ID `item_shield_pro`
+    - **Buzina de Ar**: ID `item_horn_blast`
+  </Card>
+  <Card title="Veículos e Mobilidade">
+    - **Carrinho de Golfe**: ID `veh_cart_01`
+    - **Impulso de Velocidade**: ID `buff_speed_max`
+    - **Lança-foguetes**: ID `wpn_rocket_dev`
+  </Card>
+  <Card title="Ambientais">
+    - **Cogumelo**: ID `env_shroom_safe`
+    - **Frisbee**: ID `env_frisbee_deflect`
+    - **Vaso de Ouro**: ID `award_toilet_gold`
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Segredo de Desenvolvedor">
+O "Cogumelo da Segurança" é um objeto ambiental único que pode ser spawnado para bloquear projéteis recebidos ou fornecer uma plataforma de salto para tacadas difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando a Mecânica da Tacada Perfeita">
+
+Uma das informações mais valiosas reveladas pelos desenvolvedores é a mecânica da "Tacada Perfeita". Embora não seja um comando de console em si, entender o timing é crucial para quem usa o **console de desenvolvedor do Super Battle Golf** para analisar dados de frames.
+
+A "Tacada Perfeita" fornece um impulso de velocidade significativo e só está disponível durante a tacada inicial. De acordo com os testes dos desenvolvedores, a janela é incrivelmente apertada:
+
+| Janela de Tempo | Resultado | Efeito |
+| :--- | :--- | :--- |
+| **Pré-contagem** | Tacada Falha | Sem impulso, trajetória padrão |
+| **Exatos 0.0s** | **Tacada Perfeita** | **100% de Impulso de Velocidade + Efeito de Brilho** |
+| **0.5s de Atraso** | Boa Tacada | 20% de Impulso de Velocidade |
+| **1.0s+ de Atraso** | Tacada Padrão | Sem benefícios adicionais |
+
+Para praticar isso, você pode usar o comando de console `/timescale 0.5` para desacelerar o jogo, permitindo visualizar o momento exato em que a contagem regressiva chega a zero. É assim que muitos jogadores de alto nível dominam as técnicas de hole-in-one "Aero Black Belt".
+
+<Callout type="info" title="Nota de Mecânica">
+O impulso de velocidade só é aplicável na tacada inicial. Tacadas curtas subsequentes dependem da força e do ângulo baseados na física, e não no cronômetro de contagem regressiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rotas Secretas e Técnicas de Mergulho">
+
+Os desenvolvedores do Super Battle Golf frequentemente incluem "Rotas Secretas" que não são imediatamente óbvias para jogadores casuais. Usando o **console de desenvolvedor do Super Battle Golf**, você pode habilitar o modo "noclip" para explorar esses caminhos ou usar o comando `/show_paths` para ver onde os desenvolvedores pretendiam que os jogadores avançados fossem.
+
+### A Estratégia de Atalho da Ilha
+Em muitos mapas competitivos, há uma rota secreta envolvendo uma ilha que pode reduzir 200 pontos de sua pontuação total.
+
+<Steps>
+  <Step num="1" title="Alinhamento Inicial">
+    Alinhe sua bola com a bandeira, mas mire levemente em direção aos perigos ambientais (como árvores ou rochas) que parecem áreas fora de campo.
+  </Step>
+  <Step num="2" title="Gerenciamento de Força">
+    Use exatamente de 49% a 51% de força. De acordo com tutoriais de desenvolvedores, atingir 100% de força nesses atalhos resultará frequentemente em um erro por excesso de distância.
+  </Step>
+  <Step num="3" title="A Manobra de Mergulho">
+    Conforme sua bola se aproxima do green, use a mecânica de "Mergulho". Isso aumenta sua fricção e impede que a bola role para fora da borda.
+  </Step>
+</Steps>
+
+<Checklist
+  id="dev-route-checklist"
+  title="Requisitos da Rota Secreta:"
+  items={[
+    "Verifique se a rota não está marcada como 'Fora de Campo'",
+    "Verifique se há Minas Terrestres ocultas colocadas pelos desenvolvedores",
+    "Certifique-se de ter um Impulso de Velocidade ou Escudo ativo",
+    "Domine a tacada de 50% de força para um pouso de precisão"
+  ]}
+/>
+
+<Callout type="warning" title="Alerta de Bug">
+Algumas rotas secretas podem conter "bugs de colisão" onde a bola cai através do mapa. Se isso acontecer, use o comando de console `/reset_ball` para retornar ao seu último checkpoint válido sem uma tacada de penalidade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solução de Problemas Avançada e FAQ">
+
+Gerenciar o **console de desenvolvedor do Super Battle Golf** requer uma compreensão básica do motor de física do jogo. Se você encontrar problemas ao testar armas de dev ou rotas secretas, consulte a tabela de solução de problemas a seguir.
+
+| Problema | Causa Potencial | Correção de Console Recomendada |
+| :--- | :--- | :--- |
+| **Bola Presa no Terreno** | Erro na malha de colisão | `/nudge_ball [direção]` |
+| **Itens Não Surgem** | Limite de inventário atingido | `/clear_items` |
+| **Console Não Abre** | Conflito de atalhos | Reatribuir em `input_settings.cfg` |
+| **Baixa Taxa de Quadros** | Hitboxes de depuração ativos | `/hide_hitboxes` |
+| **Dessincronia de Física** | Latência no multijogador | `/sync_physics` |
+
+### Perguntas Frequentes
+
+<FAQ items={[
+  {
+    question: "Posso usar o console de desenvolvedor do Super Battle Golf para obter itens grátis?",
+    answer: "O console permite que você spawne itens para fins de teste em lobbies privados, mas estes não são salvos no inventário permanente da sua conta para partidas públicas."
+  },
+  {
+    question: "Como faço para corrigir um bug onde minha bola sai de campo incorretamente?",
+    answer: "Você pode usar o comando '/set_checkpoint' para criar manualmente um ponto seguro, ou o comando '/fix_bug' que os desenvolvedores usam para relatar e resetar falhas de física."
+  },
+  {
+    question: "O que é o prêmio 'Vaso de Ouro' visto nos vídeos de dev?",
+    answer: "O Vaso de Ouro é uma recompensa cosmética rara apenas para desenvolvedores. Embora possa ser visualizado via console, geralmente só é concedido a jogadores que encontram exploits significativos."
+  },
+  {
+    question: "Existe um comando para ver o tempo da tacada perfeita?",
+    answer: "Embora não haja um comando direto para mostrar o cronômetro, usar '/debug_ui 1' exibirá o contador de milissegundos, ajudando você a cronometrar seu impulso de 100% perfeitamente."
+  }
+]} />
+
+<Callout type="success" title="Dica Final">
+A melhor maneira de aprender é jogar com os desenvolvedores ou assistir às suas transmissões. Eles frequentemente revelam atalhos ocultos do console e tacadas de truque no estilo "Tiger Woods" que não estão documentadas no manual padrão.
+</Callout>
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Super Battle Golf Frozen Fairway: Notas de Atualização e Guia de Configuração",
+  description: "Domine a atualização Super Battle Golf Frozen Fairway com nossa análise abrangente de novos campos, itens e mecânicas de imunidade a nocaute.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Frozen+Fairway+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Super Battle Golf",
+  keywords: "super battle golf, frozen fairway, notas de atualização, guia de golfe, novos itens, mecânicas de combate"
+}
+
+<Callout type="info" title="Resumo Rápido">
+- **Foco da Atualização**: O patch **super battle golf frozen fairway** introduz um gelado campo de Neve de 9 buracos e um amplo balanceamento de combate.
+- **Novo Arsenal**: Utilize o Rocket Driver de alta velocidade e a Freeze Bomb de controle de grupo para dominar o gramado.
+- **Buff de Defesa**: Escudos de imunidade a nocaute aprimorados evitam spawn-camping e táticas agressivas de mergulho.
+- **Qualidade de Vida**: Aproveite a hospedagem de lobby simplificada, votação para expulsão e desempenho de CPU otimizado através de novos jobs de gráficos.
+</Callout>
+
+<Section icon={Map} title="Super Battle Golf Frozen Fairway: Atualizações de Campos">
+
+A atualização **super battle golf frozen fairway**, oficialmente designada como Versão 1.1.0-423, traz mudanças massivas no terreno e nas mecânicas ambientais do jogo. A peça central desta atualização é o novíssimo campo de Neve de 9 buracos, apresentando encostas escorregadias, perigos gelados e obstáculos temáticos de inverno que exigem um controle de força preciso.
+
+Além disso, o campo Coast existente foi expandido com 9 novos buracos, totalizando um layout completo de 18 buracos. Esta expansão introduz mais profundidade estratégica, exigindo que os jogadores equilibrem tacadas de longo alcance com um posicionamento cuidadoso em torno de perigos aquáticos. As interações ambientais também foram revisadas; as bolas de golfe agora rolam por encostas íngremes significativamente mais rápido, mas param de forma muito mais confiável em encostas rasas. Para acomodar essas mudanças, os desenvolvedores estenderam levemente o hitbox da tacada para baixo, garantindo que os jogadores possam atingir suas bolas com confiança ao estarem em inclinações acentuadas.
+
+| Nome do Campo | Total de Buracos | Classificação de Dificuldade | Principais Perigos e Mecânicas |
+| :--- | :--- | :--- | :--- |
+| **Snow** (Neve) | 9 | Intermediário a Especialista | Encostas escorregadias, plataformas de salto, vento |
+| **Coast** (Costa) | 18 | Iniciante a Intermediário | Perigos aquáticos, caixas de itens de mobilidade |
+| **Sandbanks** | 9 | Intermediário | Checkpoints extras, armadilhas de areia |
+
+O vento também foi introduzido como uma mecânica central de jogabilidade. Por padrão, as partidas apresentam uma brisa leve que altera suavemente as trajetórias da bola. No entanto, jogadores que buscam um desafio maior podem aumentar a força do vento ou desativá-lo completamente no menu de Configuração da Partida. Para ajudar os jogadores a navegar nesses terrenos atualizados, itens de mobilidade e plataformas de salto foram estrategicamente distribuídos em mapas clássicos como Terraces, Chasm e Vertigo.
+
+<Callout type="tip" title="Táticas Pro para o Vento">
+Ao jogar no campo de Neve, sempre verifique o indicador de vento antes de selecionar seu taco. Configurações de vento forte podem desviar completamente uma tacada de potência máxima, tornando tacadas de ferro mais curtas e controladas muito mais seguras.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Novos Itens e Equilíbrio de Drops">
+
+Dois itens que mudam o jogo se juntam ao sandbox nesta atualização: o Rocket Driver e a Freeze Bomb. O Rocket Driver é uma ferramenta utilitária de alta potência projetada para lançar bolas de golfe, jogadores adversários ou até você mesmo a distâncias massivas pelo mapa. Este item redefine completamente as estratégias de atalho, permitindo que os jogadores pulem seções enormes de um buraco se mirarem corretamente.
+
+A Freeze Bomb atua como uma ferramenta tática de controle de grupo. Quando lançada, ela detona e congela temporariamente qualquer jogador ou objeto pego em seu raio de explosão gelado. Isso é altamente eficaz para parar jogadores que estão na liderança pouco antes de chegarem ao buraco.
+
+| Distância / Posição | Nome do Item | Chance Antiga | Chance Nova | Uso Tático |
+| :--- | :--- | :--- | :--- | :--- |
+| **Na Liderança** | Coffee | 5% | **0%** | Desativado para evitar lideranças disparadas |
+| **Na Liderança** | Freeze Bomb | 0% | **5%** | Controle de grupo defensivo |
+| **50m Atrás** | Spring Boots | 20% | **10%** | Nerf na mobilidade vertical |
+| **125m Atrás** | Rocket Launcher | 30% | **20%** | Redução de dano à distância |
+| **200m Atrás** | Golf Cart | 50% | **35%** | Equilíbrio de veículo para recuperação |
+
+Para garantir o jogo justo, as taxas de queda de itens foram pesadamente rebalanceadas com base na distância do jogador em relação ao líder. Jogadores na liderança não podem mais obter o Coffee de aumento de velocidade, mas têm uma pequena chance de conseguir uma Freeze Bomb para defender sua posição. Por outro lado, jogadores que estão atrás recebem ferramentas de recuperação significativamente melhores, incluindo o novo Rocket Driver e os altamente destrutivos Rocket Launchers.
+
+<Callout type="warning" title="Perigo do Rocket Driver">
+Embora o Rocket Driver seja excelente para recuperação, lançar a si mesmo perto de limites fora de campo pode resultar em um reset instantâneo. Certifique-se de que sua trajetória limpe os obstáculos ambientais antes de se comprometer com um autolançamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Imunidade a Nocaute e Equilíbrio de Combate">
+
+O combate na atualização **super battle golf frozen fairway** recebeu um passe de equilíbrio massivo para coibir o griefing e o spawn-camping. Os jogadores agora recebem um escudo temporário de imunidade a nocaute imediatamente após o respawn. Este escudo impede que oponentes agressivos travem a mira neles com projéteis guiados, Rocket Launchers ou mergulhos físicos.
+
+Para lidar com perseguições persistentes, os desenvolvedores introduziram um sistema de escudos em camadas. Se você for nocauteado três ou mais vezes dentro de um curto intervalo de 30 segundos, receberá um escudo de imunidade laranja com duração estendida. Além disso, se um oponente com uma sequência de nocaute de 6 ou mais continuar a dominá-lo, um escudo de imunidade vermelho será ativado, bloqueando completamente todo o dano e repulsão especificamente daquele jogador dominante.
+
+| Tipo de Escudo | Indicador Visual | Condição de Ativação | Proteção Fornecida |
+| :--- | :--- | :--- | :--- |
+| **Padrão** | Branco / Azul | Respawn ou recuperação de mergulho | Bloqueia repulsão e projéteis com trava |
+| **Estendido** | **Laranja** | Nocauteado 3+ vezes em 30s | Imunidade duradoura a todos os ataques |
+| **Direcionado** | **Vermelho** | Dominado por jogador com streak 6+ | Bloqueia todos os nocautes do jogador dominante |
+
+Outros ajustes de combate incluem um nerf importante nas Landmines (Minas Terrestres). As Landmines agora são limitadas a um único uso por coleta de item em vez de três, embora a mira do lançamento tenha sido tornada muito mais consistente e intuitiva. A Elephant Gun também recebeu um buff significativo, aumentando pesadamente a repulsão infligida tanto em jogadores quanto em carrinhos de golfe após o impacto.
+
+<Callout type="info" title="Indicadores de Dominância">
+Você pode identificar facilmente quem está dominando quem no campo. Uma bandeira branca aparecerá acima da cabeça de qualquer jogador que você esteja dominando no momento, indicando que nocautes adicionais não concederão bônus de velocidade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gerenciamento de Lobby e Qualidade de Vida">
+
+Gerenciar partidas personalizadas está muito mais suave na Versão 1.1.0-423. Os anfitriões do lobby não podem mais expulsar jogadores diretamente durante partidas públicas ativas; em vez disso, devem iniciar uma votação democrática (votekick) da qual todos os membros do lobby podem participar. Além disso, os anfitriões não podem mais mover manualmente os jogadores entre as listas de espectadores e participantes após a conclusão da fase de configuração da partida.
+
+A mecânica de reinício (ativada segurando R no teclado ou D-pad para baixo no controle por padrão) também foi completamente revisada para evitar que os jogadores percam progresso valioso.
+
+<Steps>
+  <Step num="1" title="Ativar Checkpoints">
+    Avance pelo campo e ative os checkpoints. Reiniciar agora o retornará ao seu último checkpoint ativado, em vez de voltar todo o caminho até o início (tee).
+  </Step>
+  <Step num="2" title="Recuperação à Frente da Bola">
+    Se você correr à frente da sua bola para explorar o terreno, reiniciar enquanto a bola estiver parada teletransportará instantaneamente seu personagem diretamente para a localização da bola.
+  </Step>
+  <Step num="3" title="Contagem Regressiva de Fim de Buraco">
+    Agora você pode acionar um reinício com segurança durante a contagem regressiva final do buraco sem perder sua pontuação, permitindo que você se reposicione para um acabamento melhor.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Aumento de Desempenho">
+Esta atualização introduz jobs de gráficos, que aliviam significativamente o processamento da CPU. Jogadores com hardware de nível médio experimentarão taxas de quadros muito mais altas e estáveis durante partidas multiplayer caóticas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cosméticos e Marcos de Conquistas">
+
+A atualização introduz 10 conquistas novinhas, cada uma desbloqueando cosméticos exclusivos com tema de inverno para exibir no fairway. Entre essas adições está uma colaboração especial com a criadora liliuhms, apresentando um chapéu personalizado, uma roupa e um taco de golfe exclusivo. A loja de personalização também foi atualizada para aplicar e salvar as alterações imediatamente, removendo a necessidade de fechar o menu para confirmar seu visual.
+
+<CardGrid cols={3}>
+  <Card title="Conjunto Collab liliuhms">
+    - **Chapéu Exclusivo**
+    - Roupa Personalizada
+    - Taco de Golfe Único
+  </Card>
+  <Card title="Chapéu de Vela">
+    - **VFX de Chama Animada**
+    - Desbloqueado via Conquistas
+    - Altamente visível em áreas escuras
+  </Card>
+  <Card title="Novos Emotes">
+    - **Efeitos Sonoros Audíveis**
+    - Suporte para espectador ativado
+    - Movimentos de dança interativos
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="frozen-fairway-goals"
+  title="Checklist de Conclusão de Frozen Fairway:"
+  items={[
+    "Completar todos os 9 buracos no novo campo de Neve",
+    "Desbloquear o conjunto cosmético da colaboração liliuhms",
+    "Obter todas as 10 novas conquistas",
+    "Testar a mecânica de autolançamento do Rocket Driver",
+    "Personalizar seu personagem com o Chapéu de Vela animado"
+  ]}
+/>
+
+<Callout type="tip" title="Segurança de Pré-visualização">
+Ao navegar na loja de personalização, cosméticos que você não possui serão desequipados automaticamente quando você trocar de aba. Isso evita compras acidentais e esclarece quais itens você realmente possui.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como eu jogo o novo campo super battle golf frozen fairway?",
+    answer: "Você pode selecionar o campo de Neve de 9 buracos diretamente no menu de Configuração da Partida, na aba Campos. Certifique-se de que seu jogo esteja atualizado para a Versão 1.1.0-423 ou posterior."
+  },
+  {
+    question: "O que o escudo vermelho de imunidade a nocaute faz?",
+    answer: "O escudo vermelho é ativado quando você está sendo dominado por um oponente com uma sequência de nocaute de 6 ou mais. Ele bloqueia completamente todos os ataques e repulsões recebidos especificamente daquele jogador dominante."
+  },
+  {
+    question: "Os anfitriões do lobby ainda podem expulsar jogadores instantaneamente?",
+    answer: "Não. Em lobbies públicos, os anfitriões não podem mais expulsar jogadores diretamente durante partidas ativas. Eles devem iniciar uma votação (votekick), que requer a maioria dos votos dos jogadores no lobby."
+  },
+  {
+    question: "Como a mecânica do vento afeta minha bola de golfe?",
+    answer: "O vento aplica uma força lateral contínua à sua bola enquanto ela está em voo. Você pode ajustar a intensidade do vento de uma brisa leve a condições extremas, ou desativá-lo completamente nas opções de Configuração da Partida."
+  }
+]} />
+
+<Callout type="info" title="Funcionalidade de Mudo">
+Silenciar um jogador agressivo no lobby agora também oculta automaticamente as mensagens de chat de texto dele, mantendo sua experiência de jogo limpa e livre de distrações.
+</Callout>
+
+</Section>

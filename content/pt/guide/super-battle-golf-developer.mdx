@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desenvolvedor de Super Battle Golf: Equipe Brimstone e Insights do Jogo",
+  description: "Conheça a equipe por trás de Super Battle Golf. Descubra segredos dos desenvolvedores, mecânicas avançadas de jogo e recursos principais deste jogo indie caótico.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Super+Battle+Golf+Developer",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Super Battle Golf",
+  keywords: "desenvolvedor, brimstone games, super battle golf, mecânicas de jogo, guia indie"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Identidade do Desenvolvedor**: Super Battle Golf é desenvolvido pela **Brimstone Games**, um estúdio remoto independente.
+- **Mecânica Principal**: Jogabilidade simultânea para 8 jogadores, onde os jogadores dão tacadas, atiram e sabotam uns aos outros.
+- **Melhor Estratégia**: Utilize itens ofensivos como minas terrestres e lançadores de foguetes para atrapalhar os oponentes no green.
+- **Dica Crítica**: Domine o tempo da tacada perfeita (exatamente 100% de força logo após a contagem regressiva) para um aumento massivo de velocidade.
+- **Recurso Principal**: Navegue por 63 buracos distintos repletos de perigos personalizados e rotas secretas.
+</Callout>
+
+<Section icon={Target} title="Conheça o Desenvolvedor de Super Battle Golf: Brimstone Games">
+
+Se você deseja dominar o mundo caótico e acelerado dos jogos de esportes multiplayer, entender a filosofia de design do **desenvolvedor de Super Battle Golf** é o seu primeiro passo para a vitória. Desenvolvido pela Brimstone Games, um estúdio remoto independente, Super Battle Golf combina mecânicas tradicionais de golfe arcade com combate de alto risco e sabotagem. A equipe de desenvolvimento está espalhada globalmente pela Europa e Sudeste Asiático, reunindo diversos talentos para criar um jogo de festa baseado em física altamente polido.
+
+**Destaques do Vídeo:**
+- **Confronto com os Desenvolvedores**: Veja os jogadores desafiarem a equipe de desenvolvimento da Brimstone em seu próprio jogo.
+- **Mecânicas de Tacada Perfeita**: Aprenda como os desenvolvedores executam aumentos de velocidade na saída (tee).
+- **Demonstração de Rotas Secretas**: Descubra atalhos ocultos em mapas avançados revelados diretamente pelos criadores.
+- **Táticas de Sabotagem**: Veja como os desenvolvedores usam itens como escudos e buzinas a ar durante o voo da bola.
+
+<YouTubeEmbed videoId="5MR5BmeNnSs" title="Jogamos com os desenvolvedores de Super Battle Golf..." />
+
+Os cofundadores do estúdio, Rasmus Hofréus, Erik T. Forsberg e Cal, estabeleceram a Brimstone com uma visão clara: projetar jogos multiplayer que priorizem a interação do jogador, física caótica e alta rejogabilidade. Ao manter uma estrutura remota, a equipe aproveita talentos internacionais em arte, programação e design de som para manter o jogo atualizado com novos conteúdos ao longo de 2026.
+
+<Callout type="info" title="Antecedentes do Desenvolvedor">
+A Brimstone é um estúdio indie pioneiro no trabalho remoto. Sua estrutura descentralizada permite que colaborem com artistas e programadores de alto nível na Suécia, Suíça, Reino Unido, Alemanha, Indonésia, Malásia e Filipinas.
+</Callout>
+
+### Equipe Principal de Desenvolvimento da Brimstone
+
+A tabela abaixo destaca os membros principais da equipe de desenvolvimento da Brimstone, responsáveis por dar vida ao mundo caótico de Super Battle Golf.
+
+| Nome | Função | Localização |
+| :--- | :--- | :--- |
+| **Rasmus Hofréus** | Cofundador, CEO, Diretor de Jogo | Suécia |
+| **Erik T. Forsberg** | Cofundador, Programador Sênior | Suécia |
+| **Cal** | Cofundador, Diretor de Marketing | Suécia |
+| **Eden** | Programador Líder | Suíça |
+| **Yura** | Artista Líder | Suécia |
+| **Brandon** | Animador | Reino Unido |
+| **Shanny** | Artista 3D | Indonésia |
+| **Jayson** | Designer de Som | Malásia |
+| **Tup** | Artista de VFX | Filipinas |
+
+</Section>
+
+<Section icon={Swords} title="Recursos Principais do Jogo e Mecânicas de Sabotagem">
+
+Super Battle Golf se destaca dos simuladores de golfe tradicionais ao forçar todos os jogadores a jogarem simultaneamente. Em vez de esperar pelas jogadas, até oito jogadores correm em direção ao buraco exatamente ao mesmo tempo. Isso cria uma corrida frenética onde o bloqueio físico, o uso de itens e a consciência espacial são tão importantes quanto ter uma tacada perfeita.
+
+A equipe **desenvolvedora de Super Battle Golf** integrou um sistema de itens robusto, projetado para facilitar a interação constante entre os jogadores. Os jogadores podem coletar itens ofensivos, defensivos e utilitários espalhados pelos percursos para ganhar vantagem ou arruinar diretamente a tacada de um oponente.
+
+<Callout type="warning" title="Cuidado com os Perigos">
+Evite dirigir carrinhos de golfe ou acertar sua bola em obstáculos de água. Fazer isso resulta em uma tacada de penalidade, reiniciando sua bola no último checkpoint e custando um tempo valioso na tabela de classificação.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Itens Ofensivos">
+    - **Lançadores de Foguetes**: Explodam as bolas dos oponentes para longe do green.
+    - **Minas Terrestres**: Posicione no green para explodir bolas que se aproximam.
+    - **Lasers Orbitais**: Atinja jogadores à longa distância para interromper seu progresso.
+  </Card>
+  <Card title="Itens Defensivos">
+    - **Escudos**: Bloqueie ataques de projéteis e colisões físicas.
+    - **Barreiras de Cogumelo**: Crie obstáculos físicos temporários para bloquear caminhos.
+    - **Campos de Deflexão**: Redirecione ataques recebidos de volta para seus oponentes.
+  </Card>
+  <Card title="Itens Utilitários">
+    - **Buzinas a Ar**: Dispare para desorientar os oponentes durante suas tacadas ativas.
+    - **Carrinhos de Golfe**: Entre com até 8 jogadores para atravessar mapas massivos rapidamente.
+    - **Impulsionadores de Velocidade**: Ganhe velocidade instantânea no ar ou no fairway.
+  </Card>
+</CardGrid>
+
+### Banco de Dados de Itens e Uso Estratégico
+
+Para sobreviver às partidas caóticas, os jogadores devem entender as propriedades específicas de cada item. A tabela abaixo detalha os itens mais comuns projetados pelos desenvolvedores e como usá-los de forma eficaz.
+
+| Nome do Item | Categoria | Uso Estratégico Principal | Eficácia |
+| :--- | :--- | :--- | :--- |
+| **Mina Terrestre** | Ofensivo | Coloque diretamente no green ou perto do buraco para explodir as bolas dos oponentes. | Alta |
+| **Escudo** | Defensivo | Ative ao se aproximar do green para proteger sua bola de perigos explosivos. | Média |
+| **Laser Orbital** | Ofensivo | Mire no jogador que está na liderança à longa distância para interromper completamente seu momento. | Alta |
+| **Buzina a Ar** | Utilitário | Dispare perto dos oponentes para atrapalhar o tempo da tacada e arruinar a trajetória. | Média |
+| **Carrinho de Golfe** | Utilitário | Dirija por fairways massivos para transportar rapidamente sua bola e companheiros de equipe. | Alta |
+| **Lançador de Foguetes** | Ofensivo | Dispare diretamente em grupos de bolas de oponentes para espalhá-las em perigos. | Alta |
+
+</Section>
+
+<Section icon={Sparkles} title="Segredos dos Desenvolvedores e Técnicas Avançadas">
+
+Para competir no nível mais alto, os jogadores devem ir além da mira básica e do controle de força. Durante os testes de jogo e partidas da comunidade, os desenvolvedores da Brimstone revelaram várias técnicas avançadas que podem reduzir suas tacadas e garantir um lugar no topo da tabela de classificação.
+
+Uma das mecânicas mais críticas é o **Impulso de Velocidade da Tacada Perfeita**. Esta mecânica recompensa o tempo preciso na saída e durante tacadas específicas no fairway.
+
+<Steps>
+  <Step num="1" title="Observe a Contagem Regressiva">
+    Aguarde a contagem regressiva da partida ou o cronômetro da tacada chegar a zero. O sistema prepara a janela de impulso imediatamente após a transição.
+  </Step>
+  <Step num="2" title="Identifique a Janela de Impulso">
+    A janela da tacada perfeita abre por cerca de meio segundo logo após o fim da contagem regressiva.
+  </Step>
+  <Step num="3" title="Acerte 100% de Força">
+    Solte sua tacada exatamente com 100% de força dentro desta janela de meio segundo para ativar o impulso de velocidade máximo.
+  </Step>
+  <Step num="4" title="Execute Mergulhos no Ar">
+    Combine seu impulso com um mergulho no ar no pico de sua trajetória para maximizar a distância e ignorar obstáculos.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estratégia de Atalho dos Desenvolvedores">
+Em mapas avançados específicos, os desenvolvedores usam uma estratégia de rota oculta: alinhe sua bola com a bandeira a partir das ilhas laterais, defina a força da tacada para exatamente 49% e lance. Este nível de força específico ignora grandes perigos para uma aproximação fácil.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de Jogo e Checklist de Personalização">
+
+Super Battle Golf oferece diversas experiências dependendo do seu estilo de jogo preferido. Os jogadores podem entrar no matchmaking público, hospedar servidores privados para amigos ou enfrentar o modo de progressão solo do jogo.
+
+O jogo apresenta mais de 63 buracos únicos espalhados por múltiplos ambientes, cada um projetado com temas visuais distintos, obstáculos físicos e oportunidades de atalhos.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos do Super Battle Golf:"
+  items={[
+    "Dominar o tempo da tacada perfeita para impulsos de velocidade consistentes na saída.",
+    "Desbloquear o item de personalização de cabeça de girafa ridiculamente alta.",
+    "Completar todos os 63 buracos únicos em lobbies públicos e privados.",
+    "Executar com sucesso um atalho no estilo dos desenvolvedores em um mapa de ilha.",
+    "Vencer um jogo de matchmaking público com um lobby cheio de 8 jogadores."
+  ]}
+/>
+
+<Callout type="success" title="Expresse-se">
+Certifique-se de utilizar o menu de personalização de personagens entre as partidas. Expressar-se com danças personalizadas, emotes e chapéus exclusivos é uma parte central da experiência lúdica projetada pela equipe de desenvolvimento.
+</Callout>
+
+### Jogo Solo vs. Matchmaking Multiplayer
+
+O jogo suporta tanto a progressão solo baseada em pontos quanto o multiplayer caótico. A tabela abaixo descreve como as mecânicas principais mudam entre esses dois modos primários.
+
+| Recurso | Jogo Solo Baseado em Pontos | Corrida Multiplayer |
+| :--- | :--- | :--- |
+| **Contagem de Jogadores** | 1 Jogador (Contra o Tempo / Prática) | 1-8 Jogadores (Público ou Privado) |
+| **Base de Pontuação** | Jogo por tacadas baseado em pontos e rotas | Velocidade, sobrevivência e corrida para o buraco |
+| **Frequência de Itens** | Menor (Foco em rotas limpas) | Extremamente Alta (Combate constante) |
+| **Ritmo da Partida** | Metódico e estratégico | Frenético, acelerado e imprevisível |
+| **Objetivo Principal** | Otimizar linhas e dominar a física do percurso | Correr mais, atirar melhor e sabotar oponentes |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quem é o desenvolvedor de Super Battle Golf?",
+    answer: "Super Battle Golf é desenvolvido pela Brimstone Games, um estúdio de desenvolvimento de jogos remoto independente com membros da equipe espalhados pela Europa e Sudeste Asiático."
+  },
+  {
+    question: "Quantos jogadores podem jogar Super Battle Golf ao mesmo tempo?",
+    answer: "O jogo suporta multiplayer online caótico para até 8 jogadores simultaneamente em servidores públicos e privados."
+  },
+  {
+    question: "Como você ativa o impulso de velocidade da tacada perfeita?",
+    answer: "Você deve acertar exatamente 100% de força dentro de uma janela de meio segundo logo após o fim da contagem regressiva da tacada."
+  },
+  {
+    question: "Existem tacadas de penalidade no jogo?",
+    answer: "Sim. Cair em perigos de água profunda, dirigir um carrinho de golfe para fora do mapa ou sair dos limites ativará uma tacada de penalidade e reiniciará sua bola no último checkpoint."
+  }
+]} />
+
+<Callout type="info" title="Entre em Contato">
+Para consultas comerciais, feedback ou suporte da comunidade, você pode entrar em contato com a equipe da Brimstone Games diretamente pelo e-mail cal@brimstone.games ou visitar o site oficial em [Brimstone Games](https://brimstone.games/).
+</Callout>
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Super Battle Golf Tela Dividida: Guia de Configuração de Multijogador Local",
+  description: "Aprenda a configurar a tela dividida no Super Battle Golf usando soluções alternativas do OBS e configurações de multijogador local. Guia completo de 2026 para sessões de 2 a 4 jogadores.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Split+Screen+Setup+Guide",
+  date: "2026-07-21",
+  author: "Equipe Wiki do Super Battle Golf"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **tela dividida no Super Battle Golf** é atualmente realizável através de soluções alternativas de múltiplas instâncias e gerenciamento de janelas no OBS.
+- A demanda por **multijogador local** é alta, com os jogadores buscando uma experiência caótica no estilo "Party Animals".
+- Os **requisitos de configuração** incluem um PC potente capaz de executar várias instâncias do jogo simultaneamente.
+- O **suporte a controles** é essencial para o jogo local para evitar conflitos de comandos entre os jogadores.
+- O **Modo Caos** é a configuração recomendada para a melhor experiência competitiva em tela dividida.
+</Callout>
+
+<Section icon={Map} title="Status Atual da Tela Dividida no Super Battle Golf">
+
+A demanda da comunidade pela funcionalidade de **tela dividida no Super Battle Golf** disparou em 2026, com os jogadores procurando maneiras de trazer a energia caótica do jogo para suas salas de estar. Embora o jogo se destaque no matchmaking online, o jogo local exige um pouco de engenhosidade técnica para funcionar em um único monitor. Atualmente, os jogadores estão utilizando configurações de múltiplas instâncias e softwares de transmissão como o OBS para simular um ambiente tradicional de tela dividida.
+
+**Destaques do Vídeo:**
+- Demonstração de uma configuração multijogador para 2 e 4 jogadores.
+- Configuração do OBS para um layout dividido em 4 telas.
+- Gerenciamento de múltiplas instâncias do jogo em um único PC.
+- Gameplay em tempo real mostrando a experiência do nível 10 do "modo caos".
+
+<YouTubeEmbed videoId="k800DyiQ21w" title="Super Battle Golf - Multijogador para 2 Jogadores com Divisão de 4 Telas no OBS!" />
+
+O principal desafio reside no fato de que muitos títulos modernos de PC priorizam a conectividade online em detrimento do cooperativo local de sofá. No entanto, como discutido nos fóruns da comunidade, o "modo caos" deste jogo o torna um candidato perfeito para jogatinas locais em grupo. Ao executar múltiplas instâncias, você pode recriar aquela sensação clássica de console onde todos estão na mesma sala, gritando e competindo em tempo real.
+
+| Recurso | Suporte Local Nativo | Método de Solução Alternativa via OBS |
+| :--- | :--- | :--- |
+| **Número de Jogadores** | 1 Jogador por PC | 2-4 Jogadores por PC |
+| **Dificuldade de Configuração** | Muito Baixa | Moderada |
+| **Exigência de Hardware** | Padrão | Alta (Intensivo de CPU/GPU) |
+| **Método de Entrada** | Teclado/Mouse | Necessário Vários Controles |
+| **Nível de Caos** | Normal | Máximo (Modo Caos Nível 10) |
+
+<Callout type="tip" title="Opinião da Comunidade">
+Os jogadores na Steam notaram que adicionar tela dividida nativa daria ao jogo uma vibe de "Party Animals", o que aumenta significativamente seu valor como um jogo de festa social para 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Passo a Passo da Tela Dividida no OBS">
+
+Para obter uma experiência funcional de **tela dividida no Super Battle Golf**, você deve seguir um fluxo de trabalho técnico específico. Isso envolve iniciar instâncias separadas do jogo e usar o Open Broadcaster Software (OBS) para compô-las em uma única visualização. Este método é ideal para quem usa uma TV grande ou um projetor para reuniões locais.
+
+<Steps>
+  <Step num="1" title="Prepare Múltiplas Instâncias do Jogo">
+    Certifique-se de que seu PC pode iniciar o jogo várias vezes. Você pode precisar usar contas Steam separadas ou parâmetros de inicialização específicos (como `-multi-instance`) dependendo da sua versão atual. Cada instância deve ser configurada para o Modo Janela nas configurações de gráficos.
+  </Step>
+  <Step num="2" title="Configure o Mapeamento dos Controles">
+    Conecte todos os controles antes de iniciar as instâncias. Use uma ferramenta como o DS4Windows ou o Steam Input para garantir que a Instância 1 responda apenas ao Controle A, e a Instância 2 responda apenas ao Controle B. Isso evita que um único controle mova todos os personagens de uma vez.
+  </Step>
+  <Step num="3" title="Composição de Cena no OBS">
+    Abra o OBS e crie uma nova cena. Adicione cada janela do jogo como uma fonte separada de "Captura de Janela". Clique com o botão direito em cada fonte, vá em Transformar e redimensione-as para caber nos quadrantes (ex: superior esquerdo, superior direito) para uma divisão de 4 jogadores.
+  </Step>
+  <Step num="4" title="Gerenciamento de Áudio">
+    Para evitar um efeito de eco, silencie o áudio de todas as instâncias, exceto uma. Isso garante que você ouça a música do jogo e os efeitos sonoros sem a sobreposição de ruídos de quatro transmissões de áudio idênticas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Configuração Pro">
+Se você tiver uma configuração de vários monitores, poderá estender o Projetor do OBS para a sua tela secundária (como uma TV 4K), mantendo o monitor principal livre para ajustes técnicos durante a partida.
+</Callout>
+
+| Ferramenta Necessária | Finalidade | Versão Recomendada |
+| :--- | :--- | :--- |
+| **OBS Studio** | Composição da visualização em tela dividida | Build mais recente de 2026 |
+| **Cliente Steam** | Gerenciamento de instâncias do jogo e atualizações | Ramo Beta (se disponível) |
+| **DS4Windows** | Gerenciamento de controles de PlayStation/Xbox | Versão 3.2 ou superior |
+| **Virtual Audio Cable** | Roteamento de áudio avançado (opcional) | 2.1 Padrão |
+
+</Section>
+
+<Section icon={Shield} title="Otimizando o Desempenho para Jogo com Múltiplas Instâncias">
+
+Executar várias cópias de **tela dividida no Super Battle Golf** exige bastante do seu hardware. Cada instância consome sua própria parcela de VRAM e ciclos de CPU. Para garantir uma experiência suave de 60 FPS para cada jogador, você deve otimizar suas configurações em todas as janelas ativas.
+
+<CardGrid cols={3}>
+  <Card title="Nível Mínimo (2 Jogadores)">
+    - **Resolução**: 720p por janela
+    - **Sombras**: Desativadas
+    - **Anti-Aliasing**: Desativado
+    - **Alvo**: 30-60 FPS Estáveis
+  </Card>
+  <Card title="Nível Recomendado (4 Jogadores)">
+    - **Resolução**: 1080p por janela
+    - **Sombras**: Baixas
+    - **Anti-Aliasing**: FXAA
+    - **Alvo**: 60 FPS Sólidos
+  </Card>
+  <Card title="Nível Extremo (Saída 4K)">
+    - **Resolução**: Composição Nativa em 4K
+    - **Sombras**: Altas
+    - **Texturas**: Ultra
+    - **Alvo**: 120 FPS para TVs de alta taxa de atualização
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Hardware">
+Executar quatro instâncias do jogo pode levar ao estrangulamento térmico (thermal throttling) em laptops. Certifique-se de que as ventoinhas de resfriamento estejam na velocidade máxima e considere o uso de uma base refrigeradora durante longas sessões de multijogador local.
+</Callout>
+
+| Componente | Requisito Mínimo | Recomendado (4 Jogadores) |
+| :--- | :--- | :--- |
+| **CPU** | Quad-Core 3.5GHz | 8-Core / 16-Thread (Ryzen 7+) |
+| **RAM** | 16GB DDR4 | 32GB DDR5 |
+| **GPU** | RTX 3060 / RX 6600 | RTX 4070 / RX 7800 XT |
+| **Armazenamento** | SSD (Obrigatório para carregamento rápido) | SSD NVMe Gen4 |
+| **VRAM** | 6GB | 12GB+ |
+
+</Section>
+
+<Section icon={Swords} title="Dominando o Modo Caos no Jogo Local">
+
+Assim que a sua configuração de **tela dividida no Super Battle Golf** estiver operacional, a verdadeira diversão começa. O jogo local muda totalmente a dinâmica do jogo. Em vez de prever os movimentos de oponentes online anônimos, você está reagindo à presença física de seus amigos. Este "modo caos" é onde o jogo realmente brilha como um título de festa competitivo.
+
+<Checklist
+  id="local-play-prep"
+  title="Checklist do Lobby Pré-Jogo:"
+  items={[
+    "Verifique se todos os controles estão atribuídos à tela correta",
+    "Defina todas as instâncias para o 'Modo Caos' para o máximo de perigos ambientais",
+    "Sincronize o início da partida para garantir que os jogadores carreguem simultaneamente",
+    "Verifique se a opção 'Sempre no Topo' do OBS está ativada para a visualização do projetor",
+    "Certifique-se de que a sala tenha lanches suficientes e espaço para quatro jogadores competitivos"
+  ]}
+/>
+
+A estratégia na tela dividida local geralmente envolve "dar uma espiadinha na tela alheia" (screen peeking) — uma tática clássica onde você observa o quadrante do seu oponente para antecipar seus power-ups ou tacadas. Em um jogo definido pelo caos baseado em física, saber quando um oponente está prestes a soltar uma bomba ou acionar um perigo é a chave para a sobrevivência.
+
+| Estratégia | Eficácia | Dificuldade |
+| :--- | :--- | :--- |
+| **Espiar a Tela** | Alta (Antecipar armadilhas) | Fácil |
+| **Sabotagem de Power-ups** | Muito Alta (Focar nos líderes) | Moderada |
+| **Gatilhos Ambientais** | Média (Usar o mapa) | Moderada |
+| **Distração Física** | Extrema (Meta-jogo físico) | Lendária |
+
+<Callout type="tip" title="Dica de Jogo">
+No modo de 4 jogadores, o motor de física pode ficar congestionado. Concentre-se em ficar longe do grupo principal de jogadores para evitar ser pego em uma reação em cadeia de explosões ou tacadas perdidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes da Comunidade e Perspectivas Futuras">
+
+O futuro da **tela dividida no Super Battle Golf** parece promissor, à medida que os desenvolvedores da comunidade continuam a refinar ferramentas de terceiros para o jogo local. Enquanto aguardamos atualizações oficiais dos desenvolvedores sobre o suporte nativo, essas soluções alternativas fornecem uma maneira robusta de aproveitar o jogo hoje.
+
+<FAQ items={[
+  {
+    question: "Existe um botão nativo de tela dividida no menu?",
+    answer: "Até o momento em 2026, não há uma opção nativa de tela dividida com um único clique. Você deve usar o método de múltiplas instâncias e OBS detalhado neste guia para jogar localmente com amigos."
+  },
+  {
+    question: "Preciso de quatro cópias do jogo para jogar em tela dividida de 4 jogadores?",
+    answer: "Tecnicamente, sim, você precisa de quatro instâncias em execução. Alguns jogadores usam o Compartilhamento de Biblioteca da Steam ou várias contas para facilitar isso em uma única máquina."
+  },
+  {
+    question: "Posso usar quatro tipos diferentes de controles?",
+    answer: "Sim, mas é recomendado usar uma ferramenta como o DS4Windows ou a configuração de controle da Steam para garantir que o jogo os reconheça como dispositivos XInput distintos."
+  },
+  {
+    question: "O método do OBS causa atraso de entrada (input lag)?",
+    answer: "Se configurado corretamente com a 'Captura de Janela' e um PC de alto desempenho, o atraso de entrada é insignificante (menos de 5ms), tornando-o perfeitamente viável para o jogo competitivo."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Sempre verifique os fóruns oficiais da comunidade Steam para obter os patches mais recentes. Os desenvolvedores estão cientes da alta demanda pelo jogo local, e uma atualização nativa poderá ser lançada ainda em 2026.
+</Callout>
+
+</Section>

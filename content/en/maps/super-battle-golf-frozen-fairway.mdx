@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Super Battle Golf Frozen Fairway: Patch Notes & Setup Guide",
+  description: "Master the Super Battle Golf Frozen Fairway update with our comprehensive breakdown of new courses, items, and knockout immunity mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Frozen+Fairway+Guide",
+  date: "2026-07-21",
+  author: "super battle golf Wiki Team"
+}
+
+<Callout type="info" title="Quick Summary">
+- **Update Focus**: The **super battle golf frozen fairway** patch introduces a chilly 9-hole Snow course and extensive combat balancing.
+- **New Arsenal**: Deploy the high-velocity Rocket Driver and the crowd-controlling Freeze Bomb to dominate the green.
+- **Defense Buff**: Enhanced knockout immunity shields prevent spawn-camping and aggressive diving tactics.
+- **Quality of Life**: Enjoy streamlined lobby hosting, votekicking, and optimized CPU performance via new graphics jobs.
+</Callout>
+
+<Section icon={Map} title="Super Battle Golf Frozen Fairway: Course Updates">
+
+The **super battle golf frozen fairway** update, officially designated as Version 1.1.0-423, brings massive changes to the game's terrain and environmental mechanics. The centerpiece of this update is the brand-new 9-hole Snow course, featuring slippery slopes, icy hazards, and winter-themed obstacles that demand precise power control. 
+
+Additionally, the existing Coast course has been expanded by 9 new holes, bringing its total to a full 18-hole layout. This expansion introduces more strategic depth, requiring players to balance long-range drives with careful positioning around water hazards. Environmental interactions have also been overhauled; golf balls now roll down steep slopes significantly faster, but they come to a stop much more reliably on shallow slopes. To accommodate these changes, developers slightly extended the swing hitbox downward, ensuring players can reliably strike their balls when standing on steep inclines.
+
+| Course Name | Total Holes | Difficulty Rating | Key Hazards & Mechanics |
+| :--- | :--- | :--- | :--- |
+| **Snow** | 9 | Intermediate to Expert | Slippery slopes, jump pads, wind |
+| **Coast** | 18 | Beginner to Intermediate | Water hazards, mobility item boxes |
+| **Sandbanks** | 9 | Intermediate | Extra checkpoints, sand traps |
+
+Wind has also been introduced as a core gameplay mechanic. By default, matches feature a light breeze that gently alters ball trajectories. However, players looking for a stiffer challenge can increase the wind strength or disable it entirely in the Match Setup menu. To help players navigate these updated terrains, mobility items and jump pads have been strategically distributed across legacy maps like Terraces, Chasm, and Vertigo.
+
+<Callout type="tip" title="Pro Wind Tactics">
+When playing on the Snow course, always check the wind indicator before selecting your club. High wind settings can completely derail a maximum-power drive, making shorter, controlled iron shots much safer.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="New Items and Item Drop Balance">
+
+Two game-changing items join the sandbox in this update: the Rocket Driver and the Freeze Bomb. The Rocket Driver is a high-powered utility tool designed to launch golf balls, opposing players, or even yourself massive distances across the map. This item completely redefines shortcut strategies, allowing players to skip massive sections of a hole if aimed correctly. 
+
+The Freeze Bomb acts as a tactical crowd-control tool. When thrown, it detonates and temporarily freezes any player or object caught within its icy blast radius. This is highly effective for stopping leading players right before they reach the cup.
+
+| Distance / Position | Item Name | Old Chance | New Chance | Tactical Usage |
+| :--- | :--- | :--- | :--- | :--- |
+| **In the Lead** | Coffee | 5% | **0%** | Disabled to prevent runaway leads |
+| **In the Lead** | Freeze Bomb | 0% | **5%** | Defensive crowd control |
+| **Behind 50m** | Spring Boots | 20% | **10%** | Vertical mobility nerf |
+| **Behind 125m** | Rocket Launcher | 30% | **20%** | Ranged damage reduction |
+| **Behind 200m** | Golf Cart | 50% | **35%** | Catch-up vehicle balance |
+
+To ensure fair play, item drop rates have been heavily rebalanced based on a player's distance from the leader. Players in the lead can no longer obtain speed-boosting Coffee, but they have a small chance to pull a Freeze Bomb to defend their position. Conversely, trailing players receive significantly better catch-up tools, including the new Rocket Driver and highly destructive Rocket Launchers.
+
+<Callout type="warning" title="Rocket Driver Hazard">
+While the Rocket Driver is excellent for recovery, launching yourself near out-of-bounds boundaries can result in an instant reset. Ensure your trajectory clears environmental obstacles before committing to a self-launch.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Knockout Immunity and Combat Balance">
+
+Combat in the **super battle golf frozen fairway** update has received a massive balance pass to curb griefing and spawn-camping. Players now receive a temporary knockout immunity shield immediately upon respawning. This shield prevents aggressive opponents from locking onto them with homing projectiles, Rocket Launchers, or physical dives. 
+
+To deal with persistent targeting, developers introduced a tiered shield system. If you are knocked out three or more times within a short 30-second window, you receive an orange immunity shield with an extended duration. Furthermore, if an opponent with a knockout streak of 6 or more continues to dominate you, a red immunity shield will activate, completely blocking all damage and knockback specifically from that dominating player.
+
+| Shield Type | Visual Indicator | Trigger Condition | Protection Provided |
+| :--- | :--- | :--- | :--- |
+| **Standard** | White / Blue | Respawning or recovering from dive | Blocks knockback, lock-on projectiles |
+| **Extended** | **Orange** | Knocked out 3+ times within 30s | Long-lasting immunity to all attacks |
+| **Targeted** | **Red** | Dominated by player with 6+ streak | Blocks all knockouts from dominating player |
+
+Other combat tweaks include a major nerf to Landmines. Landmines are now limited to a single use per item pickup instead of three, though their toss aiming has been made much more consistent and intuitive. The Elephant Gun has also received a significant buff, heavily increasing the knockback inflicted on both players and golf carts upon impact.
+
+<Callout type="info" title="Dominance Indicators">
+You can easily spot who is dominating whom on the field. A white flag will appear above the head of any player you are currently dominating, indicating that further knockouts will not grant you any speed bonuses.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lobby Management and Quality of Life">
+
+Managing custom matches is much smoother in Version 1.1.0-423. Lobby hosts can no longer directly kick players during active public matches; instead, they must initiate a democratic votekick that all lobby members can participate in. Additionally, hosts can no longer manually move players between the spectator and participant lists once the match setup phase has concluded.
+
+The restart mechanic (activated by holding R on a keyboard or D-pad down on a controller by default) has also been completely overhauled to prevent players from losing valuable progress.
+
+<Steps>
+  <Step num="1" title="Activate Checkpoints">
+    Progress through the course and trigger checkpoints. Restarting will now return you to your last activated checkpoint rather than all the way back to the tee.
+  </Step>
+  <Step num="2" title="Ahead of Ball Recovery">
+    If you run ahead of your ball to scout the terrain, restarting while your ball is stationary will instantly teleport your character directly to the ball's location.
+  </Step>
+  <Step num="3" title="Hole Finish Countdown">
+    You can now safely trigger a restart during the final hole countdown without forfeiting your score, allowing you to reposition for a better finish.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Performance Boost">
+This update introduces graphics jobs, which significantly offloads processing from the CPU. Players on mid-range hardware will experience much higher and more stable framerates during chaotic multi-player matches.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cosmetics and Achievement Milestones">
+
+The update introduces 10 brand-new achievements, each unlocking exclusive winter-themed cosmetics to show off on the fairway. Among these additions is a special collaboration with creator liliuhms, featuring a custom hat, an outfit, and a unique golf club. The customization shop has also been upgraded to apply and save changes immediately, removing the need to close the menu to confirm your look.
+
+<CardGrid cols={3}>
+  <Card title="liliuhms Collab Set">
+    - **Exclusive Hat**
+    - Custom Outfit
+    - Unique Golf Club
+  </Card>
+  <Card title="Candle Hat">
+    - **Animated Flame VFX**
+    - Unlocked via Achievements
+    - Highly visible in dark areas
+  </Card>
+  <Card title="New Emotes">
+    - **Audible Sound Effects**
+    - Spectator support enabled
+    - Interactive dance moves
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="frozen-fairway-goals"
+  title="Frozen Fairway Completion Checklist:"
+  items={[
+    "Complete all 9 holes on the new Snow course",
+    "Unlock the liliuhms collaboration cosmetic set",
+    "Earn all 10 new achievements",
+    "Test the Rocket Driver self-launch mechanic",
+    "Customize your character with the animated Candle Hat"
+  ]}
+/>
+
+<Callout type="tip" title="Preview Safety">
+When browsing the customization shop, unowned cosmetics will automatically unequip when you switch tabs. This prevents accidental purchases and clarifies which items you actually own.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I play the new super battle golf frozen fairway course?",
+    answer: "You can select the 9-hole Snow course directly from the Match Setup menu under the Courses tab. Ensure your game is updated to Version 1.1.0-423 or later."
+  },
+  {
+    question: "What does the red knockout immunity shield do?",
+    answer: "The red shield activates when you are being dominated by an opponent with a knockout streak of 6 or more. It completely blocks all incoming attacks and knockbacks specifically from that dominating player."
+  },
+  {
+    question: "Can lobby hosts still kick players instantly?",
+    answer: "No. In public lobbies, hosts can no longer directly kick players during active matches. They must initiate a votekick, which requires a majority vote from the players in the lobby."
+  },
+  {
+    question: "How does the wind mechanic affect my golf ball?",
+    answer: "Wind applies a continuous lateral force to your ball while it is in flight. You can adjust the wind intensity from a light breeze to extreme conditions, or disable it entirely in the Match Setup options."
+  }
+]} />
+
+<Callout type="info" title="Mute Functionality">
+Muting an aggressive player in the lobby now automatically hides their text chat messages as well, keeping your gameplay experience clean and distraction-free.
+</Callout>
+
+</Section>

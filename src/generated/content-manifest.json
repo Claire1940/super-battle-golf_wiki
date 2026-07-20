@@ -2,6 +2,10 @@
   "en": {
     "achievements": [
       {
+        "slug": "super-battle-golf-achievement-guide",
+        "file": "super-battle-golf-achievement-guide"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -10,12 +14,24 @@
         "file": "super-battle-golf-behind-you-achievement"
       },
       {
+        "slug": "super-battle-golf-bully-achievement",
+        "file": "super-battle-golf-bully-achievement"
+      },
+      {
+        "slug": "super-battle-golf-explorer-achievement",
+        "file": "super-battle-golf-explorer-achievement"
+      },
+      {
         "slug": "super-battle-golf-frog-legs-achievement",
         "file": "super-battle-golf-frog-legs-achievement"
       },
       {
         "slug": "super-battle-golf-hidden-achievement",
         "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hoarder-achievement",
+        "file": "super-battle-golf-hoarder-achievement"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -32,6 +48,10 @@
         "file": "super-battle-golf-cosmetics"
       },
       {
+        "slug": "super-battle-golf-emote-button",
+        "file": "super-battle-golf-emote-button"
+      },
+      {
         "slug": "super-battle-golf-emotes",
         "file": "super-battle-golf-emotes"
       },
@@ -42,9 +62,21 @@
       {
         "slug": "super-battle-golf-outfit-unlocks",
         "file": "super-battle-golf-outfit-unlocks"
+      },
+      {
+        "slug": "super-battle-golf-reaper-outfit",
+        "file": "super-battle-golf-reaper-outfit"
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-balls",
+        "file": "super-battle-golf-balls"
+      },
+      {
+        "slug": "super-battle-golf-base-jump-hole-in-one",
+        "file": "super-battle-golf-base-jump-hole-in-one"
+      },
       {
         "slug": "super-battle-golf-best-settings",
         "file": "super-battle-golf-best-settings"
@@ -54,8 +86,36 @@
         "file": "super-battle-golf-controls"
       },
       {
+        "slug": "super-battle-golf-developer-console",
+        "file": "super-battle-golf-developer-console"
+      },
+      {
+        "slug": "super-battle-golf-developer",
+        "file": "super-battle-golf-developer"
+      },
+      {
         "slug": "super-battle-golf-disarm-landmine",
         "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-discord",
+        "file": "super-battle-golf-discord"
+      },
+      {
+        "slug": "super-battle-golf-easiest-hole-in-one",
+        "file": "super-battle-golf-easiest-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-easter-eggs",
+        "file": "super-battle-golf-easter-eggs"
+      },
+      {
+        "slug": "super-battle-golf-elephant-gun",
+        "file": "super-battle-golf-elephant-gun"
+      },
+      {
+        "slug": "super-battle-golf-glitches",
+        "file": "super-battle-golf-glitches"
       },
       {
         "slug": "super-battle-golf-guide",
@@ -70,18 +130,38 @@
         "file": "super-battle-golf-items"
       },
       {
+        "slug": "super-battle-golf-jump-pad",
+        "file": "super-battle-golf-jump-pad"
+      },
+      {
+        "slug": "super-battle-golf-reddit",
+        "file": "super-battle-golf-reddit"
+      },
+      {
         "slug": "super-battle-golf-tips",
         "file": "super-battle-golf-tips"
       },
       {
         "slug": "super-battle-golf-weapons",
         "file": "super-battle-golf-weapons"
+      },
+      {
+        "slug": "super-battle-golf-workshop",
+        "file": "super-battle-golf-workshop"
       }
     ],
     "maps": [
       {
         "slug": "super-battle-golf-custom-maps",
         "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-frozen-fairway",
+        "file": "super-battle-golf-frozen-fairway"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one-maps",
+        "file": "super-battle-golf-hole-in-one-maps"
       },
       {
         "slug": "super-battle-golf-maps",
@@ -94,8 +174,16 @@
     ],
     "multiplayer": [
       {
+        "slug": "super-battle-golf-bots",
+        "file": "super-battle-golf-bots"
+      },
+      {
         "slug": "super-battle-golf-crossplay",
         "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-how-many-players",
+        "file": "super-battle-golf-how-many-players"
       },
       {
         "slug": "super-battle-golf-local-multiplayer",
@@ -110,6 +198,10 @@
         "file": "super-battle-golf-solo"
       },
       {
+        "slug": "super-battle-golf-split-screen",
+        "file": "super-battle-golf-split-screen"
+      },
+      {
         "slug": "super-battle-golf-teams",
         "file": "super-battle-golf-teams"
       }
@@ -118,6 +210,14 @@
       {
         "slug": "super-battle-golf-console-release-date",
         "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-console",
+        "file": "super-battle-golf-console"
+      },
+      {
+        "slug": "super-battle-golf-game-pass",
+        "file": "super-battle-golf-game-pass"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -152,6 +252,10 @@
       {
         "slug": "super-battle-golf-attack-on-city-update",
         "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-dlc",
+        "file": "super-battle-golf-dlc"
       },
       {
         "slug": "super-battle-golf-next-update",
@@ -170,6 +274,10 @@
   "ja": {
     "achievements": [
       {
+        "slug": "super-battle-golf-achievement-guide",
+        "file": "super-battle-golf-achievement-guide"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -178,12 +286,24 @@
         "file": "super-battle-golf-behind-you-achievement"
       },
       {
+        "slug": "super-battle-golf-bully-achievement",
+        "file": "super-battle-golf-bully-achievement"
+      },
+      {
+        "slug": "super-battle-golf-explorer-achievement",
+        "file": "super-battle-golf-explorer-achievement"
+      },
+      {
         "slug": "super-battle-golf-frog-legs-achievement",
         "file": "super-battle-golf-frog-legs-achievement"
       },
       {
         "slug": "super-battle-golf-hidden-achievement",
         "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hoarder-achievement",
+        "file": "super-battle-golf-hoarder-achievement"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -200,6 +320,10 @@
         "file": "super-battle-golf-cosmetics"
       },
       {
+        "slug": "super-battle-golf-emote-button",
+        "file": "super-battle-golf-emote-button"
+      },
+      {
         "slug": "super-battle-golf-emotes",
         "file": "super-battle-golf-emotes"
       },
@@ -210,9 +334,21 @@
       {
         "slug": "super-battle-golf-outfit-unlocks",
         "file": "super-battle-golf-outfit-unlocks"
+      },
+      {
+        "slug": "super-battle-golf-reaper-outfit",
+        "file": "super-battle-golf-reaper-outfit"
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-balls",
+        "file": "super-battle-golf-balls"
+      },
+      {
+        "slug": "super-battle-golf-base-jump-hole-in-one",
+        "file": "super-battle-golf-base-jump-hole-in-one"
+      },
       {
         "slug": "super-battle-golf-best-settings",
         "file": "super-battle-golf-best-settings"
@@ -222,8 +358,36 @@
         "file": "super-battle-golf-controls"
       },
       {
+        "slug": "super-battle-golf-developer-console",
+        "file": "super-battle-golf-developer-console"
+      },
+      {
+        "slug": "super-battle-golf-developer",
+        "file": "super-battle-golf-developer"
+      },
+      {
         "slug": "super-battle-golf-disarm-landmine",
         "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-discord",
+        "file": "super-battle-golf-discord"
+      },
+      {
+        "slug": "super-battle-golf-easiest-hole-in-one",
+        "file": "super-battle-golf-easiest-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-easter-eggs",
+        "file": "super-battle-golf-easter-eggs"
+      },
+      {
+        "slug": "super-battle-golf-elephant-gun",
+        "file": "super-battle-golf-elephant-gun"
+      },
+      {
+        "slug": "super-battle-golf-glitches",
+        "file": "super-battle-golf-glitches"
       },
       {
         "slug": "super-battle-golf-guide",
@@ -238,18 +402,38 @@
         "file": "super-battle-golf-items"
       },
       {
+        "slug": "super-battle-golf-jump-pad",
+        "file": "super-battle-golf-jump-pad"
+      },
+      {
+        "slug": "super-battle-golf-reddit",
+        "file": "super-battle-golf-reddit"
+      },
+      {
         "slug": "super-battle-golf-tips",
         "file": "super-battle-golf-tips"
       },
       {
         "slug": "super-battle-golf-weapons",
         "file": "super-battle-golf-weapons"
+      },
+      {
+        "slug": "super-battle-golf-workshop",
+        "file": "super-battle-golf-workshop"
       }
     ],
     "maps": [
       {
         "slug": "super-battle-golf-custom-maps",
         "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-frozen-fairway",
+        "file": "super-battle-golf-frozen-fairway"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one-maps",
+        "file": "super-battle-golf-hole-in-one-maps"
       },
       {
         "slug": "super-battle-golf-maps",
@@ -262,8 +446,16 @@
     ],
     "multiplayer": [
       {
+        "slug": "super-battle-golf-bots",
+        "file": "super-battle-golf-bots"
+      },
+      {
         "slug": "super-battle-golf-crossplay",
         "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-how-many-players",
+        "file": "super-battle-golf-how-many-players"
       },
       {
         "slug": "super-battle-golf-local-multiplayer",
@@ -278,6 +470,10 @@
         "file": "super-battle-golf-solo"
       },
       {
+        "slug": "super-battle-golf-split-screen",
+        "file": "super-battle-golf-split-screen"
+      },
+      {
         "slug": "super-battle-golf-teams",
         "file": "super-battle-golf-teams"
       }
@@ -286,6 +482,14 @@
       {
         "slug": "super-battle-golf-console-release-date",
         "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-console",
+        "file": "super-battle-golf-console"
+      },
+      {
+        "slug": "super-battle-golf-game-pass",
+        "file": "super-battle-golf-game-pass"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -320,6 +524,10 @@
       {
         "slug": "super-battle-golf-attack-on-city-update",
         "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-dlc",
+        "file": "super-battle-golf-dlc"
       },
       {
         "slug": "super-battle-golf-next-update",
@@ -338,6 +546,10 @@
   "pt": {
     "achievements": [
       {
+        "slug": "super-battle-golf-achievement-guide",
+        "file": "super-battle-golf-achievement-guide"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -346,12 +558,24 @@
         "file": "super-battle-golf-behind-you-achievement"
       },
       {
+        "slug": "super-battle-golf-bully-achievement",
+        "file": "super-battle-golf-bully-achievement"
+      },
+      {
+        "slug": "super-battle-golf-explorer-achievement",
+        "file": "super-battle-golf-explorer-achievement"
+      },
+      {
         "slug": "super-battle-golf-frog-legs-achievement",
         "file": "super-battle-golf-frog-legs-achievement"
       },
       {
         "slug": "super-battle-golf-hidden-achievement",
         "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hoarder-achievement",
+        "file": "super-battle-golf-hoarder-achievement"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -368,6 +592,10 @@
         "file": "super-battle-golf-cosmetics"
       },
       {
+        "slug": "super-battle-golf-emote-button",
+        "file": "super-battle-golf-emote-button"
+      },
+      {
         "slug": "super-battle-golf-emotes",
         "file": "super-battle-golf-emotes"
       },
@@ -378,9 +606,21 @@
       {
         "slug": "super-battle-golf-outfit-unlocks",
         "file": "super-battle-golf-outfit-unlocks"
+      },
+      {
+        "slug": "super-battle-golf-reaper-outfit",
+        "file": "super-battle-golf-reaper-outfit"
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-balls",
+        "file": "super-battle-golf-balls"
+      },
+      {
+        "slug": "super-battle-golf-base-jump-hole-in-one",
+        "file": "super-battle-golf-base-jump-hole-in-one"
+      },
       {
         "slug": "super-battle-golf-best-settings",
         "file": "super-battle-golf-best-settings"
@@ -390,8 +630,36 @@
         "file": "super-battle-golf-controls"
       },
       {
+        "slug": "super-battle-golf-developer-console",
+        "file": "super-battle-golf-developer-console"
+      },
+      {
+        "slug": "super-battle-golf-developer",
+        "file": "super-battle-golf-developer"
+      },
+      {
         "slug": "super-battle-golf-disarm-landmine",
         "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-discord",
+        "file": "super-battle-golf-discord"
+      },
+      {
+        "slug": "super-battle-golf-easiest-hole-in-one",
+        "file": "super-battle-golf-easiest-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-easter-eggs",
+        "file": "super-battle-golf-easter-eggs"
+      },
+      {
+        "slug": "super-battle-golf-elephant-gun",
+        "file": "super-battle-golf-elephant-gun"
+      },
+      {
+        "slug": "super-battle-golf-glitches",
+        "file": "super-battle-golf-glitches"
       },
       {
         "slug": "super-battle-golf-guide",
@@ -406,18 +674,38 @@
         "file": "super-battle-golf-items"
       },
       {
+        "slug": "super-battle-golf-jump-pad",
+        "file": "super-battle-golf-jump-pad"
+      },
+      {
+        "slug": "super-battle-golf-reddit",
+        "file": "super-battle-golf-reddit"
+      },
+      {
         "slug": "super-battle-golf-tips",
         "file": "super-battle-golf-tips"
       },
       {
         "slug": "super-battle-golf-weapons",
         "file": "super-battle-golf-weapons"
+      },
+      {
+        "slug": "super-battle-golf-workshop",
+        "file": "super-battle-golf-workshop"
       }
     ],
     "maps": [
       {
         "slug": "super-battle-golf-custom-maps",
         "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-frozen-fairway",
+        "file": "super-battle-golf-frozen-fairway"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one-maps",
+        "file": "super-battle-golf-hole-in-one-maps"
       },
       {
         "slug": "super-battle-golf-maps",
@@ -430,8 +718,16 @@
     ],
     "multiplayer": [
       {
+        "slug": "super-battle-golf-bots",
+        "file": "super-battle-golf-bots"
+      },
+      {
         "slug": "super-battle-golf-crossplay",
         "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-how-many-players",
+        "file": "super-battle-golf-how-many-players"
       },
       {
         "slug": "super-battle-golf-local-multiplayer",
@@ -446,6 +742,10 @@
         "file": "super-battle-golf-solo"
       },
       {
+        "slug": "super-battle-golf-split-screen",
+        "file": "super-battle-golf-split-screen"
+      },
+      {
         "slug": "super-battle-golf-teams",
         "file": "super-battle-golf-teams"
       }
@@ -454,6 +754,14 @@
       {
         "slug": "super-battle-golf-console-release-date",
         "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-console",
+        "file": "super-battle-golf-console"
+      },
+      {
+        "slug": "super-battle-golf-game-pass",
+        "file": "super-battle-golf-game-pass"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -488,6 +796,10 @@
       {
         "slug": "super-battle-golf-attack-on-city-update",
         "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-dlc",
+        "file": "super-battle-golf-dlc"
       },
       {
         "slug": "super-battle-golf-next-update",
@@ -506,6 +818,10 @@
   "ru": {
     "achievements": [
       {
+        "slug": "super-battle-golf-achievement-guide",
+        "file": "super-battle-golf-achievement-guide"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -514,12 +830,24 @@
         "file": "super-battle-golf-behind-you-achievement"
       },
       {
+        "slug": "super-battle-golf-bully-achievement",
+        "file": "super-battle-golf-bully-achievement"
+      },
+      {
+        "slug": "super-battle-golf-explorer-achievement",
+        "file": "super-battle-golf-explorer-achievement"
+      },
+      {
         "slug": "super-battle-golf-frog-legs-achievement",
         "file": "super-battle-golf-frog-legs-achievement"
       },
       {
         "slug": "super-battle-golf-hidden-achievement",
         "file": "super-battle-golf-hidden-achievement"
+      },
+      {
+        "slug": "super-battle-golf-hoarder-achievement",
+        "file": "super-battle-golf-hoarder-achievement"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -536,6 +864,10 @@
         "file": "super-battle-golf-cosmetics"
       },
       {
+        "slug": "super-battle-golf-emote-button",
+        "file": "super-battle-golf-emote-button"
+      },
+      {
         "slug": "super-battle-golf-emotes",
         "file": "super-battle-golf-emotes"
       },
@@ -546,9 +878,21 @@
       {
         "slug": "super-battle-golf-outfit-unlocks",
         "file": "super-battle-golf-outfit-unlocks"
+      },
+      {
+        "slug": "super-battle-golf-reaper-outfit",
+        "file": "super-battle-golf-reaper-outfit"
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-balls",
+        "file": "super-battle-golf-balls"
+      },
+      {
+        "slug": "super-battle-golf-base-jump-hole-in-one",
+        "file": "super-battle-golf-base-jump-hole-in-one"
+      },
       {
         "slug": "super-battle-golf-best-settings",
         "file": "super-battle-golf-best-settings"
@@ -558,8 +902,36 @@
         "file": "super-battle-golf-controls"
       },
       {
+        "slug": "super-battle-golf-developer-console",
+        "file": "super-battle-golf-developer-console"
+      },
+      {
+        "slug": "super-battle-golf-developer",
+        "file": "super-battle-golf-developer"
+      },
+      {
         "slug": "super-battle-golf-disarm-landmine",
         "file": "super-battle-golf-disarm-landmine"
+      },
+      {
+        "slug": "super-battle-golf-discord",
+        "file": "super-battle-golf-discord"
+      },
+      {
+        "slug": "super-battle-golf-easiest-hole-in-one",
+        "file": "super-battle-golf-easiest-hole-in-one"
+      },
+      {
+        "slug": "super-battle-golf-easter-eggs",
+        "file": "super-battle-golf-easter-eggs"
+      },
+      {
+        "slug": "super-battle-golf-elephant-gun",
+        "file": "super-battle-golf-elephant-gun"
+      },
+      {
+        "slug": "super-battle-golf-glitches",
+        "file": "super-battle-golf-glitches"
       },
       {
         "slug": "super-battle-golf-guide",
@@ -574,18 +946,38 @@
         "file": "super-battle-golf-items"
       },
       {
+        "slug": "super-battle-golf-jump-pad",
+        "file": "super-battle-golf-jump-pad"
+      },
+      {
+        "slug": "super-battle-golf-reddit",
+        "file": "super-battle-golf-reddit"
+      },
+      {
         "slug": "super-battle-golf-tips",
         "file": "super-battle-golf-tips"
       },
       {
         "slug": "super-battle-golf-weapons",
         "file": "super-battle-golf-weapons"
+      },
+      {
+        "slug": "super-battle-golf-workshop",
+        "file": "super-battle-golf-workshop"
       }
     ],
     "maps": [
       {
         "slug": "super-battle-golf-custom-maps",
         "file": "super-battle-golf-custom-maps"
+      },
+      {
+        "slug": "super-battle-golf-frozen-fairway",
+        "file": "super-battle-golf-frozen-fairway"
+      },
+      {
+        "slug": "super-battle-golf-hole-in-one-maps",
+        "file": "super-battle-golf-hole-in-one-maps"
       },
       {
         "slug": "super-battle-golf-maps",
@@ -598,8 +990,16 @@
     ],
     "multiplayer": [
       {
+        "slug": "super-battle-golf-bots",
+        "file": "super-battle-golf-bots"
+      },
+      {
         "slug": "super-battle-golf-crossplay",
         "file": "super-battle-golf-crossplay"
+      },
+      {
+        "slug": "super-battle-golf-how-many-players",
+        "file": "super-battle-golf-how-many-players"
       },
       {
         "slug": "super-battle-golf-local-multiplayer",
@@ -614,6 +1014,10 @@
         "file": "super-battle-golf-solo"
       },
       {
+        "slug": "super-battle-golf-split-screen",
+        "file": "super-battle-golf-split-screen"
+      },
+      {
         "slug": "super-battle-golf-teams",
         "file": "super-battle-golf-teams"
       }
@@ -622,6 +1026,14 @@
       {
         "slug": "super-battle-golf-console-release-date",
         "file": "super-battle-golf-console-release-date"
+      },
+      {
+        "slug": "super-battle-golf-console",
+        "file": "super-battle-golf-console"
+      },
+      {
+        "slug": "super-battle-golf-game-pass",
+        "file": "super-battle-golf-game-pass"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -656,6 +1068,10 @@
       {
         "slug": "super-battle-golf-attack-on-city-update",
         "file": "super-battle-golf-attack-on-city-update"
+      },
+      {
+        "slug": "super-battle-golf-dlc",
+        "file": "super-battle-golf-dlc"
       },
       {
         "slug": "super-battle-golf-next-update",
