@@ -70,6 +70,10 @@
     ],
     "guide": [
       {
+        "slug": "super-battle-golf-a-cut-above",
+        "file": "super-battle-golf-a-cut-above"
+      },
+      {
         "slug": "super-battle-golf-balls",
         "file": "super-battle-golf-balls"
       },
@@ -216,8 +220,16 @@
         "file": "super-battle-golf-console"
       },
       {
+        "slug": "super-battle-golf-cross-platform",
+        "file": "super-battle-golf-cross-platform"
+      },
+      {
         "slug": "super-battle-golf-game-pass",
         "file": "super-battle-golf-game-pass"
+      },
+      {
+        "slug": "super-battle-golf-ios",
+        "file": "super-battle-golf-ios"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -256,6 +268,10 @@
       {
         "slug": "super-battle-golf-dlc",
         "file": "super-battle-golf-dlc"
+      },
+      {
+        "slug": "super-battle-golf-future-updates",
+        "file": "super-battle-golf-future-updates"
       },
       {
         "slug": "super-battle-golf-next-update",
@@ -278,6 +294,14 @@
         "file": "super-battle-golf-achievement-guide"
       },
       {
+        "slug": "super-battle-golf-achievement-rewards",
+        "file": "super-battle-golf-achievement-rewards"
+      },
+      {
+        "slug": "super-battle-golf-achievements-cosmetics",
+        "file": "super-battle-golf-achievements-cosmetics"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -304,6 +328,14 @@
       {
         "slug": "super-battle-golf-hoarder-achievement",
         "file": "super-battle-golf-hoarder-achievement"
+      },
+      {
+        "slug": "super-battle-golf-ice-to-see-you-achievement",
+        "file": "super-battle-golf-ice-to-see-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-money",
+        "file": "super-battle-golf-money"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -341,6 +373,22 @@
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-a-cut-above",
+        "file": "super-battle-golf-a-cut-above"
+      },
+      {
+        "slug": "super-battle-golf-all-clubs",
+        "file": "super-battle-golf-all-clubs"
+      },
+      {
+        "slug": "super-battle-golf-all-outfits",
+        "file": "super-battle-golf-all-outfits"
+      },
+      {
+        "slug": "super-battle-golf-background",
+        "file": "super-battle-golf-background"
+      },
       {
         "slug": "super-battle-golf-balls",
         "file": "super-battle-golf-balls"
@@ -436,6 +484,10 @@
         "file": "super-battle-golf-hole-in-one-maps"
       },
       {
+        "slug": "super-battle-golf-knockout-points",
+        "file": "super-battle-golf-knockout-points"
+      },
+      {
         "slug": "super-battle-golf-maps",
         "file": "super-battle-golf-maps"
       },
@@ -480,6 +532,10 @@
     ],
     "platforms": [
       {
+        "slug": "super-battle-golf-android",
+        "file": "super-battle-golf-android"
+      },
+      {
         "slug": "super-battle-golf-console-release-date",
         "file": "super-battle-golf-console-release-date"
       },
@@ -488,8 +544,16 @@
         "file": "super-battle-golf-console"
       },
       {
+        "slug": "super-battle-golf-cross-platform",
+        "file": "super-battle-golf-cross-platform"
+      },
+      {
         "slug": "super-battle-golf-game-pass",
         "file": "super-battle-golf-game-pass"
+      },
+      {
+        "slug": "super-battle-golf-ios",
+        "file": "super-battle-golf-ios"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -528,6 +592,10 @@
       {
         "slug": "super-battle-golf-dlc",
         "file": "super-battle-golf-dlc"
+      },
+      {
+        "slug": "super-battle-golf-future-updates",
+        "file": "super-battle-golf-future-updates"
       },
       {
         "slug": "super-battle-golf-next-update",
@@ -550,6 +618,14 @@
         "file": "super-battle-golf-achievement-guide"
       },
       {
+        "slug": "super-battle-golf-achievement-rewards",
+        "file": "super-battle-golf-achievement-rewards"
+      },
+      {
+        "slug": "super-battle-golf-achievements-cosmetics",
+        "file": "super-battle-golf-achievements-cosmetics"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -576,6 +652,14 @@
       {
         "slug": "super-battle-golf-hoarder-achievement",
         "file": "super-battle-golf-hoarder-achievement"
+      },
+      {
+        "slug": "super-battle-golf-ice-to-see-you-achievement",
+        "file": "super-battle-golf-ice-to-see-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-money",
+        "file": "super-battle-golf-money"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -613,6 +697,22 @@
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-a-cut-above",
+        "file": "super-battle-golf-a-cut-above"
+      },
+      {
+        "slug": "super-battle-golf-all-clubs",
+        "file": "super-battle-golf-all-clubs"
+      },
+      {
+        "slug": "super-battle-golf-all-outfits",
+        "file": "super-battle-golf-all-outfits"
+      },
+      {
+        "slug": "super-battle-golf-background",
+        "file": "super-battle-golf-background"
+      },
       {
         "slug": "super-battle-golf-balls",
         "file": "super-battle-golf-balls"
@@ -708,6 +808,10 @@
         "file": "super-battle-golf-hole-in-one-maps"
       },
       {
+        "slug": "super-battle-golf-knockout-points",
+        "file": "super-battle-golf-knockout-points"
+      },
+      {
         "slug": "super-battle-golf-maps",
         "file": "super-battle-golf-maps"
       },
@@ -760,8 +864,16 @@
         "file": "super-battle-golf-console"
       },
       {
+        "slug": "super-battle-golf-cross-platform",
+        "file": "super-battle-golf-cross-platform"
+      },
+      {
         "slug": "super-battle-golf-game-pass",
         "file": "super-battle-golf-game-pass"
+      },
+      {
+        "slug": "super-battle-golf-ios",
+        "file": "super-battle-golf-ios"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -800,6 +912,10 @@
       {
         "slug": "super-battle-golf-dlc",
         "file": "super-battle-golf-dlc"
+      },
+      {
+        "slug": "super-battle-golf-future-updates",
+        "file": "super-battle-golf-future-updates"
       },
       {
         "slug": "super-battle-golf-next-update",
@@ -822,6 +938,14 @@
         "file": "super-battle-golf-achievement-guide"
       },
       {
+        "slug": "super-battle-golf-achievement-rewards",
+        "file": "super-battle-golf-achievement-rewards"
+      },
+      {
+        "slug": "super-battle-golf-achievements-cosmetics",
+        "file": "super-battle-golf-achievements-cosmetics"
+      },
+      {
         "slug": "super-battle-golf-achievements",
         "file": "super-battle-golf-achievements"
       },
@@ -848,6 +972,14 @@
       {
         "slug": "super-battle-golf-hoarder-achievement",
         "file": "super-battle-golf-hoarder-achievement"
+      },
+      {
+        "slug": "super-battle-golf-ice-to-see-you-achievement",
+        "file": "super-battle-golf-ice-to-see-you-achievement"
+      },
+      {
+        "slug": "super-battle-golf-money",
+        "file": "super-battle-golf-money"
       },
       {
         "slug": "super-battle-golf-rocket-driver-achievement",
@@ -885,6 +1017,22 @@
       }
     ],
     "guide": [
+      {
+        "slug": "super-battle-golf-a-cut-above",
+        "file": "super-battle-golf-a-cut-above"
+      },
+      {
+        "slug": "super-battle-golf-all-clubs",
+        "file": "super-battle-golf-all-clubs"
+      },
+      {
+        "slug": "super-battle-golf-all-outfits",
+        "file": "super-battle-golf-all-outfits"
+      },
+      {
+        "slug": "super-battle-golf-background",
+        "file": "super-battle-golf-background"
+      },
       {
         "slug": "super-battle-golf-balls",
         "file": "super-battle-golf-balls"
@@ -980,6 +1128,10 @@
         "file": "super-battle-golf-hole-in-one-maps"
       },
       {
+        "slug": "super-battle-golf-knockout-points",
+        "file": "super-battle-golf-knockout-points"
+      },
+      {
         "slug": "super-battle-golf-maps",
         "file": "super-battle-golf-maps"
       },
@@ -1024,6 +1176,10 @@
     ],
     "platforms": [
       {
+        "slug": "super-battle-golf-android",
+        "file": "super-battle-golf-android"
+      },
+      {
         "slug": "super-battle-golf-console-release-date",
         "file": "super-battle-golf-console-release-date"
       },
@@ -1032,8 +1188,16 @@
         "file": "super-battle-golf-console"
       },
       {
+        "slug": "super-battle-golf-cross-platform",
+        "file": "super-battle-golf-cross-platform"
+      },
+      {
         "slug": "super-battle-golf-game-pass",
         "file": "super-battle-golf-game-pass"
+      },
+      {
+        "slug": "super-battle-golf-ios",
+        "file": "super-battle-golf-ios"
       },
       {
         "slug": "super-battle-golf-mac",
@@ -1074,12 +1238,20 @@
         "file": "super-battle-golf-dlc"
       },
       {
+        "slug": "super-battle-golf-future-updates",
+        "file": "super-battle-golf-future-updates"
+      },
+      {
         "slug": "super-battle-golf-next-update",
         "file": "super-battle-golf-next-update"
       },
       {
         "slug": "super-battle-golf-patch-notes",
         "file": "super-battle-golf-patch-notes"
+      },
+      {
+        "slug": "super-battle-golf-update-time",
+        "file": "super-battle-golf-update-time"
       },
       {
         "slug": "super-battle-golf-update",
